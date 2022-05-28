@@ -1,9 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
+    public static WaveSpawner instance;
+
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+    }
+
     //Spawn enemies 
     public Transform enemyPre;
     public Transform spawnPoint;
