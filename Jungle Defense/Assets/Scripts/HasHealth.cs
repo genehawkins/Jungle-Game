@@ -15,7 +15,7 @@ public class HasHealth : MonoBehaviour
         {
             // Death
             if (GameManager.instance) GameManager.instance.AddToScore(scoreAddedWhenKilled);
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 }

@@ -20,7 +20,7 @@ public class wavespawner : MonoBehaviour
             countDown = waveTimer;
         }
 
-        countDown-= Time.deltaTime;
+        countDown -= Time.deltaTime;
     }
 
     IEnumerator Wave(){
