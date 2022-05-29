@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public float score = 0f;
+    public float health = 20f;
     
     private void Awake()
     {
@@ -20,5 +21,10 @@ public class GameManager : MonoBehaviour
     public void AddToScore(float amount)
     {
         score += amount;
+    }
+
+    public void EnemyReachedEnd()
+    {
+        health--;
     }
 }

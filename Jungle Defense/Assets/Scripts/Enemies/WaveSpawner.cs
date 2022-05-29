@@ -28,7 +28,7 @@ public class WaveSpawner : MonoBehaviour
     private float enemySpawnTime = 0.5f;
     
     private float countDown = 3f;
-    private int waveNum = 0;
+    [NonSerialized] public int waveNum = 0;
 
     private void Update()
     {
