@@ -22,9 +22,13 @@ public class WaveSpawner : MonoBehaviour
     public Transform enemyPre;
     public Transform spawnPoint;
 
-    [Tooltip("Time in between waves.")] public float waveTimer = 10f; // time in between each of the waves
+    [Tooltip("Time in between waves.")][SerializeField]
+    private float waveTimer = 10f; // time in between each of the waves
+    [Tooltip("Time in between individual enemies spawning.")] [SerializeField]
+    private float enemySpawnTime = 0.5f;
+    
     private float countDown = 3f;
-    private int waveNum = 0;
+    [NonSerialized] public int waveNum = 0;
 
     private void Update()
     {
@@ -48,7 +52,7 @@ public class WaveSpawner : MonoBehaviour
          {
              // Instantiate new enemy at spawnpoint with parent of waveGO.transform
              Instantiate(enemyPre, spawnPoint.position, spawnPoint.rotation, waveGO.transform);
-             yield return new WaitForSeconds(0.5f);
+             yield return new WaitForSeconds(enemySpawnTime);
          }
     }
 }

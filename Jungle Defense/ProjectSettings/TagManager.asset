@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - enemy
+  - Enemy
   - Water
   - UI
   - 
@@ -37,8 +37,11 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - GrassTiles
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3795474975
     locked: 0
