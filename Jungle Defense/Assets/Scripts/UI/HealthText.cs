@@ -13,6 +13,6 @@ public class HealthText : MonoBehaviour
     private void Update()
     {
         var value = GameManager.instance.baseHealth.GetBaseHealth().ToString("00");
-        tmp.text = $"Health: {value}";
+        tmp.text = $"HP: {value}";
     }
 }

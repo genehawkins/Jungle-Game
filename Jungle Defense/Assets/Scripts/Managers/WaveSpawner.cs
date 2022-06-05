@@ -6,10 +6,10 @@ using UnityEngine.Events;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public GameObject[] enemyPrefabs;
     public Transform spawnPoint;
     private int waveNum = 0;
     [SerializeField] private float spawnCooldown = 0.2f;
+    [SerializeField][NonReorderable] public List<Wave> waves;
 
     public int GetWaveNumber()
     {
@@ -30,9 +30,6 @@ public class WaveSpawner : MonoBehaviour
     private void SetupNextWave()
     {
         ++waveNum;
-        numEnemiesToSpawn = waveNum; // TODO: change from waveNum
-        
-        GameManager.instance.enemyTracker.SetNumEnemies(numEnemiesToSpawn);
         canStart = true;
     }
 
@@ -50,10 +47,32 @@ public class WaveSpawner : MonoBehaviour
     private IEnumerator SpawnWave()
     {
         var waveHolder = new GameObject("Wave " + waveNum);
-        for (int i = 0; i < numEnemiesToSpawn; ++i)
+        var currentWave = waves[waveNum-1];
+        for (var i = 0; i < currentWave.list.Count; ++i)
         {
-            Instantiate(enemyPrefabs[0], spawnPoint.transform.position, Quaternion.identity, waveHolder.transform);
-            yield return new WaitForSeconds(spawnCooldown);
+            for (int j = 0; j < currentWave.list[i].numToSpawn; ++j)
+            {
+                GameManager.instance.enemyTracker.EnemySpawned();
+                Instantiate(currentWave.list[i].prefab, spawnPoint.transform.position, Quaternion.identity, waveHolder.transform);
+                yield return new WaitForSeconds(spawnCooldown);
+            }
         }
+        /*for (int i = 0; i < numEnemiesToSpawn; ++i)
+        {
+            Instantiate(new GameObject(), spawnPoint.transform.position, Quaternion.identity, waveHolder.transform);
+            yield return new WaitForSeconds(spawnCooldown);
+        }*/
     }
+}
+
+[System.Serializable] public class Wave
+{
+    [Space(5)][NonReorderable]
+    public List<Enemy> list;
+}
+
+[System.Serializable] public class Enemy
+{
+    public GameObject prefab;
+    public int numToSpawn;
 }

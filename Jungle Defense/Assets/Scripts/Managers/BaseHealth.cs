@@ -14,6 +14,7 @@ public class BaseHealth : MonoBehaviour
     private void DestroyBase()
     {
         // TODO
+        Debug.Log("Base Destroyed!");
     }
 
     public float GetBaseHealth()

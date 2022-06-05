@@ -12,9 +12,9 @@ public class EnemyTracker : MonoBehaviour
         if (enemiesAlive == 0) WaveSpawner.WaveEnd?.Invoke();
     }
 
-    public void SetNumEnemies(int numEnemies)
+    public void EnemySpawned()
     {
-        enemiesAlive = numEnemies;
+        enemiesAlive++;
     }
 
     public int GetNumEnemies()
