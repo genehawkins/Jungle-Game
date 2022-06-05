@@ -27,6 +27,7 @@ public class EnemyMovement : MonoBehaviour
             // Enemy reached the end
             var hh = GetComponent<HasHealth>();
             GameManager.instance.baseHealth.DamageBase(hh.GetRemainingHealth());
+            GameManager.instance.enemyTracker.EnemyDestroyed();
             Destroy(gameObject);
             return;
         }
