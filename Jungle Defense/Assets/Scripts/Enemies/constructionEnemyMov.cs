@@ -34,7 +34,9 @@ public class constructionEnemyMov : MonoBehaviour
         if(pointIndex >= WayPoint.points.Length - 1)
         {
             // Enemy reached the end
-            GameManager.instance.EnemyReachedEnd();
+            var hh = GetComponent<HasHealth>();
+            GameManager.instance.baseHealth.DamageBase(hh.GetRemainingHealth());
+            GameManager.instance.enemyTracker.EnemyDestroyed();
             Destroy(gameObject);
             return;
         }
