@@ -6,6 +6,7 @@ using UnityEngine.Events;
 
 public class WaveSpawner : MonoBehaviour
 {
+    public GameManager gm;
     public Transform spawnPoint;
     private int waveNum = 0;
     [SerializeField] private float spawnCooldown = 0.2f;
@@ -39,6 +40,7 @@ public class WaveSpawner : MonoBehaviour
     {
         if (!canStart) return;
         canStart = false;
+        gm.setupPhase = false;
         
         WaveStart?.Invoke();
         StartCoroutine(SpawnWave());
