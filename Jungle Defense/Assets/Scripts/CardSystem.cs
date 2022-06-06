@@ -4,7 +4,12 @@ using TMPro;
 
 public class CardSystem : MonoBehaviour
 {
+    public int drawCardCount = 3;
+    public int actionPoints = 0;
+    public Card currentlySelected;
+
     [Header("Unity Setup")]
+    public BuildManager buildManager;
     public List<Card> deck;
     public TextMeshProUGUI deckSizeText;
 
@@ -13,10 +18,21 @@ public class CardSystem : MonoBehaviour
 
     public List<Card> discardPile;
     public TextMeshProUGUI discardPileSizeText;
+    public TextMeshProUGUI actionPointText;
+
+    void Start()
+    {
+        Invoke("DrawNewHand", 2f);
+    }
 
     //Pulls a random card from a list of cards and displays the drawn card in an available hand slot
     public void DrawCard()
     {
+        if (deck.Count < 1) 
+        {
+            Shuffle();
+        }
+
         if (deck.Count >= 1) 
         {
             Card randomCard = deck[Random.Range(0, deck.Count)];
@@ -37,6 +53,15 @@ public class CardSystem : MonoBehaviour
         }
     }
 
+    //Draws a new hand of cards and increases action point allowance
+    public void DrawNewHand()
+    {
+        for (int i = 0; i < drawCardCount; i++) {
+            DrawCard();
+        }
+        actionPoints += 3;
+    }
+
     //Adds items in discard pile back into deck and clears discard piile list
     public void Shuffle()
     {
@@ -52,8 +77,11 @@ public class CardSystem : MonoBehaviour
 
     private void Update()
     {
-        //Updates text that shows number of cards in deck and in discard pile
+        //Updates cardUI text
         deckSizeText.text = $"Cards in deck:\n{deck.Count.ToString()}";
         discardPileSizeText.text = $"Cards in discard:\n{discardPile.Count.ToString()}";
+        actionPointText.text = $"Action Pts: {actionPoints.ToString()}";
     }
+
+    
 }

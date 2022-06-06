@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public WaveSpawner waveSpawner;
     public BaseHealth baseHealth;
     public EnemyTracker enemyTracker;
+    public bool setupPhase = true;
     
     private void Awake()
     {
