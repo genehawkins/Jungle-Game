@@ -24,7 +24,13 @@ Once you are finished or cannot play any more cards, start the wave of enemies a
     
 Discover the best use of the cards available to you!";
 
-    private List<string> pages = new List<string>() { page1, page2, page3 };
+    static string page4 = @"- Place spike traps on the jungle path to destroy your enemies as they walk over them.
+    
+- Place vine walls on the jungle path to slow down your enemy's move speed.
+
+- Place turrets in the forest area to shoot enemies from afar!";
+
+    private List<string> pages = new List<string>() { page1, page2, page3, page4 };
     private int pageIdx = 0;
 
     void Start()
