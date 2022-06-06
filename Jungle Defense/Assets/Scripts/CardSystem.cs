@@ -22,6 +22,7 @@ public class CardSystem : MonoBehaviour
     public TextMeshProUGUI discardPileSizeText;
     public TextMeshProUGUI actionPointText;
     public TextMeshProUGUI currentBuildText;
+    public TextMeshProUGUI deploymentCostText;
 
     void Start()
     {
@@ -87,6 +88,7 @@ public class CardSystem : MonoBehaviour
         discardPileSizeText.text = $"Cards in discard:\n{discardPile.Count.ToString()}";
         actionPointText.text = $"Action Pts:\n{actionPoints.ToString()}";
         currentBuildText.text = $"Current build:\n{currentlySelected.name}";
+        deploymentCostText.text = $"Deployment cost:\n{currentlySelected.activateCost}";
     }
 
     
