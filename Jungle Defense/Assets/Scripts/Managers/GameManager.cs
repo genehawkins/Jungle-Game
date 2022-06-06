@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,13 @@ public class GameManager : MonoBehaviour
     public WaveSpawner waveSpawner;
     public BaseHealth baseHealth;
     public EnemyTracker enemyTracker;
-    public bool setupPhase = true;
+
+    // unity event that announces the start of setup phase
+    public static readonly UnityEvent SetupPhase = new UnityEvent();
+    // unity event that announces the start of game phase
+    public static readonly UnityEvent GamePhase = new UnityEvent();
+    // bool to check whether currently in setup phase
+    public static bool inSetupPhase = true;
     
     private void Awake()
     {

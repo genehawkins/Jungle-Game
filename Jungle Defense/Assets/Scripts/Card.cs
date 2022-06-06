@@ -16,23 +16,22 @@ public class Card : MonoBehaviour
     [Header("Prefab")]
     public GameObject prefab;
 
-
     //Activates an effect when the card is clicked
     private void OnMouseDown()
     {
-        if (!hasBeenPlayed && gm.setupPhase && cardManager.actionPoints >= activateCost)
+        if (!hasBeenPlayed && GameManager.inSetupPhase && cardManager.actionPoints >= activateCost)
         {
-            if (gameObject.tag == "ActionPoint") {
+            if (gameObject.CompareTag("ActionPoint")) {
                 cardManager.actionPoints++;
                 PlayCard();
             }
 
             cardManager.currentlySelected = this;
+            Debug.Log("currently selected = " + this.name);
 
             //TODO - highlight selected card with border or animation
             
             buildManager.thingToBuild = prefab;//Sets the current build item to the card's held prefab
-
         }
     }
 
@@ -49,7 +48,7 @@ public class Card : MonoBehaviour
         cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
         cardManager.currentlySelected = null;  
         
-        Invoke("MoveToDiscardPile", 1f);
+        Invoke(nameof(MoveToDiscardPile), 1f);
     }
 
 }

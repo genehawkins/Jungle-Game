@@ -17,12 +17,9 @@ public class WaveSpawner : MonoBehaviour
         return waveNum;
     }
 
-    public static readonly UnityEvent WaveStart = new UnityEvent();
-    public static readonly UnityEvent WaveEnd = new UnityEvent();
-
     private void Start()
     {
-        WaveEnd.AddListener(SetupNextWave);
+        GameManager.SetupPhase.AddListener(SetupNextWave);
         SetupNextWave();
     }
 
@@ -40,9 +37,8 @@ public class WaveSpawner : MonoBehaviour
     {
         if (!canStart) return;
         canStart = false;
-        gm.setupPhase = false;
-        
-        WaveStart?.Invoke();
+        GameManager.GamePhase?.Invoke();
+        GameManager.inSetupPhase = false;
         StartCoroutine(SpawnWave());
     }
 
