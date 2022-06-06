@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -21,5 +22,13 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+    }
+
+    public static void GameOver(bool playerWon)
+    {
+        var status = playerWon ? "won." : "lost.";
+        Debug.Log("Game Over, player " + status);
+        YouWinOrLose.playerWon = playerWon;
+        SceneManager.LoadScene("_EndScreen");
     }
 }

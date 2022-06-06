@@ -46,7 +46,7 @@ Discover the best use of the cards available to you!";
 
     public void BackToTitleScreen()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("_StartScreen");
     }
 
 

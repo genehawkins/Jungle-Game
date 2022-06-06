@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BaseHealth : MonoBehaviour
 {
@@ -13,8 +12,8 @@ public class BaseHealth : MonoBehaviour
 
     private void DestroyBase()
     {
-        // TODO
         Debug.Log("Base Destroyed!");
+        GameManager.GameOver(false);
     }
 
     public float GetBaseHealth()
