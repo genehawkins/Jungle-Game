@@ -1,48 +1,40 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public GameManager gm;
     public Transform spawnPoint;
-    private int waveNum = 0;
+    private int waveNum;
     [SerializeField] private float spawnCooldown = 0.2f;
-    [SerializeField][NonReorderable] public List<Wave> waves;
+    [SerializeField][NonReorderable] public Wave[] waves;
+    private bool canStart;
 
     public int GetWaveNumber()
     {
         return waveNum;
     }
 
-    public static readonly UnityEvent WaveStart = new UnityEvent();
-    public static readonly UnityEvent WaveEnd = new UnityEvent();
-
-    private void Start()
+    private void Awake()
     {
-        WaveEnd.AddListener(SetupNextWave);
-        SetupNextWave();
+        GameManager.SetupPhase.AddListener(SetupNextWave);
+        GameManager.SetupPhase?.Invoke();
     }
 
     private int numEnemiesToSpawn;
 
     private void SetupNextWave()
     {
-        ++waveNum;
         canStart = true;
+        ++waveNum;
+        if (waveNum >= waves.Length) GameManager.GameOver(true); // player beat the level
     }
 
-    private bool canStart = false;
-    
     public void StartWave()
     {
         if (!canStart) return;
         canStart = false;
-        gm.setupPhase = false;
-        
-        WaveStart?.Invoke();
+        GameManager.GamePhase?.Invoke();
+        GameManager.inSetupPhase = false;
         StartCoroutine(SpawnWave());
     }
 
@@ -50,9 +42,9 @@ public class WaveSpawner : MonoBehaviour
     {
         var waveHolder = new GameObject("Wave " + waveNum);
         var currentWave = waves[waveNum-1];
-        for (var i = 0; i < currentWave.list.Count; ++i)
+        for (var i = 0; i < currentWave.list.Length; ++i)
         {
-            for (int j = 0; j < currentWave.list[i].numToSpawn; ++j)
+            for (var j = 0; j < currentWave.list[i].numToSpawn; ++j)
             {
                 GameManager.instance.enemyTracker.EnemySpawned();
                 Instantiate(currentWave.list[i].prefab, spawnPoint.transform.position, Quaternion.identity, waveHolder.transform);
@@ -70,7 +62,7 @@ public class WaveSpawner : MonoBehaviour
 [System.Serializable] public class Wave
 {
     [Space(5)][NonReorderable]
-    public List<Enemy> list;
+    public Enemy[] list;
 }
 
 [System.Serializable] public class Enemy

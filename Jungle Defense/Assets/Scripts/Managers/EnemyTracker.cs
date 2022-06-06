@@ -5,16 +5,14 @@ using UnityEngine;
 public class EnemyTracker : MonoBehaviour
 {
     private int enemiesAlive = 0;
-    public GameManager gm;
-    public GameObject cardManager;
 
     public void EnemyDestroyed()
     {
         enemiesAlive--;
-        if (enemiesAlive == 0) {
-            WaveSpawner.WaveEnd?.Invoke();
-            gm.setupPhase = true;
-            cardManager.GetComponent<CardSystem>().DrawNewHand();
+        if (enemiesAlive == 0)
+        {
+            GameManager.SetupPhase?.Invoke();
+            GameManager.inSetupPhase = true;
         }
     }
 

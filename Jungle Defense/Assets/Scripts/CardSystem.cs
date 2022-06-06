@@ -22,7 +22,9 @@ public class CardSystem : MonoBehaviour
 
     void Start()
     {
-        Invoke("DrawNewHand", 2f);
+        // Listens for Unity Event that announces setup phase beginning to draw new card
+        GameManager.SetupPhase.AddListener(DrawCard);
+        Invoke(nameof(DrawNewHand), 1f);
     }
 
     //Pulls a random card from a list of cards and displays the drawn card in an available hand slot
