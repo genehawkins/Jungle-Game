@@ -9,6 +9,8 @@ TagManager:
   - Trap
   - Instant
   - ActionPoint
+  - Grass
+  - Path
   layers:
   - Default
   - TransparentFX

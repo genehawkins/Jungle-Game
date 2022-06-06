@@ -4,8 +4,10 @@ using TMPro;
 
 public class CardSystem : MonoBehaviour
 {
+    [Header("Values to balance")]
     public int drawCardCount = 3;
     public int actionPoints = 0;
+    public int actionPointsPerWave = 3;
     public Card currentlySelected;
 
     [Header("Unity Setup")]
@@ -19,11 +21,12 @@ public class CardSystem : MonoBehaviour
     public List<Card> discardPile;
     public TextMeshProUGUI discardPileSizeText;
     public TextMeshProUGUI actionPointText;
+    public TextMeshProUGUI currentBuildText;
 
     void Start()
     {
         // Listens for Unity Event that announces setup phase beginning to draw new card
-        GameManager.SetupPhase.AddListener(DrawCard);
+        GameManager.SetupPhase.AddListener(DrawNewHand);
         Invoke(nameof(DrawNewHand), 1f);
     }
 
@@ -61,10 +64,10 @@ public class CardSystem : MonoBehaviour
         for (int i = 0; i < drawCardCount; i++) {
             DrawCard();
         }
-        actionPoints += 3;
+        actionPoints += actionPointsPerWave;
     }
 
-    //Adds items in discard pile back into deck and clears discard piile list
+    //Adds items in discard pile back into deck and clears discard pile list
     public void Shuffle()
     {
         if (discardPile.Count >= 1)
@@ -82,7 +85,8 @@ public class CardSystem : MonoBehaviour
         //Updates cardUI text
         deckSizeText.text = $"Cards in deck:\n{deck.Count.ToString()}";
         discardPileSizeText.text = $"Cards in discard:\n{discardPile.Count.ToString()}";
-        actionPointText.text = $"Action Pts: {actionPoints.ToString()}";
+        actionPointText.text = $"Action Pts:\n{actionPoints.ToString()}";
+        currentBuildText.text = $"Current build:\n{currentlySelected.name}";
     }
 
     
