@@ -22,15 +22,17 @@ public class Card : MonoBehaviour
     {
         if (!hasBeenPlayed && GameManager.inSetupPhase && cardManager.actionPoints >= activateCost)
         {
+            if (cardManager.currentlySelected != null) {    
+                cardManager.currentlySelected.transform.position += Vector3.down * 1f;
+            }
+            
             //Action point card is played immediately on click
             if (gameObject.CompareTag("ActionPoint")) {
                 cardManager.actionPoints++;
                 PlayCard();
             }
 
-            if (cardManager.currentlySelected != null) {    
-                cardManager.currentlySelected.transform.position += Vector3.down * 1f;
-            }
+            
             transform.position += Vector3.up * 1f;  //Moves positions of cards to indicate current selection
 
             cardManager.currentlySelected = this;

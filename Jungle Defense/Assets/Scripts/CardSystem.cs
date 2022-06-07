@@ -87,8 +87,14 @@ public class CardSystem : MonoBehaviour
         deckSizeText.text = $"Cards in deck:\n{deck.Count.ToString()}";
         discardPileSizeText.text = $"Cards in discard:\n{discardPile.Count.ToString()}";
         actionPointText.text = $"Action Pts:\n{actionPoints.ToString()}";
-        currentBuildText.text = $"Current build:\n{currentlySelected.name}";
-        deploymentCostText.text = $"Deployment cost:\n{currentlySelected.activateCost}";
+        
+        if (currentlySelected != null) {
+            currentBuildText.text = $"Current build:\n{currentlySelected.name}";
+            deploymentCostText.text = $"Deployment cost:\n{currentlySelected.activateCost}";
+        } else {
+            currentBuildText.text = $"Current build:";
+            deploymentCostText.text = $"Deployment cost:";
+        }
     }
 
     

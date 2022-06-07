@@ -16,7 +16,7 @@ public class SquirrelTurrent : MonoBehaviour
 
     [Header("Setup Fields")]
     public string enemyTag = "Enemy";
-    public Transform partToRotate;
+    //public Transform partToRotate;
     public float turnSpeed = 10f;
 
     public GameObject BulletPrefab;
@@ -65,8 +65,8 @@ public class SquirrelTurrent : MonoBehaviour
         //Target Lock-On
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
-        partToRotate.rotation = Quaternion.Euler (0f, rotation.y, 0f);
+        Vector3 rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
+        //partToRotate.rotation = Quaternion.Euler (0f, rotation.y, 0f);
 
         if (fireCount <= 0f){
 
