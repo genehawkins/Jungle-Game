@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247343079146040650}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.83837223, y: 1.0315156, z: -0.11637314}
   m_LocalScale: {x: 1.2518, y: 1.8136, z: 1}
   m_ConstrainProportionsScale: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   hasBeenPlayed: 0
   handIndex: 0
   activateCost: 2
-  placementArea: 
+  placementArea: Path
   cardManager: {fileID: 0}
   gm: {fileID: 0}
   buildManager: {fileID: 0}

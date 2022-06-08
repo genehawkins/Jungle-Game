@@ -1517,6 +1517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &208959376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,6 +1982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &277103382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2408,6 +2410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &345474851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,6 +2906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &404834866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3175,6 +3179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &422224355 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -3194,6 +3199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &428551557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3270,6 +3276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &428814393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -3289,6 +3296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &430848715 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -3623,6 +3631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &459560131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3761,6 +3770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &473472261 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1006088881172830954, guid: 90f7b752b55f81d49889e08eedb16e06, type: 3}
@@ -3966,6 +3976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &480042697 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -4062,6 +4073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &510758918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -4081,6 +4093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &518412640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4100,6 +4113,10 @@ PrefabInstance:
       propertyPath: buildManager
       value: 
       objectReference: {fileID: 1679774250}
+    - target: {fileID: 2612882516405375462, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: placementArea
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 2612882516405375463, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
       propertyPath: m_Name
       value: Fast turret card (1)
@@ -4252,6 +4269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &543801826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -4333,6 +4351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &560411479 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -4352,6 +4371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &563300128 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -4464,6 +4484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &583972998 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -4685,6 +4706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &604920873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -4771,6 +4793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &612555820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4909,6 +4932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &633172247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -4928,6 +4952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &639447678 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -5014,6 +5039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &642297362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5193,6 +5219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &685186439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5398,6 +5425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &716540912 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -5541,6 +5569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &747136632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -5560,6 +5589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &752701256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5641,6 +5671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &761202476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5934,6 +5965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &797824476 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -6020,6 +6052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &812858997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6096,6 +6129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &820627924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6172,6 +6206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &822186125 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 437191690272480919, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
@@ -6196,6 +6231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &831314427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6646,7 +6682,7 @@ MonoBehaviour:
   hasBeenPlayed: 0
   handIndex: 0
   activateCost: 2
-  placementArea: 
+  placementArea: Path
   cardManager: {fileID: 927503627}
   gm: {fileID: 1679774245}
   buildManager: {fileID: 1679774250}
@@ -6805,6 +6841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &870300741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6886,6 +6923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &884626433 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -6905,6 +6943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &890024709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7043,6 +7082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &907793381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7119,6 +7159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &914797754 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -7138,6 +7179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &920120765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7418,6 +7460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &944909692
 GameObject:
   m_ObjectHideFlags: 0
@@ -7638,6 +7681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &976266051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7812,6 +7856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1007639658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7950,6 +7995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1023105774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -7974,6 +8020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1028496097 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -7993,6 +8040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1028752203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8074,6 +8122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1031242913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8207,6 +8256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1038236623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8288,6 +8338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1041003428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8369,6 +8420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1054713214 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -8388,6 +8440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1055621813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8593,6 +8646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1073047260 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7080645768761237616, guid: 5265fccbb5122804e972696191308432, type: 3}
@@ -8617,6 +8671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1100389540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8698,6 +8753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1115107185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9035,6 +9091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1140610238 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -9054,6 +9111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1151921498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9254,6 +9312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1170499849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9330,6 +9389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1171093452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9406,6 +9466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1171840960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -9425,6 +9486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1179606832
 GameObject:
   m_ObjectHideFlags: 0
@@ -9579,6 +9641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1185576433 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -9598,6 +9661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1188978991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9736,6 +9800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1193382548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -9755,6 +9820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1194016121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9893,6 +9959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1216853997
 GameObject:
   m_ObjectHideFlags: 0
@@ -10008,6 +10075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1223532621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3632849702519540729, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
@@ -10027,6 +10095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1223902493 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10056,6 +10125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1239115653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10075,6 +10145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1246920278 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10094,6 +10165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1249893285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10113,6 +10185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.16037738, g: 0.14297795, b: 0.14297795, a: 0.6039216}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1253438503 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -10318,6 +10391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1273969384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10394,6 +10468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1274986167 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10475,6 +10550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1293556833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10551,6 +10627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1293699033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10694,6 +10771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1308455446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10770,6 +10848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1313459515 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10913,6 +10992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1324782595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10932,6 +11012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1325672822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11008,6 +11089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1330822851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11084,6 +11166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1337956130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 437191690272480919, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
@@ -11103,6 +11186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1338569966 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -11122,6 +11206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1340154003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11203,6 +11288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1348792968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11279,6 +11365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1351029630
 GameObject:
   m_ObjectHideFlags: 0
@@ -11393,6 +11480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1353894440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11474,6 +11562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1386841368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11550,6 +11639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1391237744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4653636620981816076, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
@@ -11569,6 +11659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1398799412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -11598,6 +11689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1425967767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11736,6 +11828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1442875959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11812,6 +11905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1444809693 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -11831,6 +11925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1449298707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11907,6 +12002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1450814007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -11926,6 +12022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1450825191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 437191690272480919, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
@@ -12007,6 +12104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1463574074
 GameObject:
   m_ObjectHideFlags: 0
@@ -12134,7 +12232,7 @@ MonoBehaviour:
   hasBeenPlayed: 0
   handIndex: 0
   activateCost: 1
-  placementArea: 
+  placementArea: Path
   cardManager: {fileID: 927503627}
   gm: {fileID: 1679774245}
   buildManager: {fileID: 1679774250}
@@ -12292,6 +12390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1521491357 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -12311,6 +12410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1522534018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -12392,6 +12492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1544307498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12468,6 +12569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1549009470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12544,6 +12646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1553622231
 GameObject:
   m_ObjectHideFlags: 0
@@ -12755,6 +12858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1563322179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -12774,6 +12878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1568245157 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3632849702519540729, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
@@ -12860,6 +12965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1585230267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12998,6 +13104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1596970665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13213,6 +13320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1621297180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13289,6 +13397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1644411307 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -13370,6 +13479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1670372965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13475,6 +13585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1681904695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13551,6 +13662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1682589735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13627,6 +13739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1685295860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -13646,6 +13759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1687283579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -13670,6 +13784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1714894914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13751,6 +13866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1740272660 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -13770,6 +13886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1744213339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -13789,6 +13906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1747296321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -13808,6 +13926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1750494217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13884,6 +14003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1756758161 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -13970,6 +14090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1762190223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14046,6 +14167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1762998058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -14065,6 +14187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1767978722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -14146,6 +14269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1788454378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14222,6 +14346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1789365352
 GameObject:
   m_ObjectHideFlags: 0
@@ -14349,7 +14474,7 @@ MonoBehaviour:
   hasBeenPlayed: 0
   handIndex: 0
   activateCost: 2
-  placementArea: 
+  placementArea: Path
   cardManager: {fileID: 927503627}
   gm: {fileID: 1679774245}
   buildManager: {fileID: 1679774250}
@@ -14430,6 +14555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1821312039
 GameObject:
   m_ObjectHideFlags: 0
@@ -14684,6 +14810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1843148580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14760,6 +14887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1844634480 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -14779,6 +14907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1846463691 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -14798,6 +14927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1850658826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -14817,6 +14947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1850757055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14893,6 +15024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1864392892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14969,6 +15101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1864835752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15045,6 +15178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1868274495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15121,6 +15255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1873825023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -15140,6 +15275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1875683119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15221,6 +15357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1881759696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15302,6 +15439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1900473197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -15321,6 +15459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1911641929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -15340,6 +15479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1912011379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15416,6 +15556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1915417940 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -15435,6 +15576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1921039771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15516,6 +15658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1923061314 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -15535,6 +15678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1923087768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15611,6 +15755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1927871057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15687,6 +15832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1930274735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15763,6 +15909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1933785490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15839,6 +15986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1935434077 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -15858,6 +16006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1936132088
 GameObject:
   m_ObjectHideFlags: 0
@@ -16069,6 +16218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1939656773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16145,6 +16295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1940513613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16278,6 +16429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1941909769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -16297,6 +16449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &1944923955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -16316,6 +16469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &1968351602 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -16335,6 +16489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &1976677822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16411,6 +16566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &1992786598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16487,6 +16643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2003177347 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -16506,6 +16663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &2007692703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16582,6 +16740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &2011506417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16715,6 +16874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &2033882940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16791,6 +16951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2040598063 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -16810,6 +16971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2057529855
 GameObject:
   m_ObjectHideFlags: 0
@@ -17028,6 +17190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &2061810654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17104,6 +17267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &2062584180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17180,6 +17344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2064781393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -17199,6 +17364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &2071905420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17275,6 +17441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &2072856717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17351,6 +17518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &2075210843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17581,6 +17749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2098602340 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1122154728237726506, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
@@ -17600,6 +17769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &2102428482 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4653636620981816076, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
@@ -17619,6 +17789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1001 &2103977181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17695,6 +17866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
   cardManager: {fileID: 927503627}
+  terrainType: Path
 --- !u!1 &2105018244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -17719,6 +17891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &2106810537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17795,6 +17968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &2106908966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17871,6 +18045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2108956954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -17890,6 +18065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &2109742299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17966,6 +18142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2114790248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -17985,6 +18162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2116325572
 GameObject:
   m_ObjectHideFlags: 0
@@ -18082,6 +18260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2130491785
 GameObject:
   m_ObjectHideFlags: 0
@@ -18225,6 +18404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1 &2133973260
 GameObject:
   m_ObjectHideFlags: 0
@@ -18414,6 +18594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &2143019195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18490,6 +18671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
   cardManager: {fileID: 927503627}
+  terrainType: Grass
 --- !u!1001 &247343079868444525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18578,6 +18760,10 @@ PrefabInstance:
       propertyPath: buildManager
       value: 
       objectReference: {fileID: 1679774250}
+    - target: {fileID: 2612882516405375462, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: placementArea
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 2612882516405375463, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
       propertyPath: m_Name
       value: Fast turret card

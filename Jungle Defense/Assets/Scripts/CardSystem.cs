@@ -97,5 +97,13 @@ public class CardSystem : MonoBehaviour
         }
     }
 
+    public bool CanPlay()
+    {
+        if (actionPoints >= currentlySelected.activateCost) {
+            return true;
+        }
+        return false;
+    }
+
     
 }

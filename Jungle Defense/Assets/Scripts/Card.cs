@@ -20,7 +20,7 @@ public class Card : MonoBehaviour
     //Selects the card when clicked on
     private void OnMouseDown()
     {
-        if (!hasBeenPlayed && GameManager.inSetupPhase && cardManager.actionPoints >= activateCost)
+        if (!hasBeenPlayed && GameManager.inSetupPhase)
         {
             if (cardManager.currentlySelected != null) {    
                 cardManager.currentlySelected.transform.position += Vector3.down * 1f;

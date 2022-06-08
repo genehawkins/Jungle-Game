@@ -9,6 +9,7 @@ public class Node : MonoBehaviour
 
     private Renderer rend;
     private Color startColor;
+    public string terrainType;
 
     void Start()
     {
@@ -18,7 +19,9 @@ public class Node : MonoBehaviour
 
     void OnMouseEnter()
     {
-        rend.material.color = hoverColor;  //Changes color of node when mouse hovers over
+        if (NodeMatches()) {
+            rend.material.color = hoverColor;  //Changes color of node when mouse hovers over
+        }
     }
 
     void OnMouseExit()
@@ -33,11 +36,11 @@ public class Node : MonoBehaviour
             return;
         }
 
-        //Places currently selected prefab on node
+        
         GameObject thingToBuild = BuildManager.instance.GetThingToBuild();
 
-        
-        if (thingToBuild != null) {
+        //Places currently selected prefab on node
+        if (thingToBuild != null && cardManager.CanPlay() && NodeMatches()) {
             build = (GameObject)Instantiate(thingToBuild, transform.position, transform.rotation);
             cardManager.currentlySelected.PlayCard();
             BuildManager.instance.thingToBuild = null;
@@ -45,15 +48,12 @@ public class Node : MonoBehaviour
         
     }
 
-    //TODO - Checks if node matches placement rules of prefab
-    
-    /*public bool NodeMatches()
+    //Checks if node matches placement rules of build
+    public bool NodeMatches()
     {
-        if (gameObject.CompareTag("Path") && cardManager.currentlySelected.placementArea == "Path") {
-            return true;
-        } else if (gameObject.CompareTag("Grass") && cardManager.currentlySelected.placementArea == "Grass") {
+        if (terrainType == cardManager.currentlySelected.placementArea) {
             return true;
         }
         return false;
-    }*/
+    }
 }
