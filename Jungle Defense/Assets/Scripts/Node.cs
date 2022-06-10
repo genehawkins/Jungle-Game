@@ -2,28 +2,30 @@ using UnityEngine;
 
 public class Node : MonoBehaviour
 {
+    public TerrainType terrainType;
     public Color hoverColor;
 
     private GameObject build;
-    public CardSystem cardManager;
-
-    private Renderer rend;
+    private SpriteRenderer spr;
     private Color startColor;
 
     void Start()
     {
-        rend = GetComponent<Renderer>();
-        startColor = rend.material.color;
+        spr = GetComponent<SpriteRenderer>();
+        startColor = spr.material.color;  //Saves starting color of node
     }
 
     void OnMouseEnter()
     {
-        rend.material.color = hoverColor;
+        if (CheckNode()) 
+        {
+            spr.material.color = hoverColor;  //Changes color of node when mouse hovers over
+        }
     }
 
     void OnMouseExit()
     {
-        rend.material.color = startColor;
+        spr.material.color = startColor;  //Returns node to initial color when mouse moves away
     }
 
     void OnMouseDown()
@@ -33,12 +35,24 @@ public class Node : MonoBehaviour
             return;
         }
 
+        
         GameObject thingToBuild = BuildManager.instance.GetThingToBuild();
 
-        if (thingToBuild != null) {
-            build = (GameObject)Instantiate(thingToBuild, transform.position, transform.rotation);
+        //Places currently selected prefab on node
+        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+        if (thingToBuild != null && cardManager.CanPlay() && CheckNode())
+        {
+            build = (GameObject)Instantiate(thingToBuild, transform.position, Quaternion.identity);
             cardManager.currentlySelected.PlayCard();
             BuildManager.instance.thingToBuild = null;
         }
+    }
+
+    //Checks if node matches placement rules of build
+    private bool CheckNode()
+    {
+        var curSel = GameManager.instance.cardSystem.currentlySelected;
+        if (!curSel) return false;
+        return terrainType == curSel.placementArea;
     }
 }

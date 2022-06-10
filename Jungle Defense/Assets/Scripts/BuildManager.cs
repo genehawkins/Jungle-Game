@@ -13,8 +13,8 @@ public class BuildManager : MonoBehaviour
         instance = this;
     }
 
-
-    public GameObject thingToBuild;
+    //Keeps track of and returns the currently selected prefab to deploy
+    public GameObject thingToBuild;  
     
     public GameObject GetThingToBuild()
     {

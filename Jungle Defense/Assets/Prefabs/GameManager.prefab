@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3959248691266543405}
   - component: {fileID: 7627477038838726847}
   - component: {fileID: 7451495485020327176}
+  - component: {fileID: 6536817544818967569}
+  - component: {fileID: 7965391535881393988}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -51,6 +53,8 @@ MonoBehaviour:
   waveSpawner: {fileID: 7451495485020327176}
   baseHealth: {fileID: 3959248691266543405}
   enemyTracker: {fileID: 7627477038838726847}
+  cardSystem: {fileID: 7965391535881393988}
+  buildManager: {fileID: 6536817544818967569}
 --- !u!114 &3959248691266543405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,11 +92,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 0}
-  spawnCooldown: 0.2
+  spawnCooldown: 0.1
   waves:
   - list:
     - prefab: {fileID: 9135684976912069106, guid: f14965b0127744c46bed2ad7bf4e4801, type: 3}
       numToSpawn: 20
+--- !u!114 &6536817544818967569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687114653324567123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28afc16cd99e80245b8601ab4e388537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thingToBuild: {fileID: 0}
+--- !u!114 &7965391535881393988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687114653324567123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a804313f353580488ec7c56b0b417ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawCardCount: 3
+  actionPointsPerWave: 3
+  buildManager: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  deckSizeText: {fileID: 0}
+  cardSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  availableCardSlots: 01010101
+  discardPile: []
+  discardPileSizeText: {fileID: 0}
+  actionPointText: {fileID: 0}
+  currentBuildText: {fileID: 0}
+  deploymentCostText: {fileID: 0}
 --- !u!1 &736521004893396373
 GameObject:
   m_ObjectHideFlags: 0
