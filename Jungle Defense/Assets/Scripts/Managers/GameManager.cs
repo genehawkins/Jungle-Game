@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public WaveSpawner waveSpawner;
     public BaseHealth baseHealth;
     public EnemyTracker enemyTracker;
+    public CardSystem cardSystem;
+    public BuildManager buildManager;
 
     // unity event that announces the start of setup phase
     public static readonly UnityEvent SetupPhase = new UnityEvent();

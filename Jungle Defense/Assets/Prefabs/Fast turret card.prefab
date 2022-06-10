@@ -124,11 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7d10bd924c61e64a88e7934ddd4486e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasBeenPlayed: 0
   handIndex: 0
   activateCost: 4
-  placementArea: 
-  cardManager: {fileID: 0}
-  gm: {fileID: 0}
-  buildManager: {fileID: 0}
+  placementArea: 2
   prefab: {fileID: 7131237386965260825, guid: 7c141b7eeeace37419bed8cff2ca5fd0, type: 3}

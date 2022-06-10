@@ -1,14 +1,16 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Random = UnityEngine.Random;
 
 public class CardSystem : MonoBehaviour
 {
     [Header("Values to balance")]
     public int drawCardCount = 3;
-    public int actionPoints = 0;
+    [NonSerialized] public int actionPoints = 0;
     public int actionPointsPerWave = 3;
-    public Card currentlySelected;
+    [NonSerialized] public Card currentlySelected;
 
     [Header("Unity Setup")]
     public BuildManager buildManager;
@@ -104,6 +106,4 @@ public class CardSystem : MonoBehaviour
         }
         return false;
     }
-
-    
 }

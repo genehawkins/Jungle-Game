@@ -1,18 +1,14 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class Card : MonoBehaviour
 {
     [Header("Card status")]
-    public bool hasBeenPlayed;
-    public int handIndex;
+    [NonSerialized] public bool hasBeenPlayed;
+    [NonSerialized] public int handIndex;
     public int activateCost;
-    public string placementArea;
-    
-
-    [Header("Card Manager")]
-    public CardSystem cardManager;
-    public GameManager gm;
-    public BuildManager buildManager;
+    public TerrainType placementArea;
 
     [Header("Prefab")]
     public GameObject prefab;
@@ -22,6 +18,8 @@ public class Card : MonoBehaviour
     {
         if (!hasBeenPlayed && GameManager.inSetupPhase)
         {
+            var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+            
             if (cardManager.currentlySelected != null) {    
                 cardManager.currentlySelected.transform.position += Vector3.down * 1f;
             }
@@ -40,25 +38,28 @@ public class Card : MonoBehaviour
 
             //TODO - highlight selected card with border or animation
             
-            buildManager.thingToBuild = prefab;  //Sets the current build item to the card's held prefab
+            GameManager.instance.buildManager.thingToBuild = prefab;  //Sets the current build item to the card's held prefab
         }
     }
 
     //Moves a card to discard pile
-    void MoveToDiscardPile()
+    private IEnumerator MoveToDiscardPile()
     {
-        cardManager.discardPile.Add(this);
+        yield return new WaitForSeconds(0.5f);
+        GameManager.instance.cardSystem.discardPile.Add(this);
         gameObject.SetActive(false);
     }
 
     public void PlayCard()
     {
-        cardManager.actionPoints -= activateCost;  //Subtracts activation cost from the total action points
-        hasBeenPlayed = true;
-        cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
-        cardManager.currentlySelected = null;  
+        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
         
-        Invoke(nameof(MoveToDiscardPile), 0.5f);
-    }
+        hasBeenPlayed = true;
+        
+        cardManager.actionPoints -= activateCost;  //Subtracts activation cost from the total action points
+        cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
+        cardManager.currentlySelected = null;
 
+        StartCoroutine(MoveToDiscardPile());
+    }
 }
