@@ -26,7 +26,8 @@ public class WaveSpawner : MonoBehaviour
     {
         canStart = true;
         ++waveNum;
-        if (waveNum >= waves.Length) GameManager.GameOver(true); // player beat the level
+        Debug.Log($"if (waveNum: {waveNum} >= waves.Length: {waves.Length}) Game Over: {waveNum >= waves.Length}");
+        if (waveNum > waves.Length) GameManager.GameOver(true); // player beat the level
     }
 
     public void StartWave()
