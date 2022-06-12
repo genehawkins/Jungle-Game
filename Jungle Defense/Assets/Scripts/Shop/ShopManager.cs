@@ -12,6 +12,7 @@ public class ShopManager : MonoBehaviour
     public ShopTemplate[] ShopPanels;
     public GameObject ShopMenu;
     public GameObject[] ShopPanelsGO;
+    public Button[] BuyBtn;
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class ShopManager : MonoBehaviour
 
         coinsUI.text = "Coins: " + coins.ToString();
         LoadShop();
+        CheckBuy();
     }
 
     // Update is called once per frame
@@ -34,6 +36,7 @@ public class ShopManager : MonoBehaviour
     {
         coins += 50;
         coinsUI.text = "Coins: " + coins.ToString();
+        CheckBuy();
     }
 
     public void Resume()
@@ -49,6 +52,32 @@ public class ShopManager : MonoBehaviour
             ShopPanels[i].titleTxt.text = ShopItemsSO[i].title;
             ShopPanels[i].description.text = ShopItemsSO[i].description;
             ShopPanels[i].costTxt.text = ShopItemsSO[i].basecost.ToString();
+        }
+    }
+
+    public void CheckBuy()
+    {
+        for (int i = 0; i < ShopItemsSO.Length; i++)
+        {
+            if (coins >= ShopItemsSO[i].basecost)
+            {
+                BuyBtn[i].interactable = true;
+            }
+            else
+            {
+                BuyBtn[i].interactable = false;
+            }
+        }
+    }
+
+    public void BuyItem(int btnNo)
+    {
+        if (coins >= ShopItemsSO[btnNo].basecost)
+        {
+            coins -= ShopItemsSO[btnNo].basecost;
+            coinsUI.text = "Coins: " + coins.ToString();
+            CheckBuy();
+            //unlock item
         }
     }
 }
