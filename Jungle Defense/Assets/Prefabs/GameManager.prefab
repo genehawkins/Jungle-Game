@@ -339,7 +339,6 @@ MonoBehaviour:
   drawCardCount: 3
   actionPointsPerWave: 3
   audioManager: {fileID: 0}
-  buildManager: {fileID: 6536817544818967569}
   deck:
   - {fileID: 0}
   - {fileID: 0}
@@ -350,6 +349,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   deckSizeText: {fileID: 0}
+  deckCardSleeve: {fileID: 0}
   cardSlots:
   - {fileID: 0}
   - {fileID: 0}
@@ -358,9 +358,8 @@ MonoBehaviour:
   availableCardSlots: 01010101
   discardPile: []
   discardPileSizeText: {fileID: 0}
+  discardCardSleeve: {fileID: 0}
   actionPointText: {fileID: 6792817051193108639}
-  currentBuildText: {fileID: 0}
-  deploymentCostText: {fileID: 0}
 --- !u!1 &1936138559825668746
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +481,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7451495485020327176}
         m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
         m_MethodName: StartWave
         m_Mode: 1

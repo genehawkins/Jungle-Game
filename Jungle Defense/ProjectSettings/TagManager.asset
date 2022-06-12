@@ -54,6 +54,12 @@ TagManager:
   - name: Terrain
     uniqueID: 3795474975
     locked: 0
+  - name: Enemies
+    uniqueID: 950262031
+    locked: 0
+  - name: Towers & Traps
+    uniqueID: 966348789
+    locked: 0
   - name: UI
     uniqueID: 3726397985
     locked: 0

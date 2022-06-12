@@ -48,7 +48,7 @@ public class Node : MonoBehaviour
             cardManager.currentlySelected.PlayCard();
             BuildManager.instance.thingToBuild = null;
         } else {
-            audioManager.Play("Error");
+            if (audioManager) audioManager.Play("Error");
             //TODO - Animate card to wiggle
         }
     }

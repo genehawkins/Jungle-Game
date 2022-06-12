@@ -15,7 +15,7 @@ public class HasHealth : MonoBehaviour
     private void Death()
     {
         GameManager.instance.enemyTracker.EnemyDestroyed();
-        GameManager.instance.shopManager.AddCoins();
+        if (GameManager.instance.shopManager) GameManager.instance.shopManager.AddCoins();
         Destroy(gameObject);
     }
 

@@ -36,7 +36,7 @@ public class WaveSpawner : MonoBehaviour
         canStart = false;
         GameManager.GamePhase?.Invoke();
         GameManager.inSetupPhase = false;
-        audioManager.Play("StartWave");
+        if (audioManager) audioManager.Play("StartWave");
         StartCoroutine(SpawnWave());
     }
 

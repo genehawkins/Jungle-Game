@@ -17,12 +17,14 @@ public class CardSystem : MonoBehaviour
     public AudioManager audioManager;
     public List<Card> deck;
     public TextMeshProUGUI deckSizeText;
+    public GameObject deckCardSleeve;
 
     public Transform[] cardSlots;
     public bool[] availableCardSlots;
 
     public List<Card> discardPile;
     public TextMeshProUGUI discardPileSizeText;
+    public GameObject discardCardSleeve;
     public TextMeshProUGUI actionPointText;
     //public TextMeshProUGUI currentBuildText;
     //public TextMeshProUGUI deploymentCostText;
@@ -99,7 +101,23 @@ public class CardSystem : MonoBehaviour
     {
         //Updates cardUI text
         deckSizeText.text = deck.Count.ToString("00");
+        if (deck.Count > 0)
+        {
+            deckCardSleeve.SetActive(true);
+        }
+        else
+        {
+            deckCardSleeve.SetActive(false);
+        }
         discardPileSizeText.text = discardPile.Count.ToString("00");
+        if (discardPile.Count > 0)
+        {
+            discardCardSleeve.SetActive(true);
+        }
+        else
+        {
+            discardCardSleeve.SetActive(false);
+        }
         actionPointText.text = actionPoints.ToString("00");
         
         /*
