@@ -6563,6 +6563,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 687114653324567116, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: shopManager
+      value: 
+      objectReference: {fileID: 2065079973}
     - target: {fileID: 687114653324567117, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: m_RootOrder
       value: 0
