@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &247343079146040645
 Transform:
   m_ObjectHideFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5849056, g: 0.030121373, b: 0.0027589954, a: 1}
   m_FlipX: 0
@@ -124,7 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7d10bd924c61e64a88e7934ddd4486e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handIndex: 0
   activateCost: 2
   placementArea: 1
   prefab: {fileID: 2510518154662611361, guid: 0b7b0be64706d2f4baef95902d47d28d, type: 3}

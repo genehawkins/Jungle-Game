@@ -1035,7 +1035,7 @@ RectTransform:
   - {fileID: 2133973261}
   - {fileID: 2116325573}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2548,7 +2548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &347454475
 PrefabInstance:
@@ -10810,6 +10810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike Trap Card (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
 --- !u!114 &1281361098 stripped
@@ -11712,7 +11716,7 @@ Transform:
   - {fileID: 39345032}
   - {fileID: 1821312040}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1351492839 stripped
 GameObject:
@@ -16526,6 +16530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike Trap Card (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
 --- !u!114 &1973519809 stripped
@@ -17563,7 +17571,7 @@ RectTransform:
   m_Children:
   - {fileID: 497859491}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17886,6 +17894,76 @@ Transform:
   - {fileID: 1827840964}
   - {fileID: 208959377}
   - {fileID: 442445611}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2082013374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2082013376}
+  - component: {fileID: 2082013375}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2082013375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082013374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac96ff8b1c8001741a61640a5da20ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CardShuffle
+    clip: {fileID: 8300000, guid: 90cbd39ddb80e0b48bb8b56c17b2df64, type: 3}
+    volume: 0.706
+    pitch: 1.35
+    source: {fileID: 0}
+  - name: DrawCard
+    clip: {fileID: 8300000, guid: d89656641f2c74846981ade8bcc38b14, type: 3}
+    volume: 0.821
+    pitch: 1.21
+    source: {fileID: 0}
+  - name: Error
+    clip: {fileID: 8300000, guid: d6f97333d2c21df4c80e5fda52001fac, type: 3}
+    volume: 0.788
+    pitch: 1.23
+    source: {fileID: 0}
+  - name: StartWave
+    clip: {fileID: 8300000, guid: 4562c0b98b6e49146b17659d7565f399, type: 3}
+    volume: 0.773
+    pitch: 0.98
+    source: {fileID: 0}
+  - name: StartSetup
+    clip: {fileID: 8300000, guid: c9f56f55df94e5543ae1d23fe5eaacaf, type: 3}
+    volume: 0.773
+    pitch: 1.21
+    source: {fileID: 0}
+--- !u!4 &2082013376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082013374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18480,7 +18558,7 @@ Transform:
   m_Children:
   - {fileID: 1216853998}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2132780059
 PrefabInstance:
@@ -18726,7 +18804,7 @@ Transform:
   - {fileID: 333670407}
   - {fileID: 170927854}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2140404853 stripped
 GameObject:
@@ -18890,6 +18968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike Trap Card
       objectReference: {fileID: 0}
+    - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
 --- !u!1001 &2612882516867781251
@@ -18974,7 +19056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6865852268537467002, guid: b3455f986a6e0b945a7d476844fe4012, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6865852268537467002, guid: b3455f986a6e0b945a7d476844fe4012, type: 3}
       propertyPath: m_LocalPosition.x

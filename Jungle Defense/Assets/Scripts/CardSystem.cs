@@ -55,6 +55,7 @@ public class CardSystem : MonoBehaviour
                     randomCard.hasBeenPlayed = false;
                     deck.Remove(randomCard);
                     availableCardSlots[i] = false;
+                    FindObjectOfType<AudioManager>().Play("DrawCard");
                     return;
                 }
             }
@@ -64,8 +65,10 @@ public class CardSystem : MonoBehaviour
     //Draws a new hand of cards and increases action point allowance
     public void DrawNewHand()
     {
+
         for (int i = 0; i < drawCardCount; i++) {
             DrawCard();
+            //TODO - Space out each card draw with animations and add sound for each draw
         }
         actionPoints += actionPointsPerWave;
     }
@@ -79,6 +82,7 @@ public class CardSystem : MonoBehaviour
             {
                 deck.Add(card);
             }
+            FindObjectOfType<AudioManager>().Play("CardShuffleSound");  //Sound of shuffling cards when shuffled back into deck
             discardPile.Clear();
         }
     }
