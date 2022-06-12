@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public EnemyTracker enemyTracker;
     public CardSystem cardSystem;
     public BuildManager buildManager;
+    public ShopManager shopManager;
 
     // unity event that announces the start of setup phase
     public static readonly UnityEvent SetupPhase = new UnityEvent();
