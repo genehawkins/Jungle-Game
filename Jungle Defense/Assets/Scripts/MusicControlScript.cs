@@ -6,17 +6,14 @@ public class MusicControlScript : MonoBehaviour
 {
     public static MusicControlScript instance;
 
-    private void Awake(){
-
-        DontDestoryOnLoad(this.gameObject);
-
-        if(instance = null){
-
-            instance = this;
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+        if(instance != null)
+        {
+            Destroy(gameObject);
+            return;
         }
-        else{
-
-            Destory(gameObject);
-        }
+        instance = this;
     }
 }
