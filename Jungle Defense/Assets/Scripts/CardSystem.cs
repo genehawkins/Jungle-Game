@@ -15,7 +15,6 @@ public class CardSystem : MonoBehaviour
 
     [Header("Unity Setup")]
     public AudioManager audioManager;
-    public BuildManager buildManager;
     public List<Card> deck;
     public TextMeshProUGUI deckSizeText;
 
@@ -25,14 +24,14 @@ public class CardSystem : MonoBehaviour
     public List<Card> discardPile;
     public TextMeshProUGUI discardPileSizeText;
     public TextMeshProUGUI actionPointText;
-    public TextMeshProUGUI currentBuildText;
-    public TextMeshProUGUI deploymentCostText;
+    //public TextMeshProUGUI currentBuildText;
+    //public TextMeshProUGUI deploymentCostText;
 
     void Start()
     {
         // Listens for Unity Event that announces setup phase beginning to draw new card
-        GameManager.SetupPhase.AddListener(DrawNewHand);
-        Invoke(nameof(DrawNewHand), 1f);
+        GameManager.SetupPhase.AddListener(StartDrawNewHand);
+        Invoke(nameof(StartDrawNewHand), 1f);
     }
 
     //Pulls a random card from a list of cards and displays the drawn card in an available hand slot
@@ -57,19 +56,26 @@ public class CardSystem : MonoBehaviour
                     randomCard.hasBeenPlayed = false;
                     deck.Remove(randomCard);
                     availableCardSlots[i] = false;
-                    audioManager.Play("DrawCard");
+                    if (audioManager) audioManager.Play("DrawCard");
                     return;
                 }
             }
         }
     }
 
+    public void StartDrawNewHand()
+    {
+        StartCoroutine(DrawNewHand());
+    }
+    
     //Draws a new hand of cards and increases action point allowance
-    public void DrawNewHand()
+    public IEnumerator DrawNewHand()
     {
 
-        for (int i = 0; i < drawCardCount; i++) {
+        for (var i = 0; i < drawCardCount; i++) 
+        {
             DrawCard();
+            yield return new WaitForSeconds(0.2f);
         }
         actionPoints += actionPointsPerWave;
     }
@@ -92,10 +98,11 @@ public class CardSystem : MonoBehaviour
     private void Update()
     {
         //Updates cardUI text
-        deckSizeText.text = $"Cards in deck:\n{deck.Count.ToString()}";
-        discardPileSizeText.text = $"Cards in discard:\n{discardPile.Count.ToString()}";
-        actionPointText.text = $"Action Pts:\n{actionPoints.ToString()}";
+        deckSizeText.text = deck.Count.ToString("00");
+        discardPileSizeText.text = discardPile.Count.ToString("00");
+        actionPointText.text = actionPoints.ToString("00");
         
+        /*
         if (currentlySelected != null) {
             currentBuildText.text = $"Current build:\n{currentlySelected.name}";
             deploymentCostText.text = $"Deployment cost:\n{currentlySelected.activateCost}";
@@ -103,6 +110,7 @@ public class CardSystem : MonoBehaviour
             currentBuildText.text = $"Current build:";
             deploymentCostText.text = $"Deployment cost:";
         }
+        */
     }
 
     public bool CanPlay()
