@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HasHealth : MonoBehaviour
@@ -17,8 +15,7 @@ public class HasHealth : MonoBehaviour
     private void Death()
     {
         GameManager.instance.enemyTracker.EnemyDestroyed();
-        GameObject Shop = GameObject.Find("StoreUI");
-        Shop.GetComponent<ShopManager>().AddCoins();
+        GameManager.instance.shopManager.AddCoins();
         Destroy(gameObject);
     }
 
