@@ -45,6 +45,12 @@ TagManager:
   - 
   - GrassTiles
   m_SortingLayers:
+  - name: UI
+    uniqueID: 2256494647
+    locked: 0
+  - name: Tiles
+    uniqueID: 263226445
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
