@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Node : MonoBehaviour
 {
+    public AudioManager audioManager;
     public TerrainType terrainType;
     public Color hoverColor;
 
@@ -47,7 +48,7 @@ public class Node : MonoBehaviour
             cardManager.currentlySelected.PlayCard();
             BuildManager.instance.thingToBuild = null;
         } else {
-            FindObjectOfType<AudioManager>().Play("Error");
+            audioManager.Play("Error");
             //TODO - Animate card to wiggle
         }
     }

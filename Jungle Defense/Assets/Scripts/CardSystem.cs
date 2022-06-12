@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Random = UnityEngine.Random;
+using System.Collections;
 
 public class CardSystem : MonoBehaviour
 {
     [Header("Values to balance")]
     public int drawCardCount = 3;
     [NonSerialized] public int actionPoints = 0;
-    public int actionPointsPerWave = 3;
+    public int actionPointsPerWave = 4;
     [NonSerialized] public Card currentlySelected;
 
     [Header("Unity Setup")]
+    public AudioManager audioManager;
     public BuildManager buildManager;
     public List<Card> deck;
     public TextMeshProUGUI deckSizeText;
@@ -55,7 +57,7 @@ public class CardSystem : MonoBehaviour
                     randomCard.hasBeenPlayed = false;
                     deck.Remove(randomCard);
                     availableCardSlots[i] = false;
-                    FindObjectOfType<AudioManager>().Play("DrawCard");
+                    audioManager.Play("DrawCard");
                     return;
                 }
             }
@@ -68,7 +70,6 @@ public class CardSystem : MonoBehaviour
 
         for (int i = 0; i < drawCardCount; i++) {
             DrawCard();
-            //TODO - Space out each card draw with animations and add sound for each draw
         }
         actionPoints += actionPointsPerWave;
     }
@@ -78,11 +79,12 @@ public class CardSystem : MonoBehaviour
     {
         if (discardPile.Count >= 1)
         {
+            audioManager.Play("CardShuffle");  //Sound of shuffling cards when shuffled back into deck
             foreach (Card card in discardPile)
             {
                 deck.Add(card);
             }
-            FindObjectOfType<AudioManager>().Play("CardShuffleSound");  //Sound of shuffling cards when shuffled back into deck
+            
             discardPile.Clear();
         }
     }

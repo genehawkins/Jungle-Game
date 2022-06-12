@@ -9,6 +9,9 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        GameManager.SetupPhase.AddListener(PlaySetupSound);
+        
+
         foreach (Sound s in sounds) {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
@@ -16,6 +19,13 @@ public class AudioManager : MonoBehaviour
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
         }
+
+        Play("StartSetup");
+    }
+
+    private void PlaySetupSound()
+    {
+        Play("StartSetup");
     }
 
     public void Play(string name)
