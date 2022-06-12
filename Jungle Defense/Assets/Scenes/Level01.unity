@@ -183,6 +183,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &17724847 stripped
@@ -250,6 +254,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2507486241064573290, guid: 90f7b752b55f81d49889e08eedb16e06, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90f7b752b55f81d49889e08eedb16e06, type: 3}
 --- !u!4 &30991908 stripped
@@ -369,6 +377,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &38372354 stripped
@@ -515,6 +527,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &46125208 stripped
@@ -532,6 +548,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 793829260}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &58614481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 6751175758547261332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &58614482 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 6751175758547261332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &58614485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4495563352337258823, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 6751175758547261332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58614481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b2bb03dec52b343ae98afb38cab7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &61067535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -539,6 +576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (27)
@@ -601,6 +642,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (18)
@@ -668,6 +713,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (5)
@@ -735,6 +784,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (93)
@@ -797,6 +850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (4)
@@ -907,6 +964,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &107108499 stripped
@@ -1090,6 +1151,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &116405157 stripped
@@ -1114,6 +1179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (56)
@@ -1191,6 +1260,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (90)
@@ -1284,6 +1357,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (70)
@@ -1339,6 +1416,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 184043846}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &199169442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1460847623}
+    m_Modifications:
+    - target: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Name
+      value: item template (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 140.4474
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 267.2838
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 411.1185
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -133.6419
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
 --- !u!1001 &200124189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1394,6 +1572,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &200124190 stripped
@@ -1461,6 +1643,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &202316171 stripped
@@ -1564,6 +1750,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (103)
@@ -1674,6 +1864,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &217070379 stripped
@@ -1703,6 +1897,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode
@@ -1791,6 +1989,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (53)
@@ -1853,6 +2055,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (107)
@@ -1920,6 +2126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &277103382
@@ -1977,6 +2184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &277103383 stripped
@@ -2039,6 +2250,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &290391027 stripped
@@ -2120,6 +2335,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (67)
@@ -2213,6 +2432,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (84)
@@ -2275,6 +2498,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (66)
@@ -2342,6 +2569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &345474851
@@ -2426,7 +2654,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &347454475
 PrefabInstance:
@@ -2435,6 +2663,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (57)
@@ -2497,6 +2729,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (147)
@@ -2559,6 +2795,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (125)
@@ -2621,6 +2861,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (102)
@@ -2676,6 +2920,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 379964282}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &387857489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 1323057961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &387857490 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 1323057961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &387857493 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4495563352337258823, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 1323057961}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387857489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b2bb03dec52b343ae98afb38cab7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &391624872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2683,6 +2948,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (3)
@@ -2745,6 +3014,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (39)
@@ -2827,6 +3100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &404834866
@@ -2836,6 +3110,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (162)
@@ -2898,6 +3176,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (145)
@@ -2965,6 +3247,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 208959377}
     m_Modifications:
+    - target: {fileID: 2112259127531800697, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 2733897543878801899, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -3027,6 +3313,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (17)
@@ -3094,6 +3384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &428551557
@@ -3151,6 +3442,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &428551558 stripped
@@ -3175,6 +3470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &431639487
@@ -3184,6 +3480,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 208959377}
     m_Modifications:
+    - target: {fileID: 2112259127531800697, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 2733897543878801899, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -3365,6 +3665,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (139)
@@ -3427,6 +3731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (71)
@@ -3499,6 +3807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &459560131
@@ -3508,6 +3817,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (9)
@@ -3570,6 +3883,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (13)
@@ -3637,6 +3954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &475682401
@@ -3646,6 +3964,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (168)
@@ -3708,6 +4030,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (76)
@@ -3770,6 +4096,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (165)
@@ -3837,6 +4167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &480042697 stripped
@@ -3904,6 +4235,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &490367332 stripped
@@ -3911,6 +4246,84 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1731644081137289528, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
   m_PrefabInstance: {fileID: 490367331}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &497859490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497859491}
+  - component: {fileID: 497859493}
+  - component: {fileID: 497859492}
+  m_Layer: 5
+  m_Name: Shop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &497859491
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497859490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1558148812}
+  - {fileID: 789214878}
+  m_Father: {fileID: 2065079972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &497859492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497859490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &497859493
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497859490}
+  m_CullTransparentMesh: 1
 --- !u!1 &504578036 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -3933,6 +4346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &510758918 stripped
@@ -3952,6 +4366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &518412640
@@ -4088,6 +4503,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &524152855 stripped
@@ -4112,6 +4531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &543801826 stripped
@@ -4126,6 +4546,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (40)
@@ -4193,6 +4617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &560411479 stripped
@@ -4212,6 +4637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &563300128 stripped
@@ -4257,6 +4683,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (177)
@@ -4324,6 +4754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &583972998 stripped
@@ -4386,6 +4817,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &593045922 stripped
@@ -4400,6 +4835,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (51)
@@ -4478,6 +4917,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (171)
@@ -4545,6 +4988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &604920873 stripped
@@ -4631,6 +5075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &612555820
@@ -4688,6 +5133,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &612555821 stripped
@@ -4702,6 +5151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (94)
@@ -4769,6 +5222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &641243505 stripped
@@ -4831,6 +5285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &641285255 stripped
@@ -4845,6 +5303,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (89)
@@ -4928,6 +5390,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (91)
@@ -4995,6 +5461,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (75)
@@ -5057,6 +5527,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (037)
@@ -5124,6 +5598,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (12)
@@ -5191,6 +5669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &725217630
@@ -5200,6 +5679,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (032)
@@ -5310,6 +5793,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &733787043 stripped
@@ -5317,6 +5804,141 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1731644081137289528, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
   m_PrefabInstance: {fileID: 733787042}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &751300968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751300969}
+  - component: {fileID: 751300971}
+  - component: {fileID: 751300970}
+  m_Layer: 5
+  m_Name: header
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &751300969
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751300968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1558148812}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &751300970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751300968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Store!
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &751300971
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751300968}
+  m_CullTransparentMesh: 1
 --- !u!1001 &752701256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5324,6 +5946,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (136)
@@ -5386,6 +6012,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (178)
@@ -5441,6 +6071,140 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 761202476}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &766062937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766062938}
+  - component: {fileID: 766062941}
+  - component: {fileID: 766062940}
+  - component: {fileID: 766062939}
+  m_Layer: 5
+  m_Name: ExitShop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &766062938
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766062937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1043355857}
+  m_Father: {fileID: 1558148812}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 495, y: 10}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &766062939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766062937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 766062940}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2065079973}
+        m_TargetAssemblyTypeName: ShopManager, Assembly-CSharp
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &766062940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766062937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &766062941
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766062937}
+  m_CullTransparentMesh: 1
 --- !u!1 &768021417 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -5453,6 +6217,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (28)
@@ -5513,6 +6281,114 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 1293556833}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &789214877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789214878}
+  - component: {fileID: 789214880}
+  - component: {fileID: 789214879}
+  - component: {fileID: 789214881}
+  m_Layer: 5
+  m_Name: Scroll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &789214878
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789214877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1460847623}
+  m_Father: {fileID: 497859491}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -119.47207}
+  m_SizeDelta: {x: 0, y: -238.9441}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &789214879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789214877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &789214880
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789214877}
+  m_CullTransparentMesh: 1
+--- !u!114 &789214881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789214877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 1460847623}
+  m_Horizontal: 1
+  m_Vertical: 0
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &789774888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 247343079146040645, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
@@ -5536,6 +6412,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (55)
@@ -5603,6 +6483,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (100)
@@ -5670,6 +6554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &797824476 stripped
@@ -5684,6 +6569,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (49)
@@ -5794,6 +6683,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &812858998 stripped
@@ -5808,6 +6701,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (129)
@@ -5875,6 +6772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &829238747 stripped
@@ -5894,6 +6792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &831314427
@@ -5903,6 +6802,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (174)
@@ -5965,6 +6868,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 687114653324567116, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: shopManager
+      value: 
+      objectReference: {fileID: 2065079973}
     - target: {fileID: 687114653324567117, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6057,6 +6964,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3895814219918644849, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6261361079560120509, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6085,6 +6996,10 @@ PrefabInstance:
       propertyPath: cardManager
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7451495485020327176, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 7451495485020327176, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: waves.Array.size
       value: 5
@@ -6149,6 +7064,10 @@ PrefabInstance:
       propertyPath: cardManager
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: buildManager
       value: 
@@ -6420,6 +7339,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &869259050 stripped
@@ -6482,6 +7405,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &870300742 stripped
@@ -6506,6 +7433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &884626433 stripped
@@ -6525,6 +7453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &890024709
@@ -6534,6 +7463,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (109)
@@ -6596,6 +7529,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (120)
@@ -6663,6 +7600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &907793381
@@ -6672,6 +7610,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (163)
@@ -6739,8 +7681,143 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
+--- !u!1 &907826519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 907826520}
+  - component: {fileID: 907826523}
+  - component: {fileID: 907826522}
+  - component: {fileID: 907826521}
+  m_Layer: 0
+  m_Name: Open Shop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &907826520
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907826519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1754199832}
+  m_Father: {fileID: 1675599812}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 180, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &907826521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907826519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 907826522}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1679774256}
+        m_TargetAssemblyTypeName: OpenShop, Assembly-CSharp
+        m_MethodName: Shop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &907826522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907826519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &907826523
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907826519}
+  m_CullTransparentMesh: 1
 --- !u!1001 &920120765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6748,6 +7825,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (52)
@@ -6810,6 +7891,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (32)
@@ -7015,6 +8100,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &944331171 stripped
@@ -7211,6 +8300,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &966547231 stripped
@@ -7225,6 +8318,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (048)
@@ -7371,6 +8468,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &989008341 stripped
@@ -7447,6 +8548,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (59)
@@ -7514,6 +8619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1023105774 stripped
@@ -7538,6 +8644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1028752203
@@ -7595,6 +8702,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1028752204 stripped
@@ -7619,6 +8730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1031242913
@@ -7685,6 +8797,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (6)
@@ -7752,6 +8868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1038236623
@@ -7809,6 +8926,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8047704022394423436, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
 --- !u!4 &1038236624 stripped
@@ -7823,6 +8944,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (172)
@@ -7878,6 +9003,141 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 1041003428}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1043355856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043355857}
+  - component: {fileID: 1043355859}
+  - component: {fileID: 1043355858}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1043355857
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043355856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 766062938}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1043355858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043355856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Exit
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1043355859
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043355856}
+  m_CullTransparentMesh: 1
 --- !u!1 &1054713214 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -7895,6 +9155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1055621813
@@ -7952,6 +9213,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8047704022394423436, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
 --- !u!4 &1055621814 stripped
@@ -7966,6 +9231,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (30)
@@ -8020,6 +9289,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 1059058105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1061769490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 687114653324567123, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+  m_PrefabInstance: {fileID: 847466023}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1069362906
 PrefabInstance:
@@ -8076,6 +9350,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1069362907 stripped
@@ -8100,8 +9378,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
+--- !u!1 &1093497130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 199169442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1093497131 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4495563352337258823, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 199169442}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093497130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b2bb03dec52b343ae98afb38cab7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &1093497132 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+  m_PrefabInstance: {fileID: 199169442}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1100389540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8109,6 +9409,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (169)
@@ -8181,6 +9485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1115107185
@@ -8238,6 +9543,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1115107186 stripped
@@ -8389,6 +9698,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (130)
@@ -8451,6 +9764,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (26)
@@ -8518,6 +9835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1140610238 stripped
@@ -8537,6 +9855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1151921498
@@ -8603,6 +9922,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (106)
@@ -8665,6 +9988,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (049)
@@ -8732,6 +10059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1170499849
@@ -8741,6 +10069,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (036)
@@ -8808,6 +10140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1171093452
@@ -8817,6 +10150,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (36)
@@ -8884,6 +10221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1171840960 stripped
@@ -8903,6 +10241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1179606832
@@ -9057,6 +10396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1188978991
@@ -9066,6 +10406,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (16)
@@ -9128,6 +10472,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (111)
@@ -9195,6 +10543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1193382548 stripped
@@ -9214,6 +10563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1194016121
@@ -9223,6 +10573,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (179)
@@ -9333,6 +10687,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1213147840 stripped
@@ -9363,7 +10721,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216853997}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16.289072, y: 2.1974845, z: 0.11637314}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9376,8 +10734,8 @@ Transform:
   - {fileID: 604023357}
   - {fileID: 663765864}
   - {fileID: 518412641}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 2130491788}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1216861400
 PrefabInstance:
@@ -9453,6 +10811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1223902493 stripped
@@ -9482,6 +10841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1246920278 stripped
@@ -9501,6 +10861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1255836561
@@ -9510,6 +10871,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (29)
@@ -9620,6 +10985,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &1264296992 stripped
@@ -9701,6 +11070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1273969384
@@ -9710,6 +11080,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (173)
@@ -9777,6 +11151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1274986167 stripped
@@ -9839,6 +11214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1278885274 stripped
@@ -9913,6 +11292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike Trap Card (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
 --- !u!114 &1281361098 stripped
@@ -9938,6 +11321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (118)
@@ -10005,6 +11392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1293699033
@@ -10014,6 +11402,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (14)
@@ -10076,6 +11468,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (108)
@@ -10138,6 +11534,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (42)
@@ -10205,6 +11605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1313459515 stripped
@@ -10219,6 +11620,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (73)
@@ -10281,6 +11686,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (141)
@@ -10348,8 +11757,110 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
+--- !u!1001 &1323057961
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1460847623}
+    m_Modifications:
+    - target: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Name
+      value: item template (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 140.4474
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 267.2838
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250.67111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -133.6419
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
 --- !u!1 &1324782595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -10367,6 +11878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1325672822
@@ -10424,6 +11936,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1325672823 stripped
@@ -10438,6 +11954,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (72)
@@ -10505,6 +12025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1338569966 stripped
@@ -10524,6 +12045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1340154003
@@ -10581,6 +12103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1340154004 stripped
@@ -10605,6 +12131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1348792968
@@ -10614,6 +12141,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (138)
@@ -10681,6 +12212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1351029630
@@ -10776,6 +12308,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1351612584 stripped
@@ -10790,6 +12326,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (33)
@@ -10862,6 +12402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1386841368
@@ -10871,6 +12412,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (164)
@@ -10938,6 +12483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1398799412 stripped
@@ -10967,6 +12513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1425967767
@@ -11095,6 +12642,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (34)
@@ -11162,6 +12713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1449298707
@@ -11171,6 +12723,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (112)
@@ -11238,6 +12794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1450814007 stripped
@@ -11257,6 +12814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1458883342
@@ -11314,6 +12872,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1458883343 stripped
@@ -11321,6 +12883,127 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1731644081137289528, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
   m_PrefabInstance: {fileID: 1458883342}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1460847622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460847623}
+  - component: {fileID: 1460847625}
+  - component: {fileID: 1460847624}
+  - component: {fileID: 1460847627}
+  - component: {fileID: 1460847626}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1460847623
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460847622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 58614482}
+  - {fileID: 387857490}
+  - {fileID: 1093497132}
+  m_Father: {fileID: 789214878}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
+  m_SizeDelta: {x: 40, y: 10}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1460847624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460847622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1460847625
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460847622}
+  m_CullTransparentMesh: 1
+--- !u!114 &1460847626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460847622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 20
+    m_Right: 20
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 3
+  m_Spacing: 20
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1460847627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460847622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
 --- !u!1001 &1495120392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11376,6 +13059,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1495120393 stripped
@@ -11395,6 +13082,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (54)
@@ -11472,6 +13163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1521491357 stripped
@@ -11491,6 +13183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1527197600
@@ -11500,6 +13193,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (64)
@@ -11567,6 +13264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1544307498
@@ -11624,6 +13322,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1544307499 stripped
@@ -11638,6 +13340,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (142)
@@ -11705,6 +13411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1553622231
@@ -11849,6 +13556,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (10)
@@ -11916,8 +13627,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
+--- !u!1 &1558148811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558148812}
+  - component: {fileID: 1558148814}
+  - component: {fileID: 1558148813}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1558148812
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558148811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 751300969}
+  - {fileID: 766062938}
+  m_Father: {fileID: 497859491}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 238.02515}
+  m_SizeDelta: {x: 0, y: -476.0503}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1558148813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558148811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1558148814
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558148811}
+  m_CullTransparentMesh: 1
 --- !u!1 &1563322179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -11935,6 +13725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1568307628
@@ -11992,6 +13783,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1568307629 stripped
@@ -12006,6 +13801,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (19)
@@ -12068,6 +13867,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (127)
@@ -12135,6 +13938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1596970665
@@ -12192,6 +13996,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2507486241064573290, guid: 90f7b752b55f81d49889e08eedb16e06, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90f7b752b55f81d49889e08eedb16e06, type: 3}
 --- !u!4 &1596970666 stripped
@@ -12350,6 +14158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1621297180
@@ -12359,6 +14168,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 208959377}
     m_Modifications:
+    - target: {fileID: 5582695786853000176, guid: 5265fccbb5122804e972696191308432, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 7080645768761237616, guid: 5265fccbb5122804e972696191308432, type: 3}
       propertyPath: m_Name
       value: Path DR Variant
@@ -12474,6 +14287,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2507486241064573290, guid: 90f7b752b55f81d49889e08eedb16e06, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90f7b752b55f81d49889e08eedb16e06, type: 3}
 --- !u!4 &1654754644 stripped
@@ -12488,6 +14305,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (35)
@@ -12543,12 +14364,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 1670372965}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &1675599812 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8745607457753072355, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+  m_PrefabInstance: {fileID: 847466023}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1679774245 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 687114653324567116, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
   m_PrefabInstance: {fileID: 847466023}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1061769490}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28a7f7272d953d8448aabc7e115db2bc, type: 3}
@@ -12559,12 +14385,25 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6536817544818967569, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
   m_PrefabInstance: {fileID: 847466023}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1061769490}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28afc16cd99e80245b8601ab4e388537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1679774256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061769490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5cdf5480b1e6114f85cd135276e52c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShopMenu: {fileID: 2065079968}
 --- !u!1 &1681803397 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -12582,6 +14421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1681904695
@@ -12591,6 +14431,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (175)
@@ -12658,6 +14502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1682589735
@@ -12715,6 +14560,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &1682589736 stripped
@@ -12739,6 +14588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1687283579 stripped
@@ -12763,6 +14613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1714894914
@@ -12772,6 +14623,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (2)
@@ -12844,6 +14699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1744213339 stripped
@@ -12863,6 +14719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1750494217
@@ -12872,6 +14729,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (47)
@@ -12939,8 +14800,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
+--- !u!1 &1754199831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1754199832}
+  - component: {fileID: 1754199834}
+  - component: {fileID: 1754199833}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1754199832
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754199831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 907826520}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1754199833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754199831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Shop!
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 42
+  m_fontSizeBase: 42
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1754199834
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754199831}
+  m_CullTransparentMesh: 1
 --- !u!1 &1756758161 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -13001,6 +14998,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1760917959 stripped
@@ -13025,6 +15026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1762190223
@@ -13034,6 +15036,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (166)
@@ -13101,6 +15107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1762998058 stripped
@@ -13120,6 +15127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1767978722 stripped
@@ -13134,6 +15142,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (140)
@@ -13201,6 +15213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1788454378
@@ -13210,6 +15223,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (144)
@@ -13277,6 +15294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1805806673
@@ -13286,6 +15304,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (124)
@@ -13353,6 +15375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1821312039
@@ -13607,6 +15630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1843148580
@@ -13616,6 +15640,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (37)
@@ -13683,6 +15711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1844634480 stripped
@@ -13702,6 +15731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1850658826 stripped
@@ -13721,6 +15751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1850757055
@@ -13730,6 +15761,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (44)
@@ -13797,6 +15832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1864392892
@@ -13806,6 +15842,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (88)
@@ -13873,6 +15913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1864835752
@@ -13882,6 +15923,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (58)
@@ -13949,6 +15994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1868274495
@@ -13958,6 +16004,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 208959377}
     m_Modifications:
+    - target: {fileID: 5582695786853000176, guid: 5265fccbb5122804e972696191308432, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 7080645768761237616, guid: 5265fccbb5122804e972696191308432, type: 3}
       propertyPath: m_Name
       value: Path DR Variant
@@ -14030,6 +16080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1875683119
@@ -14087,6 +16138,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1875683120 stripped
@@ -14101,6 +16156,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (85)
@@ -14173,6 +16232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1911641929 stripped
@@ -14192,6 +16252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1912011379
@@ -14201,6 +16262,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (148)
@@ -14268,6 +16333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1915417940 stripped
@@ -14287,6 +16353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1921039771
@@ -14296,6 +16363,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (1)
@@ -14368,6 +16439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1923087768
@@ -14377,6 +16449,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 208959377}
     m_Modifications:
+    - target: {fileID: 2112259127531800697, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 2733897543878801899, guid: 42528ee802e01a54c84b7124612398e5, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -14439,6 +16515,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (41)
@@ -14506,6 +16586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1930274735
@@ -14563,6 +16644,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1930274736 stripped
@@ -14577,6 +16662,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (46)
@@ -14644,6 +16733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1935434077 stripped
@@ -14663,6 +16753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1936132088
@@ -14855,6 +16946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1937154696 stripped
@@ -14869,6 +16964,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (170)
@@ -14936,6 +17035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1940513613
@@ -15002,6 +17102,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (11)
@@ -15069,6 +17173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1941909769 stripped
@@ -15088,6 +17193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &1968351602 stripped
@@ -15107,6 +17213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &1973519808
@@ -15175,6 +17282,10 @@ PrefabInstance:
     - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
       propertyPath: m_Name
       value: Spike Trap Card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
@@ -15249,6 +17360,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &1976677823 stripped
@@ -15263,6 +17378,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (143)
@@ -15330,8 +17449,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
+--- !u!1 &1997436297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997436298}
+  - component: {fileID: 1997436300}
+  - component: {fileID: 1997436299}
+  m_Layer: 0
+  m_Name: Coins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1997436298
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997436297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1675599812}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1997436299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997436297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Coins: 0'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1997436300
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997436297}
+  m_CullTransparentMesh: 1
 --- !u!1 &2003177347 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
@@ -15349,6 +17604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2007692703
@@ -15406,6 +17662,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &2007692704 stripped
@@ -15525,6 +17785,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &2015798557 stripped
@@ -15539,6 +17803,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (031)
@@ -15606,6 +17874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &2040598063 stripped
@@ -15625,6 +17894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2057529855
@@ -15776,6 +18046,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (176)
@@ -15843,6 +18117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2061810654
@@ -15852,6 +18127,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 208959377}
     m_Modifications:
+    - target: {fileID: 5582695786853000176, guid: 5265fccbb5122804e972696191308432, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 7080645768761237616, guid: 5265fccbb5122804e972696191308432, type: 3}
       propertyPath: m_Name
       value: Path DR Variant
@@ -15914,6 +18193,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (48)
@@ -15981,8 +18264,138 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
+--- !u!1 &2065079968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2065079972}
+  - component: {fileID: 2065079971}
+  - component: {fileID: 2065079970}
+  - component: {fileID: 2065079969}
+  - component: {fileID: 2065079973}
+  m_Layer: 5
+  m_Name: StoreUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2065079969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065079968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2065079970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065079968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &2065079971
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065079968}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &2065079972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065079968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 497859491}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &2065079973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065079968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dbc64e7d5caa4c49b1ba8aadeff31bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0
+  coinsUI: {fileID: 1997436299}
+  ShopItemsSO:
+  - {fileID: 11400000, guid: a2913b1f903bbaf4e9ecb90c1985b95c, type: 2}
+  - {fileID: 11400000, guid: c55b1e845a2ef3d4e80df8588e9d7e3e, type: 2}
+  - {fileID: 11400000, guid: 5408dbe5baf5e63439def1f58e01b816, type: 2}
+  ShopPanels:
+  - {fileID: 58614485}
+  - {fileID: 387857493}
+  - {fileID: 1093497131}
+  ShopMenu: {fileID: 2065079968}
+  ShopPanelsGO:
+  - {fileID: 58614481}
+  - {fileID: 387857489}
+  - {fileID: 1093497130}
 --- !u!1001 &2071905420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16038,6 +18451,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2353280566862936234, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02726e6d513c4424c97a30ecdde37b97, type: 3}
 --- !u!4 &2071905421 stripped
@@ -16052,6 +18469,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (7)
@@ -16119,6 +18540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2075210843
@@ -16176,6 +18598,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8047704022394423436, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc30fa043ba28d4fb827bf61ce0b812, type: 3}
 --- !u!4 &2075210844 stripped
@@ -16273,6 +18699,76 @@ Transform:
   - {fileID: 208959377}
   - {fileID: 442445611}
   m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2082013374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2082013376}
+  - component: {fileID: 2082013375}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2082013375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082013374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac96ff8b1c8001741a61640a5da20ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CardShuffle
+    clip: {fileID: 8300000, guid: 90cbd39ddb80e0b48bb8b56c17b2df64, type: 3}
+    volume: 0.706
+    pitch: 1.35
+    source: {fileID: 0}
+  - name: DrawCard
+    clip: {fileID: 8300000, guid: d89656641f2c74846981ade8bcc38b14, type: 3}
+    volume: 0.821
+    pitch: 1.21
+    source: {fileID: 0}
+  - name: Error
+    clip: {fileID: 8300000, guid: d6f97333d2c21df4c80e5fda52001fac, type: 3}
+    volume: 0.788
+    pitch: 1.23
+    source: {fileID: 0}
+  - name: StartWave
+    clip: {fileID: 8300000, guid: 4562c0b98b6e49146b17659d7565f399, type: 3}
+    volume: 0.773
+    pitch: 0.98
+    source: {fileID: 0}
+  - name: StartSetup
+    clip: {fileID: 8300000, guid: c9f56f55df94e5543ae1d23fe5eaacaf, type: 3}
+    volume: 0.773
+    pitch: 1.21
+    source: {fileID: 0}
+--- !u!4 &2082013376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082013374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2088966818
@@ -16282,6 +18778,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (167)
@@ -16349,6 +18849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2103977181
@@ -16406,6 +18907,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2966480671308127511, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
 --- !u!4 &2103977182 stripped
@@ -16435,6 +18940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2106810537
@@ -16444,6 +18950,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (121)
@@ -16511,6 +19021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2106908966
@@ -16520,6 +19031,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (15)
@@ -16587,6 +19102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &2108956954 stripped
@@ -16606,6 +19122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2109742299
@@ -16615,6 +19132,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (126)
@@ -16682,6 +19203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &2114790248 stripped
@@ -16701,6 +19223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &2116325572
@@ -16798,6 +19321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &2130491785
@@ -16863,9 +19387,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1216853998}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2132780059
 PrefabInstance:
@@ -16874,6 +19399,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (8)
@@ -16941,6 +19470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1 &2133973260
@@ -17130,6 +19660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &2143019195
@@ -17139,6 +19670,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1827840964}
     m_Modifications:
+    - target: {fileID: 1249893286, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2082013375}
     - target: {fileID: 1770605878045604159, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
       propertyPath: m_Name
       value: GrassNode (82)
@@ -17206,6 +19741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   terrainType: 0
   hoverColor: {r: 0.2924528, g: 0.26348343, b: 0.26348343, a: 0.5882353}
 --- !u!1001 &247343079868444525
@@ -17274,6 +19810,10 @@ PrefabInstance:
     - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
       propertyPath: m_Name
       value: Spike Trap Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
@@ -17359,7 +19899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6865852268537467002, guid: b3455f986a6e0b945a7d476844fe4012, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6865852268537467002, guid: b3455f986a6e0b945a7d476844fe4012, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17477,6 +20017,107 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
+--- !u!1001 &6751175758547261332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1460847623}
+    m_Modifications:
+    - target: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Name
+      value: item template
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194437, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 140.4474
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 267.2838
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 90.2237
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -133.6419
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751175758591194438, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e55328c2b07edca48aedbeac8bb2e7be, type: 3}
 --- !u!1001 &8129832940280824183
 PrefabInstance:
   m_ObjectHideFlags: 0

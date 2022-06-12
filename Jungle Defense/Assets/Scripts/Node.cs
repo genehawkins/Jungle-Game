@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Node : MonoBehaviour
 {
+    public AudioManager audioManager;
     public TerrainType terrainType;
     public Color hoverColor;
 
@@ -31,20 +32,24 @@ public class Node : MonoBehaviour
     void OnMouseDown()
     {
         if (build != null) {
-            Debug.Log("Can't build here no mo");
+            Debug.Log("There's already something here");
+            
             return;
         }
-
         
+        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
         GameObject thingToBuild = BuildManager.instance.GetThingToBuild();
 
         //Places currently selected prefab on node
-        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+        
         if (thingToBuild != null && cardManager.CanPlay() && CheckNode())
         {
             build = (GameObject)Instantiate(thingToBuild, transform.position, Quaternion.identity);
             cardManager.currentlySelected.PlayCard();
             BuildManager.instance.thingToBuild = null;
+        } else {
+            audioManager.Play("Error");
+            //TODO - Animate card to wiggle
         }
     }
 

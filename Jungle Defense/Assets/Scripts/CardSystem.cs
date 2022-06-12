@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Random = UnityEngine.Random;
+using System.Collections;
 
 public class CardSystem : MonoBehaviour
 {
     [Header("Values to balance")]
     public int drawCardCount = 3;
     [NonSerialized] public int actionPoints = 0;
-    public int actionPointsPerWave = 3;
+    public int actionPointsPerWave = 4;
     [NonSerialized] public Card currentlySelected;
 
     [Header("Unity Setup")]
+    public AudioManager audioManager;
     public BuildManager buildManager;
     public List<Card> deck;
     public TextMeshProUGUI deckSizeText;
@@ -55,6 +57,7 @@ public class CardSystem : MonoBehaviour
                     randomCard.hasBeenPlayed = false;
                     deck.Remove(randomCard);
                     availableCardSlots[i] = false;
+                    audioManager.Play("DrawCard");
                     return;
                 }
             }
@@ -64,6 +67,7 @@ public class CardSystem : MonoBehaviour
     //Draws a new hand of cards and increases action point allowance
     public void DrawNewHand()
     {
+
         for (int i = 0; i < drawCardCount; i++) {
             DrawCard();
         }
@@ -75,10 +79,12 @@ public class CardSystem : MonoBehaviour
     {
         if (discardPile.Count >= 1)
         {
+            audioManager.Play("CardShuffle");  //Sound of shuffling cards when shuffled back into deck
             foreach (Card card in discardPile)
             {
                 deck.Add(card);
             }
+            
             discardPile.Clear();
         }
     }
