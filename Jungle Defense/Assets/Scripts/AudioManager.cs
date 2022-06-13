@@ -6,9 +6,20 @@ public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds; 
 
+    public static AudioManager instance;
+
     // Awake is called before the first frame update
     void Awake()
     {   
+        if (instance == null) {
+            instance = this;
+        } else {
+            Destroy(gameObject);
+            return;
+        }
+
+        DontDestroyOnLoad(gameObject);
+
         //Creates accessible array of sound clips that were manually entered in Unity
         foreach (Sound s in sounds) {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -16,12 +27,14 @@ public class AudioManager : MonoBehaviour
 
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
+            s.source.loop = s.loop;
         }
 
         GameManager.SetupPhase.AddListener(PlaySetupSound);  //Sets up listener and plays chime during Unity Setup event
 
-        PlaySetupSound();
+        Play("GameTheme");
     }
+
 
     //Setup sound reference for event listener
     private void PlaySetupSound()
@@ -33,8 +46,10 @@ public class AudioManager : MonoBehaviour
     public void Play(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
-        if (s == null) return;
-
-        s.source.Play();
+        if (s == null) {
+            return;
+        } else {
+            s.source.Play();
+        }
     }
 }
