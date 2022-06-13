@@ -14,7 +14,6 @@ public class CardSystem : MonoBehaviour
     [NonSerialized] public Card currentlySelected;  //Keeps track of the currently selected card
 
     [Header("Unity Setup")]
-    public AudioManager audioManager;
     public GameManager gm;
     public List<Card> database;  //Universal card library, contains one copy of every card
     public List<Card> deck;  //Tracks cards in the deck
@@ -30,6 +29,8 @@ public class CardSystem : MonoBehaviour
     public GameObject discardCardSleeve;
     public TextMeshProUGUI actionPointText;
 
+    [SerializeField] private AudioClip drawCardSound;
+    [SerializeField] private AudioClip shuffleSound;
 
     void Start()
     {
@@ -62,7 +63,7 @@ public class CardSystem : MonoBehaviour
                     deck.Remove(randomCard);
                     hand.Add(randomCard);
                     availableCardSlots[i] = false;
-                    if (audioManager) audioManager.Play("DrawCard");
+                    if (AudioManager.instance) AudioManager.instance.PlayFX(drawCardSound);
                     return;
                 }
             }
@@ -71,7 +72,7 @@ public class CardSystem : MonoBehaviour
 
     public void StartDrawNewHand()
     {
-        StartCoroutine(DrawNewHand());
+        StartCoroutine(DrawNewHand(4));
     }
     
     //Draws a new hand of cards and increases action point allowance
@@ -80,7 +81,7 @@ public class CardSystem : MonoBehaviour
 
         for (var i = 0; i < numCards; i++) 
         {
-            if (audioManager) audioManager.Play("DrawCard");  //GAME BREAKING BUG
+            if (AudioManager.instance) AudioManager.instance.PlayFX(drawCardSound);
             DrawCard();
             yield return new WaitForSeconds(0.2f);
         }
@@ -92,7 +93,7 @@ public class CardSystem : MonoBehaviour
     {
         if (discardPile.Count >= 1)
         {
-            audioManager.Play("CardShuffle");  //Sound of shuffling cards when shuffled back into deck
+            if (AudioManager.instance) AudioManager.instance.PlayFX(shuffleSound);
             foreach (Card card in discardPile)
             {
                 deck.Add(card);
@@ -114,7 +115,7 @@ public class CardSystem : MonoBehaviour
             card.hasBeenPlayed = true;
         }
 
-        audioManager.Play("CardShuffle");
+        if (AudioManager.instance) AudioManager.instance.PlayFX(shuffleSound);
 
         for (int i = 0; i < availableCardSlots.Length; i++) {
             availableCardSlots[i] = true;

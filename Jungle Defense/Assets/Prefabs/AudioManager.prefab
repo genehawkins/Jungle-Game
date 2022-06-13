@@ -44,40 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac96ff8b1c8001741a61640a5da20ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - name: CardShuffle
-    clip: {fileID: 8300000, guid: 90cbd39ddb80e0b48bb8b56c17b2df64, type: 3}
-    volume: 0.8
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: DrawCard
-    clip: {fileID: 8300000, guid: d89656641f2c74846981ade8bcc38b14, type: 3}
-    volume: 0.8
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Error
-    clip: {fileID: 8300000, guid: d6f97333d2c21df4c80e5fda52001fac, type: 3}
-    volume: 0.8
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: StartSetup
-    clip: {fileID: 8300000, guid: c9f56f55df94e5543ae1d23fe5eaacaf, type: 3}
-    volume: 0.8
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: StartWave
-    clip: {fileID: 8300000, guid: 4562c0b98b6e49146b17659d7565f399, type: 3}
-    volume: 0.8
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: GameTheme
-    clip: {fileID: 8300000, guid: 7a0feaeb25b4df64b9effd632a221bb3, type: 3}
-    volume: 0.1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
+  gameMusic: {fileID: 8300000, guid: 7a0feaeb25b4df64b9effd632a221bb3, type: 3}
+  musicVol: 0.5
+  fxVol: 0.5
+  musicSrc: {fileID: 0}
+  fxSource: {fileID: 0}

@@ -4,55 +4,66 @@ using System;
 
 public class AudioManager : MonoBehaviour
 {
-    public Sound[] sounds; 
-
     public static AudioManager instance;
+    
+    [Header("Sounds")]
+    [SerializeField] private AudioClip gameMusic;
+    //[SerializeField] private AudioClip setupPhaseSound;
 
-    // Awake is called before the first frame update
+    [Header("Volume")] 
+    [SerializeField] private float musicVol = 0.5f; 
+    [SerializeField] private float fxVol = 0.5f;
+
+    [Header("Unity Setup")] 
+    private AudioSource musicSrc;
+    private AudioSource fxSource;
+
     void Awake()
     {   
-        
-        if (instance == null) {
+        // Create A Singleton Instance:
+        if (instance == null) 
+        {
             instance = this;
-        } else {
+            DontDestroyOnLoad(gameObject);
+        } 
+        else
+        {
             Destroy(gameObject);
-            return;
         }
 
-        DontDestroyOnLoad(gameObject);
-        
-
-        //Creates accessible array of sound clips that were manually entered in Unity
-        foreach (Sound s in sounds) {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-
-            s.source.volume = s.volume;
-            s.source.pitch = s.pitch;
-            s.source.loop = s.loop;
-        }
-
-        GameManager.SetupPhase.AddListener(PlaySetupSound);  //Sets up listener and plays chime during Unity Setup event
-
-        Play("GameTheme");
+        musicSrc = gameObject.AddComponent<AudioSource>();
+        fxSource = gameObject.AddComponent<AudioSource>();
     }
 
-
-    //Setup sound reference for event listener
-    private void PlaySetupSound()
+    private void Start()
     {
-        Play("StartSetup");
+        StartMusic();
+        fxSource.volume = fxVol;
+    }
+
+    private void StartMusic()
+    {
+        musicSrc.clip = gameMusic;
+        musicSrc.volume = musicVol;
+        musicSrc.loop = true;
+        musicSrc.Play();
+    }
+
+    public void SetMusicVol(float newVol)
+    {
+        musicVol = newVol;
+        musicSrc.volume = newVol;
     }
 
     //Plays audio clip based on file name
-    public void Play(string name)
+    public void PlayFX(AudioClip clip)
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        if (s == null) {
-            Debug.Log($"{name} NOT FOUND");
-            return;
-        } else {
-            //s.source.Play();  //THROWS ERROR WHEN PLAYING "DrawCard" FROM DrawNewHand() (CardSystem lines 73, 82)
-        }
+        fxSource.PlayOneShot(clip);
+    }
+    
+    public void SetFXVol(float newVol)
+    {
+        fxVol = newVol;
+        fxSource.volume = newVol;
     }
 }

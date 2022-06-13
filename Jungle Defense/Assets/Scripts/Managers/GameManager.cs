@@ -21,10 +21,16 @@ public class GameManager : MonoBehaviour
     public static readonly UnityEvent GamePhase = new UnityEvent();
     // bool to check whether currently in setup phase
     public static bool inSetupPhase = true;
+
+    [SerializeField] private AudioClip setupPhaseSound;
+    [SerializeField] private AudioClip gamePhaseSound;
+    [SerializeField] private AudioClip errorSound;
     
     private void Awake()
     {
         instance = this;
+        SetupPhase.AddListener(PlaySetupPhaseSound);
+        GamePhase.AddListener(PlayGamePhaseSound);
     }
 
     public static void GameOver(bool playerWon)
@@ -33,5 +39,20 @@ public class GameManager : MonoBehaviour
         // Debug.Log("Game Over, player " + status);
         YouWinOrLose.playerWon = playerWon;
         SceneManager.LoadScene("_EndScreen");
+    }
+
+    private void PlaySetupPhaseSound()
+    {
+        AudioManager.instance.PlayFX(setupPhaseSound);
+    }
+
+    private void PlayGamePhaseSound()
+    {
+        if (AudioManager.instance) AudioManager.instance.PlayFX(gamePhaseSound);
+    }
+
+    public void PlayErrorSound()
+    {
+        if (AudioManager.instance) AudioManager.instance.PlayFX(errorSound);
     }
 }

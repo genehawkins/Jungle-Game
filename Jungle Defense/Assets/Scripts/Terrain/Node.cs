@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class Node : MonoBehaviour
 {
-    public AudioManager audioManager;
     public TerrainType terrainType;
     public Color hoverColor;
 
     private GameObject build;
     private SpriteRenderer spr;
     private Color startColor;
+    [SerializeField] private AudioClip errorSound;
 
     void Start()
     {
@@ -48,7 +48,7 @@ public class Node : MonoBehaviour
             cardManager.currentlySelected.PlayCard();
             BuildManager.instance.thingToBuild = null;
         } else {
-            if (audioManager) audioManager.Play("Error");
+            GameManager.instance.PlayErrorSound();
             //TODO - Animate card to wiggle
         }
     }

@@ -8,7 +8,6 @@ public class WaveSpawner : MonoBehaviour
     [SerializeField] private float spawnCooldown = 0.2f;
     [SerializeField][NonReorderable] public Wave[] waves;
     private bool canStart;
-    public AudioManager audioManager;
 
     public int GetWaveNumber()
     {
@@ -36,7 +35,6 @@ public class WaveSpawner : MonoBehaviour
         canStart = false;
         GameManager.GamePhase?.Invoke();
         GameManager.inSetupPhase = false;
-        if (audioManager) audioManager.Play("StartWave");
         StartCoroutine(SpawnWave());
     }
 
