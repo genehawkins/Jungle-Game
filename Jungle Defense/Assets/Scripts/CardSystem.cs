@@ -37,6 +37,7 @@ public class CardSystem : MonoBehaviour
         // Listens for Unity Event that announces setup phase beginning to draw new card
         GameManager.SetupPhase.AddListener(StartDrawNewHand);
         GameManager.SetupPhase.AddListener(NewWaveActionPoints);
+        GameManager.SetupPhase.AddListener(ResetCards);
         Invoke(nameof(StartDrawNewHand), 1f);
     }
 
@@ -167,5 +168,16 @@ public class CardSystem : MonoBehaviour
     public void NewWaveActionPoints()
     {
         actionPoints += actionPointsPerWave;
+    }
+
+
+    //Resets hand of cards at start of wave
+    private void ResetCards()
+    {
+        foreach (Card card in hand) {
+            card.hovering = false;
+            card.transform.position = cardSlots[card.handIndex].position;
+            currentlySelected = null;
+        }
     }
 }

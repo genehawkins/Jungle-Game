@@ -10,7 +10,7 @@ public class Card : MonoBehaviour
     [NonSerialized] public int handIndex;
     public int activateCost;
     public TerrainType placementArea;
-    private bool hovering = false;
+    public bool hovering = false;
 
     [Header("Prefab")]
     public GameObject prefab;
