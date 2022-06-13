@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     // Awake is called before the first frame update
     void Awake()
     {   
+        
         if (instance == null) {
             instance = this;
         } else {
@@ -19,6 +20,7 @@ public class AudioManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+        
 
         //Creates accessible array of sound clips that were manually entered in Unity
         foreach (Sound s in sounds) {
@@ -47,9 +49,10 @@ public class AudioManager : MonoBehaviour
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null) {
+            Debug.Log($"{name} NOT FOUND");
             return;
         } else {
-            s.source.Play();
+            s.source.Play();  //THROWS ERROR WHEN PLAYING "DRAWCARD" FROM DrawNewHand() (CardSystem line 82)
         }
     }
 }

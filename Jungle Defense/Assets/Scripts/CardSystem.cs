@@ -79,7 +79,7 @@ public class CardSystem : MonoBehaviour
 
         for (var i = 0; i < numCards; i++) 
         {
-            audioManager.Play("DrawCard");
+            if (audioManager) audioManager.Play("DrawCard");  //GAME BREAKING BUG
             DrawCard();
             yield return new WaitForSeconds(0.2f);
         }
