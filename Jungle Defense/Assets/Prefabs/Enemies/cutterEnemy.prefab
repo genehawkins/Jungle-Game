@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 788206303136675486}
   - component: {fileID: 788206303136675487}
   - component: {fileID: 788206303136675480}
-  - component: {fileID: 788206303136675485}
-  - component: {fileID: -4476198742417022221}
   - component: {fileID: 1804913083961075752}
+  - component: {fileID: 2566483084747696011}
   m_Layer: 3
   m_Name: cutterEnemy
   m_TagString: Enemy
@@ -101,40 +100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
---- !u!114 &788206303136675485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788206303136675481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a833757c1fafe1447bc2f3891837c572, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 14
---- !u!50 &-4476198742417022221
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788206303136675481}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
 --- !u!61 &1804913083961075752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,7 +110,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.24}
@@ -161,3 +126,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48, y: 0.48}
   m_EdgeRadius: 0
+--- !u!114 &2566483084747696011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788206303136675481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6579dbc1bbd990848a16d0338b39e536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 9

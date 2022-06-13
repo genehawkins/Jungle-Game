@@ -39,9 +39,9 @@ public class Node : MonoBehaviour
         
         var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
         GameObject thingToBuild = BuildManager.instance.GetThingToBuild();  //Retrieve selected prefab from build manager
+        if (thingToBuild == null) return;
 
         //Places currently selected prefab on node
-        
         if (thingToBuild != null && cardManager.CanPlay() && CheckNode())
         {
             build = (GameObject)Instantiate(thingToBuild, transform.position, Quaternion.identity);
