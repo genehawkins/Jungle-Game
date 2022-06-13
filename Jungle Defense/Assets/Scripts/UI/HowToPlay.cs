@@ -14,8 +14,7 @@ public class HowToPlay : MonoBehaviour
     [SerializeField] private GameObject rightButton;
     [SerializeField] private TextMeshProUGUI bodyText;
 
-    private bool active = false;
-    private Canvas canvas;
+    [SerializeField] private ToggleMenu toggleMenu;
 
     [Header("Text")] 
     [SerializeField][TextArea(8,15)][NonReorderable]
@@ -24,7 +23,6 @@ public class HowToPlay : MonoBehaviour
 
     private void Awake()
     {
-        canvas = GetComponent<Canvas>();
         bodyText.text = pages[pageIdx];
     }
 
@@ -40,27 +38,16 @@ public class HowToPlay : MonoBehaviour
         bodyText.text = pages[pageIdx];
     }
 
-    public void ToggleActive()
-    {
-        active = !active;
-        canvas.enabled = active;
-        Time.timeScale = (active) ? 0f : 1f;
-    }
-
 
     //Disables side buttons on first and last pages
     void Update()
     {
-        if (Input.GetKeyDown(helpKey))
-        {
-            ToggleActive();
-        }
         UpdateButtons();
     }
 
     private void UpdateButtons()
     {
-        if (!active) return;
+        if (!toggleMenu.active) return;
         leftButton.SetActive( pageIdx > 0 );
         rightButton.SetActive( pageIdx < pages.Count - 1 );
     }

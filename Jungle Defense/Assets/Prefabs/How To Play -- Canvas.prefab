@@ -144,8 +144,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BACK
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 569cccdd9afc55c40a748a2ce268cd1a, type: 2}
+  m_sharedMaterial: {fileID: -6852017054431715656, guid: 569cccdd9afc55c40a748a2ce268cd1a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -169,8 +169,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.9
-  m_fontSizeBase: 29.9
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -246,11 +246,11 @@ RectTransform:
   m_Father: {fileID: 4536553470942518793}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.721331, y: -473.4}
-  m_SizeDelta: {x: 136.3518, y: 67.4343}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 20}
+  m_SizeDelta: {x: 180, y: 60}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4536553470756750212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -279,8 +279,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f3ef9222620b364ca0be7bdd61bffdb, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5840f371e0b1c764ba36e1c70909b6e4, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.6666667, g: 0.37647063, b: 0.15686275, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -333,8 +333,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 108611787}
-        m_TargetAssemblyTypeName: HowToPlay, Assembly-CSharp
+      - m_Target: {fileID: 2323950464831564037}
+        m_TargetAssemblyTypeName: ToggleMenu, Assembly-CSharp
         m_MethodName: ToggleActive
         m_Mode: 1
         m_Arguments:
@@ -495,6 +495,7 @@ GameObject:
   - component: {fileID: 4536553470942518795}
   - component: {fileID: 4536553470942518794}
   - component: {fileID: 108611787}
+  - component: {fileID: 2323950464831564037}
   m_Layer: 5
   m_Name: How To Play -- Canvas
   m_TagString: Untagged
@@ -548,7 +549,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!114 &4536553470942518795
 MonoBehaviour:
@@ -606,14 +607,15 @@ MonoBehaviour:
   leftButton: {fileID: 4536553471113541357}
   rightButton: {fileID: 4536553472099753094}
   bodyText: {fileID: 4536553472581823510}
+  toggleMenu: {fileID: 2323950464831564037}
   pages:
   - '
 
     Jungle Defense is tower defense with a card gaming twist.
 
 
-    Each
-    level you will face waves of enemies that are trying to destroy your base.
+    Each level
+    you will face waves of enemies that are trying to destroy your base.
 
 
     Protect
@@ -635,6 +637,20 @@ MonoBehaviour:
   - "\nThe Pink Gem in the lower right are your Action Points. They determine what
     combinations of cards you can play. \n\nEach Card has an Action Point Cost in
     its upper right corner."
+--- !u!114 &2323950464831564037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4536553470942518797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186488d38ed79a44287c578b9256facd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleKey: 282
+  canvas: {fileID: 4536553470942518792}
 --- !u!1 &4536553471113541357
 GameObject:
   m_ObjectHideFlags: 0
