@@ -6,10 +6,12 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private float damage = 1f;
+    private bool hasHit = false;
+    
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (!col.CompareTag("Enemy")) return;
-        
+        if (hasHit || !col.CompareTag("Enemy")) return;
+        hasHit = true; // to stop bullets from hitting multiple enemies.
         // Debug.Log($"hit: {col.name}");
         
         HasHealth hh = col.GetComponent<HasHealth>();

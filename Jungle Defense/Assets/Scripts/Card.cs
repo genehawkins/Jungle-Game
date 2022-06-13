@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Card : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class Card : MonoBehaviour
     //Selects the card when clicked on
     private void OnMouseDown()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         if (!hasBeenPlayed && GameManager.inSetupPhase)
         {
             var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
