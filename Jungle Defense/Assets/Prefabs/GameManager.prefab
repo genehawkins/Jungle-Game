@@ -308,7 +308,48 @@ MonoBehaviour:
   spawnCooldown: 0.1
   waves:
   - list:
-    - prefab: {fileID: 9135684976912069106, guid: f14965b0127744c46bed2ad7bf4e4801, type: 3}
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+      numToSpawn: 20
+  - list:
+    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+      numToSpawn: 20
+  - list:
+    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+      numToSpawn: 20
+  - list:
+    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+      numToSpawn: 20
+    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
       numToSpawn: 20
   audioManager: {fileID: 0}
 --- !u!114 &6536817544818967569

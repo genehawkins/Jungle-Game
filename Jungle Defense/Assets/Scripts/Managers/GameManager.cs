@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     public static void GameOver(bool playerWon)
     {
         var status = playerWon ? "won." : "lost.";
-        Debug.Log("Game Over, player " + status);
+        // Debug.Log("Game Over, player " + status);
         YouWinOrLose.playerWon = playerWon;
         SceneManager.LoadScene("_EndScreen");
     }

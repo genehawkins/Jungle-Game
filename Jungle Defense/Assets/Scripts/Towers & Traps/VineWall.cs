@@ -1,57 +1,73 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class VineWall : MonoBehaviour
 {
     [Header("Attributes")]
-    public int numUses = 3;
     public float slowRate = 2;
-    public float refreshTimer = 6f;
+    public float timeToRegen = 2;
 
     [Header("Unity Setup")]
-    public GameObject vine1;
-    public GameObject vine2;
-    public GameObject vine3;
+    public GameObject[] vines;
     
+    private int numUses;
+    private bool canReset;
+    private float timer;
 
-    private float countdown = 0f;
-
-    void OnTriggerEnter2D(Collider2D enemy)
+    private void Awake()
     {
-        //Detects enemy collisions and slows move speed
-        if (enemy.tag == "Enemy") {
-            //Debug.Log("We snared an enemy");
-            if (numUses > 0) {
-                enemy.GetComponent<EnemyMovement>().speed /= slowRate;
-            }
+        numUses = vines.Length;
+        GameManager.SetupPhase.AddListener(ResetVines);
+    }
 
-            numUses--;
+    void OnTriggerEnter2D(Collider2D c2d)
+    {
+        SlowEnemy(c2d);
+    }
 
-            //Removes vine graphics as trap is used up
-            if (numUses == 2) {
-                vine1.GetComponent<SpriteRenderer>().enabled = false;
-            } else if (numUses == 1) {
-                vine2.GetComponent<SpriteRenderer>().enabled = false;
-            } else if (numUses <= 0) {
-                vine3.GetComponent<SpriteRenderer>().enabled = false;
-                countdown = refreshTimer; //Refresh timer starts when trap is used up
-            }
+    // Slows the move speed of an Enemy
+    private void SlowEnemy(Collider2D enemy)
+    {
+        // Do not slow if target is not an enemy or there are no more uses.
+        if (!enemy.CompareTag("Enemy") || numUses <= 0) return;
+        
+        // Slow the enemy
+        enemy.GetComponent<EnemyMovement>().speed /= slowRate;
+        
+        // Removes vine graphics as trap is used up
+        var vineNum = vines.Length - numUses;
+        vines[vineNum].SetActive(false);
+        
+        // Reduce the number of uses
+        numUses--;
+
+        if (numUses <= 0)
+        {
+            canReset = true;
+            timer = timeToRegen;
         }
     }
 
-    void Update()
+    private void FixedUpdate()
     {
-        //Counts down and resets vine trap
-        if (countdown >= 0) {
-            countdown -= Time.deltaTime;
-
-            if (countdown <= 0) {
-                vine1.GetComponent<SpriteRenderer>().enabled = true;
-                vine2.GetComponent<SpriteRenderer>().enabled = true;
-                vine3.GetComponent<SpriteRenderer>().enabled = true;
-                numUses = 3;
-            }
+        if (!canReset) return;
+        
+        timer -= Time.fixedDeltaTime;
+        
+        if (timer <= 0)
+        {
+            canReset = false;
+            ResetVines();
         }
     }
 
-
+    private void ResetVines()
+    {
+        numUses = vines.Length;
+        foreach (var vine in vines)
+        {
+            vine.SetActive(true);
+        }
+    }
 }

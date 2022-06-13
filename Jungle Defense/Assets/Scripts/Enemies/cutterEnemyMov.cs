@@ -5,7 +5,7 @@ using UnityEngine;
 public class cutterEnemyMov : MonoBehaviour
 {
     //Speed that the enemies move.
-    public float speed = 14f;
+    public float speed = 3f;
 
     // Tracks the index in the array of WayPoints that the enemy is moving towards.
     private int pointIndex = 0;
