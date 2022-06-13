@@ -47,7 +47,7 @@ public class Card : MonoBehaviour
                 PlayCard();
             }
 
-            //Lowers currently selected card
+            //Slides down currently selected card if one exists
             if (cardManager.currentlySelected && this != cardManager.currentlySelected) {
                 cardManager.currentlySelected.hovering = false;
                 cardManager.currentlySelected.transform.position += Vector3.down * 1f;
@@ -55,8 +55,6 @@ public class Card : MonoBehaviour
 
             cardManager.currentlySelected = this;
             Debug.Log("currently selected = " + this.name);
-
-            //TODO - highlight selected card with border or animation
             
             GameManager.instance.buildManager.thingToBuild = prefab;  //Sets the current build item to the card's held prefab
         }

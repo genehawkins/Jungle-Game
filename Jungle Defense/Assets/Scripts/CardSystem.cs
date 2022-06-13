@@ -8,20 +8,21 @@ using System.Collections;
 public class CardSystem : MonoBehaviour
 {
     [Header("Values to balance")]
-    public int drawCardCount = 3;
-    [NonSerialized] public int actionPoints = 0;
-    public int actionPointsPerWave = 4;
-    [NonSerialized] public Card currentlySelected;
+    public int drawCardCount = 4;  //Number of cards drawn at the start of each wave
+    [NonSerialized] public int actionPoints = 0;  //Actions points available to player to play cards
+    public int actionPointsPerWave = 4;  //Action points gained at the start of each wave
+    [NonSerialized] public Card currentlySelected;  //Keeps track of the currently selected card
 
     [Header("Unity Setup")]
     public AudioManager audioManager;
     public GameManager gm;
-    public List<Card> deck;
-    public List<Card> hand;
+    public List<Card> database;  //Universal card library, contains one copy of every card
+    public List<Card> deck;  //Tracks cards in the deck
+    public List<Card> hand;  //Tracks cards in hand
     public TextMeshProUGUI deckSizeText;
     public GameObject deckCardSleeve;
 
-    public Transform[] cardSlots;
+    public Transform[] cardSlots;  //Positions for cards in hand
     public bool[] availableCardSlots;
 
     public List<Card> discardPile;
@@ -100,6 +101,7 @@ public class CardSystem : MonoBehaviour
         }
     }
 
+    //Allows player to discard and draw a new hand at the cost of base health
     public void Mulligan()
     {
         gm.GetComponent<BaseHealth>().DamageBase(2f);
@@ -110,6 +112,8 @@ public class CardSystem : MonoBehaviour
             card.handIndex = -1;
             card.hasBeenPlayed = true;
         }
+
+        audioManager.Play("CardShuffle");
 
         for (int i = 0; i < availableCardSlots.Length; i++) {
             availableCardSlots[i] = true;
@@ -148,5 +152,11 @@ public class CardSystem : MonoBehaviour
     public bool CanPlay()
     {
         return actionPoints >= currentlySelected.activateCost;
+    }
+
+    //Returns a random card from the database
+    public Card GetRandomCard()
+    {
+        return database[Random.Range(0, database.Count)];
     }
 }
