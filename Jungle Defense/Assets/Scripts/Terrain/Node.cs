@@ -38,7 +38,7 @@ public class Node : MonoBehaviour
         }
         
         var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
-        GameObject thingToBuild = BuildManager.instance.GetThingToBuild();
+        GameObject thingToBuild = BuildManager.instance.GetThingToBuild();  //Retrieve selected prefab from build manager
 
         //Places currently selected prefab on node
         

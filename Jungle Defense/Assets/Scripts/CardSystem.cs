@@ -15,7 +15,9 @@ public class CardSystem : MonoBehaviour
 
     [Header("Unity Setup")]
     public AudioManager audioManager;
+    public GameManager gm;
     public List<Card> deck;
+    public List<Card> hand;
     public TextMeshProUGUI deckSizeText;
     public GameObject deckCardSleeve;
 
@@ -26,8 +28,7 @@ public class CardSystem : MonoBehaviour
     public TextMeshProUGUI discardPileSizeText;
     public GameObject discardCardSleeve;
     public TextMeshProUGUI actionPointText;
-    //public TextMeshProUGUI currentBuildText;
-    //public TextMeshProUGUI deploymentCostText;
+
 
     void Start()
     {
@@ -57,6 +58,7 @@ public class CardSystem : MonoBehaviour
                     randomCard.transform.position = cardSlots[i].position;
                     randomCard.hasBeenPlayed = false;
                     deck.Remove(randomCard);
+                    hand.Add(randomCard);
                     availableCardSlots[i] = false;
                     if (audioManager) audioManager.Play("DrawCard");
                     return;
@@ -71,11 +73,12 @@ public class CardSystem : MonoBehaviour
     }
     
     //Draws a new hand of cards and increases action point allowance
-    public IEnumerator DrawNewHand()
+    public IEnumerator DrawNewHand(int numCards = 4)
     {
 
-        for (var i = 0; i < drawCardCount; i++) 
+        for (var i = 0; i < numCards; i++) 
         {
+            audioManager.Play("DrawCard");
             DrawCard();
             yield return new WaitForSeconds(0.2f);
         }
@@ -95,6 +98,26 @@ public class CardSystem : MonoBehaviour
             
             discardPile.Clear();
         }
+    }
+
+    public void Mulligan()
+    {
+        gm.GetComponent<BaseHealth>().DamageBase(2f);
+
+        foreach (Card card in hand) {
+            discardPile.Add(card);
+            card.gameObject.SetActive(false);
+            card.handIndex = -1;
+            card.hasBeenPlayed = true;
+        }
+
+        for (int i = 0; i < availableCardSlots.Length; i++) {
+            availableCardSlots[i] = true;
+        }
+
+        hand.Clear();
+
+        StartCoroutine(DrawNewHand(3));
     }
 
     private void Update()
@@ -119,23 +142,11 @@ public class CardSystem : MonoBehaviour
             discardCardSleeve.SetActive(false);
         }
         actionPointText.text = actionPoints.ToString("00");
-        
-        /*
-        if (currentlySelected != null) {
-            currentBuildText.text = $"Current build:\n{currentlySelected.name}";
-            deploymentCostText.text = $"Deployment cost:\n{currentlySelected.activateCost}";
-        } else {
-            currentBuildText.text = $"Current build:";
-            deploymentCostText.text = $"Deployment cost:";
-        }
-        */
     }
 
+    //Checks if player can afford card
     public bool CanPlay()
     {
-        if (actionPoints >= currentlySelected.activateCost) {
-            return true;
-        }
-        return false;
+        return actionPoints >= currentlySelected.activateCost;
     }
 }

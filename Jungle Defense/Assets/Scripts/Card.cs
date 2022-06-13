@@ -9,9 +9,30 @@ public class Card : MonoBehaviour
     [NonSerialized] public int handIndex;
     public int activateCost;
     public TerrainType placementArea;
+    private bool hovering = false;
 
     [Header("Prefab")]
     public GameObject prefab;
+    public GameObject cardHighlight;
+
+
+    void OnMouseOver()
+    {
+        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+        if (this != cardManager.currentlySelected && !hovering) {
+            hovering = true;
+            transform.position += Vector3.up * 1f;
+        }
+    }
+
+    void OnMouseExit()
+    {
+        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+        if (this != cardManager.currentlySelected && hovering) {
+            hovering = false;
+            transform.position += Vector3.down * 1f;
+        }
+    }
 
     //Selects the card when clicked on
     private void OnMouseDown()
@@ -20,18 +41,17 @@ public class Card : MonoBehaviour
         {
             var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
             
-            if (cardManager.currentlySelected != null) {    
-                cardManager.currentlySelected.transform.position += Vector3.down * 1f;
-            }
-            
             //Action point card is played immediately on click
             if (gameObject.CompareTag("ActionPoint")) {
                 cardManager.actionPoints++;
                 PlayCard();
             }
 
-            
-            transform.position += Vector3.up * 1f;  //Moves positions of cards to indicate current selection
+            //Lowers currently selected card
+            if (cardManager.currentlySelected && this != cardManager.currentlySelected) {
+                cardManager.currentlySelected.hovering = false;
+                cardManager.currentlySelected.transform.position += Vector3.down * 1f;
+            }
 
             cardManager.currentlySelected = this;
             Debug.Log("currently selected = " + this.name);
@@ -61,5 +81,16 @@ public class Card : MonoBehaviour
         cardManager.currentlySelected = null;
 
         StartCoroutine(MoveToDiscardPile());
+    }
+
+    void Update()
+    {
+        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+
+        if (activateCost <= cardManager.actionPoints) {
+            cardHighlight.SetActive(true);
+        } else {
+            cardHighlight.SetActive(false);
+        }
     }
 }
