@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
         instance = this;
         SetupPhase.AddListener(PlaySetupPhaseSound);
         GamePhase.AddListener(PlayGamePhaseSound);
+        inSetupPhase = true;
     }
 
     public static void GameOver(bool playerWon)
