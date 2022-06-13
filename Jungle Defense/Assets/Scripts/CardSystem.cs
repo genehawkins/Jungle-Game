@@ -9,7 +9,7 @@ public class CardSystem : MonoBehaviour
 {
     [Header("Values to balance")]
     public int drawCardCount = 4;  //Number of cards drawn at the start of each wave
-    [NonSerialized] public int actionPoints = 0;  //Actions points available to player to play cards
+    [NonSerialized] public int actionPoints = 4;  //Actions points available to player to play cards
     public int actionPointsPerWave = 4;  //Action points gained at the start of each wave
     [NonSerialized] public Card currentlySelected;  //Keeps track of the currently selected card
 
@@ -35,6 +35,7 @@ public class CardSystem : MonoBehaviour
     {
         // Listens for Unity Event that announces setup phase beginning to draw new card
         GameManager.SetupPhase.AddListener(StartDrawNewHand);
+        GameManager.SetupPhase.AddListener(NewWaveActionPoints);
         Invoke(nameof(StartDrawNewHand), 1f);
     }
 
@@ -83,7 +84,7 @@ public class CardSystem : MonoBehaviour
             DrawCard();
             yield return new WaitForSeconds(0.2f);
         }
-        actionPoints += actionPointsPerWave;
+        
     }
 
     //Adds items in discard pile back into deck and clears discard pile list
@@ -121,7 +122,9 @@ public class CardSystem : MonoBehaviour
 
         hand.Clear();
 
+        
         StartCoroutine(DrawNewHand(3));
+        
     }
 
     private void Update()
@@ -158,5 +161,10 @@ public class CardSystem : MonoBehaviour
     public Card GetRandomCard()
     {
         return database[Random.Range(0, database.Count)];
+    }
+
+    public void NewWaveActionPoints()
+    {
+        actionPoints += actionPointsPerWave;
     }
 }
