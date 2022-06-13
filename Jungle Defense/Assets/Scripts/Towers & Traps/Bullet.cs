@@ -10,12 +10,12 @@ public class Bullet : MonoBehaviour
     {
         if (!col.CompareTag("Enemy")) return;
         
-        //Debug.Log($"hit: {col.name}");
+        // Debug.Log($"hit: {col.name}");
         
         HasHealth hh = col.GetComponent<HasHealth>();
         if (hh)
         {
-            Debug.Log($"dealing {damage} damage to: {col.name}");
+            // Debug.Log($"dealing {damage} damage to: {col.name}");
             hh.TakeDamage(damage);
         }
         
