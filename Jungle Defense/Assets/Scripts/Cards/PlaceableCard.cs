@@ -8,11 +8,7 @@ public class PlaceableCard : Card
     {
         var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
             
-        //Action point card is played immediately on click
-        if (gameObject.CompareTag("ActionPoint")) {
-            cardManager.actionPoints++;
-            PlayCard();
-        }
+        
 
         //Slides down currently selected card if one exists
         if (cardManager.currentlySelected && this != cardManager.currentlySelected) {

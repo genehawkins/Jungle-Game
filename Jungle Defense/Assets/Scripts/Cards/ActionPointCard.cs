@@ -6,7 +6,10 @@ public class ActionPointCard : Card
 {
     public override void CardFunction()
     {
-        // TODO
-        base.CardFunction();
+        var cardManager = GameManager.instance.cardSystem;
+        
+        cardManager.actionPoints++;
+        PlayCard();
+        
     }
 }

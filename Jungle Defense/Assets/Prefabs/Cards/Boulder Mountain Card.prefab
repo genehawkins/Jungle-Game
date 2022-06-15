@@ -128,7 +128,7 @@ MonoBehaviour:
   activateCost: 5
   cardHighlight: {fileID: 1481965401474591774}
   prefab: {fileID: 2828710008852795014, guid: da27f3c5f37fe3d45a04412834a3367c, type: 3}
-  terrainType: 1
+  terrainType: 2
 --- !u!1001 &1899418532052581507
 PrefabInstance:
   m_ObjectHideFlags: 0

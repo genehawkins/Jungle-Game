@@ -51,6 +51,7 @@ public class Card : MonoBehaviour
         if (!hasBeenPlayed && GameManager.inSetupPhase)
         {
             CardFunction();
+            
         }
     }
 

@@ -126,7 +126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activateCost: 1
-  hovering: 0
   cardHighlight: {fileID: 8847000342845361043}
   prefab: {fileID: 4535652473891764862, guid: 90376b5f935f91844866e747a9641575, type: 3}
   terrainType: 1
@@ -184,6 +183,10 @@ PrefabInstance:
     - target: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
       propertyPath: m_Name
       value: CardHighlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}

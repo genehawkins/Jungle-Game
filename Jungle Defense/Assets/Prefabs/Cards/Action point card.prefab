@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5338973495789534333}
   - component: {fileID: 5338973495789534335}
   - component: {fileID: 5338973495789534334}
-  - component: {fileID: 5338973495789534208}
+  - component: {fileID: -9056368532023914114}
   m_Layer: 0
   m_Name: Action point card
   m_TagString: ActionPoint
@@ -113,7 +113,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.42, y: 8.09}
   m_EdgeRadius: 0
---- !u!114 &5338973495789534208
+--- !u!114 &-9056368532023914114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,13 +122,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5338973495789534332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7d10bd924c61e64a88e7934ddd4486e, type: 3}
+  m_Script: {fileID: 11500000, guid: a9d6a4b56138dc74ab8ecd27241021c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   activateCost: 0
-  placementArea: 0
-  prefab: {fileID: 0}
-  cardHighlight: {fileID: 9079909235891650591}
+  cardHighlight: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
 --- !u!1001 &8128638811863912578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -194,17 +192,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
 --- !u!4 &8885285937923689616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 828760829551516690, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
-  m_PrefabInstance: {fileID: 8128638811863912578}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &9079909235891650591 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
   m_PrefabInstance: {fileID: 8128638811863912578}
   m_PrefabAsset: {fileID: 0}
