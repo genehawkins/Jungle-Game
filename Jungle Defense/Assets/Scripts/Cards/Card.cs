@@ -8,14 +8,21 @@ public class Card : MonoBehaviour
     [Header("Card status")]
     [NonSerialized] public bool hasBeenPlayed;
     [NonSerialized] public int handIndex;
+    
     public int activateCost;
-    public TerrainType placementArea;
-    public bool hovering = false;
 
-    [Header("Prefab")]
-    public GameObject prefab;
+    [NonSerialized] public bool hovering = false;
     public GameObject cardHighlight;
+    
+    private void Update()
+    {
+        HighlightCard();
+    }
 
+    private void HighlightCard()
+    {
+        cardHighlight.SetActive(activateCost <= GameManager.instance.cardSystem.actionPoints);
+    }
 
     void OnMouseOver()
     {
@@ -35,39 +42,21 @@ public class Card : MonoBehaviour
         }
     }
 
-    //Selects the card when clicked on
+    // Executes Card Function when Clicked On
     private void OnMouseDown()
     {
+        // Check if UI is over card.
         if (EventSystem.current.IsPointerOverGameObject()) return;
+        
         if (!hasBeenPlayed && GameManager.inSetupPhase)
         {
-            var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
-            
-            //Action point card is played immediately on click
-            if (gameObject.CompareTag("ActionPoint")) {
-                cardManager.actionPoints++;
-                PlayCard();
-            }
-
-            //Slides down currently selected card if one exists
-            if (cardManager.currentlySelected && this != cardManager.currentlySelected) {
-                cardManager.currentlySelected.hovering = false;
-                cardManager.currentlySelected.transform.position += Vector3.down * 1f;
-            }
-
-            cardManager.currentlySelected = this;
-            Debug.Log("currently selected = " + this.name);
-            
-            GameManager.instance.buildManager.thingToBuild = prefab;  //Sets the current build item to the card's held prefab
+            CardFunction();
         }
     }
 
-    //Moves a card to discard pile
-    private IEnumerator MoveToDiscardPile()
+    public virtual void CardFunction()
     {
-        yield return new WaitForSeconds(0.5f);
-        GameManager.instance.cardSystem.discardPile.Add(this);
-        gameObject.SetActive(false);
+        Debug.Log("No Function");
     }
 
     public void PlayCard()
@@ -82,15 +71,12 @@ public class Card : MonoBehaviour
 
         StartCoroutine(MoveToDiscardPile());
     }
-
-    void Update()
+    
+    // Moves a card to discard pile
+    private IEnumerator MoveToDiscardPile()
     {
-        var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
-
-        if (activateCost <= cardManager.actionPoints) {
-            cardHighlight.SetActive(true);
-        } else {
-            cardHighlight.SetActive(false);
-        }
+        yield return new WaitForSeconds(0.5f);
+        GameManager.instance.cardSystem.discardPile.Add(this);
+        gameObject.SetActive(false);
     }
 }

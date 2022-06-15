@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 247343079146040645}
   - component: {fileID: 247343079146040647}
   - component: {fileID: 247343079146040644}
-  - component: {fileID: 247343079146040646}
+  - component: {fileID: 6365787292133793602}
   m_Layer: 0
   m_Name: Spike Trap Card
   m_TagString: Trap
@@ -113,7 +113,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.42, y: 8.09}
   m_EdgeRadius: 0
---- !u!114 &247343079146040646
+--- !u!114 &6365787292133793602
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,13 +122,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 247343079146040650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7d10bd924c61e64a88e7934ddd4486e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b622603eb5e8b2488ef9b4957349d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   activateCost: 2
-  placementArea: 1
-  prefab: {fileID: 2510518154662611361, guid: 0b7b0be64706d2f4baef95902d47d28d, type: 3}
   cardHighlight: {fileID: 5191725456800672226}
+  prefab: {fileID: 2510518154662611361, guid: 0b7b0be64706d2f4baef95902d47d28d, type: 3}
+  terrainType: 1
 --- !u!1001 &5098178625819294079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -139,14 +139,6 @@ PrefabInstance:
     - target: {fileID: 828760829551516690, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 828760829551516690, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.9824953
-      objectReference: {fileID: 0}
-    - target: {fileID: 828760829551516690, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 8.665697
       objectReference: {fileID: 0}
     - target: {fileID: 828760829551516690, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -191,10 +183,6 @@ PrefabInstance:
     - target: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
       propertyPath: m_Name
       value: CardHighlight
-      objectReference: {fileID: 0}
-    - target: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}

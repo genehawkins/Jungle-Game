@@ -73,7 +73,7 @@ public class CardSystem : MonoBehaviour
 
     public void StartDrawNewHand()
     {
-        StartCoroutine(DrawNewHand(4));
+        StartCoroutine(DrawNewHand(drawCardCount));
     }
     
     //Draws a new hand of cards and increases action point allowance

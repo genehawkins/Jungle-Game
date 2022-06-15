@@ -4,17 +4,17 @@ using UnityEngine.EventSystems;
 public class Node : MonoBehaviour
 {
     public TerrainType terrainType;
-    public Color hoverColor;
+    [SerializeField] private Color hoverColor = new Color(169, 169, 169);
 
     private GameObject build;
+    
     private SpriteRenderer spr;
-    private Color startColor;
+    
     [SerializeField] private AudioClip errorSound;
 
     void Start()
     {
         spr = GetComponent<SpriteRenderer>();
-        startColor = spr.material.color;  //Saves starting color of node
     }
 
     void OnMouseEnter()
@@ -27,7 +27,7 @@ public class Node : MonoBehaviour
 
     void OnMouseExit()
     {
-        spr.material.color = startColor;  //Returns node to initial color when mouse moves away
+        spr.material.color = Color.white;  //Returns node to initial color when mouse moves away
     }
 
     void OnMouseDown()
@@ -59,7 +59,7 @@ public class Node : MonoBehaviour
     private bool CheckNode()
     {
         var curSel = GameManager.instance.cardSystem.currentlySelected;
-        if (!curSel) return false;
-        return terrainType == curSel.placementArea;
+        if (!curSel || !curSel.TryGetComponent<PlaceableCard>(out var sel)) return false;
+        return terrainType == sel.terrainType;
     }
 }
