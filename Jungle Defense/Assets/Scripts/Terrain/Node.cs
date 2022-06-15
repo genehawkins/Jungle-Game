@@ -51,7 +51,7 @@ public class Node : MonoBehaviour
             BuildManager.instance.thingToBuild = null;
         } else {
             GameManager.instance.PlayErrorSound();
-            //TODO - Animate card to wiggle
+            //TODO - Animate card to wiggle...meh
         }
     }
 
