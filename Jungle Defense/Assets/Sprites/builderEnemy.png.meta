@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc80c6274ad7e4045b71d0dc44c9a8b3
+guid: e9d56a686432d4543a1d4e424fbef979
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,34 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tankerEnemy_0
+      name: builderEnemy_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 20
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94049a95444961e4dbd12cdf2576ab2d
-      internalID: -2112122169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tankerEnemy_1
-      rect:
-        serializedVersion: 2
-        x: 52
+        x: 3
         y: 0
         width: 19
-        height: 31
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,40 +118,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b25a83c2e4b0794bbad518d97624e23
-      internalID: -83659040
+      spriteID: cbbc9f0e475f51a489de0098ed800168
+      internalID: 803419870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tankerEnemy_2
+      name: builderEnemy_1
       rect:
         serializedVersion: 2
-        x: 98
+        x: 56
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4810bd7417aae43b0f192d721150b3
+      internalID: -192668650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 101
         y: 0
         width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9471437f89152554c8d305ced70f9512
-      internalID: -982992837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tankerEnemy_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52a1629aecdcffc4a90571a2d6fc9e90
-      internalID: 589527917
+      spriteID: 9a4c8198748b10e48b33f66ea865ff32
+      internalID: 1313903328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tankerEnemy_4
+      name: builderEnemy_3
       rect:
         serializedVersion: 2
-        x: 195
+        x: 145
         y: 0
-        width: 23
-        height: 31
+        width: 27
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +181,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a314a13f8077d4c9f38fae2b60151f
-      internalID: 858270048
+      spriteID: fc9b0702379cbf1478aebcdfc3c9e05c
+      internalID: 1501256567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tankerEnemy_5
+      name: builderEnemy_4
       rect:
         serializedVersion: 2
-        x: 246
+        x: 199
+        y: 0
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fae174d283aba42a4ee75f7b05f43c
+      internalID: -1787207426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 243
         y: 0
         width: 19
-        height: 31
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88cb87929fa904841b55a64c67891c6d
-      internalID: 2017360806
+      spriteID: 22b52b52e4de7e349855492310e1d03e
+      internalID: -543162744
       vertices: []
       indices: 
       edges: []
@@ -240,12 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tankerEnemy_0: -2112122169
-      tankerEnemy_2: -982992837
-      tankerEnemy_1: -83659040
-      tankerEnemy_4: 858270048
-      tankerEnemy_3: 589527917
-      tankerEnemy_5: 2017360806
+      builderEnemy_4: -1787207426
+      builderEnemy_3: 1501256567
+      builderEnemy_2: 1313903328
+      builderEnemy_1: -192668650
+      builderEnemy_0: 803419870
+      builderEnemy_5: -543162744
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
