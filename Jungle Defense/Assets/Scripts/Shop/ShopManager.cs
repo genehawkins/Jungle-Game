@@ -9,10 +9,10 @@ public class ShopManager : MonoBehaviour
     [Header("Shop Items")]
     public ShopItemSO[] shopItemsSO;
     private bool[] shopItemsActive;
+    private int[] currentShop;
     
     [Header("Unity Setup")]
     public ShopTemplate[] shopPanels;
-    [SerializeField] private int[] currentShop;
     public Button[] buyBtn;
     [SerializeField] private Transform newCardOffscreenPos;
     
