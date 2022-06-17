@@ -1,35 +1,48 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class ShopManager : MonoBehaviour
 {
+    [Header("Shop Items")]
     public ShopItemSO[] ShopItemsSO;
+    private bool[] shopItemsActive;
+    
+    [Header("Unity Setup")]
     public ShopTemplate[] ShopPanels;
-    public GameObject ShopMenu;
-    public GameObject[] ShopPanelsGO;
     public Button[] BuyBtn;
+    
+    private System.Random rng = new System.Random();
 
-    void Start()
+    private void Start()
     {
-        for (int i = 0; i < ShopItemsSO.Length; i++)
+        shopItemsActive = new bool[ShopItemsSO.Length];
+        
+        foreach (var panel in ShopPanels)
         {
-            ShopPanelsGO[i].SetActive(true);
+            LoadPanel(panel);
         }
-        LoadShop();
+        
         UpdateBuyButtons();
     }
 
-    public void LoadShop()
+    private void LoadPanel(ShopTemplate panel)
     {
-        for (int i = 0; i < ShopItemsSO.Length; i++)
+        int num;
+        
+        while (true)
         {
-            ShopPanels[i].titleTxt.text = ShopItemsSO[i].title;
-            ShopPanels[i].description.text = ShopItemsSO[i].desc;
-            ShopPanels[i].costTxt.text = ShopItemsSO[i].cost.ToString();
+            num = rng.Next(0, ShopItemsSO.Length);
+            if (!shopItemsActive[num]) break;
         }
+
+        panel.titleTxt.text = ShopItemsSO[num].title;
+        panel.apCost.text = ShopItemsSO[num].apCost.ToString();
+        panel.description.text = ShopItemsSO[num].desc;
+        panel.costTxt.text = ShopItemsSO[num].cost.ToString();
+        shopItemsActive[num] = true;
     }
 
     private void UpdateBuyButtons()

@@ -5506,10 +5506,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1603106420}
-    - target: {fileID: 940631073, guid: 2926f9943813feb44bc915857ab6ad6a, type: 3}
-      propertyPath: m_text
-      value: New Hand (-2 HP)
-      objectReference: {fileID: 0}
     - target: {fileID: 972725496, guid: 2926f9943813feb44bc915857ab6ad6a, type: 3}
       propertyPath: m_Camera
       value: 
@@ -6518,6 +6514,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 277733011, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2089984370}
     - target: {fileID: 2468345459460586836, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -7532,7 +7532,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089984368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 24, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

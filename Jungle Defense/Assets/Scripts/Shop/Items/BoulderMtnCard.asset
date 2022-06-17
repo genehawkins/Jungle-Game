@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e42e47061a2136a4ebee82fdb3a29286, type: 3}
-  m_Name: ActionPointCard
+  m_Name: BoulderMtnCard
   m_EditorClassIdentifier: 
-  title: Action Point +
-  apCost: 0
-  desc: The Action Point Card provides 1 Additional Action Point to the player.
-  cost: 50
-  card: {fileID: 5338973495789534332, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
+  title: Mt. Boulder
+  apCost: 5
+  desc: Launches Boulders through Multiple Enemies.
+  cost: 100
+  card: {fileID: 4476232615514336030, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
