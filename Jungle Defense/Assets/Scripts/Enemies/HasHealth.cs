@@ -5,6 +5,7 @@ public class HasHealth : MonoBehaviour
     [Tooltip("This is the amount of damage the enemies can take before being destroyed.")]
     [SerializeField] private float health = 1f;
     //public GameObject Shop;
+    [SerializeField] private int coinsOnDeath = 5;
 
     public void TakeDamage(float amount = 1f)
     {
@@ -15,7 +16,7 @@ public class HasHealth : MonoBehaviour
     private void Death()
     {
         GameManager.instance.enemyTracker.EnemyDestroyed();
-        if (GameManager.instance.shopManager) GameManager.instance.shopManager.AddCoins();
+        MoneyManager.AddCoins(coinsOnDeath);
         Destroy(gameObject);
     }
 

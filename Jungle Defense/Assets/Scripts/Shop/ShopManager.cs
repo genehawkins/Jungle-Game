@@ -6,8 +6,6 @@ using TMPro;
 
 public class ShopManager : MonoBehaviour
 {
-    public int coins = 0;
-    public TMP_Text coinsUI;
     public ShopItemSO[] ShopItemsSO;
     public ShopTemplate[] ShopPanels;
     public GameObject ShopMenu;
@@ -20,23 +18,8 @@ public class ShopManager : MonoBehaviour
         {
             ShopPanelsGO[i].SetActive(true);
         }
-
-        coinsUI.text = "Coins: " + coins.ToString();
         LoadShop();
-        CheckBuy();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void AddCoins()
-    {
-        coins += 50;
-        coinsUI.text = "Coins: " + coins.ToString();
-        CheckBuy();
+        UpdateBuyButtons();
     }
 
     public void Resume()
@@ -55,30 +38,27 @@ public class ShopManager : MonoBehaviour
         }
     }
 
-    public void CheckBuy()
+    private void UpdateBuyButtons()
     {
         for (int i = 0; i < ShopItemsSO.Length; i++)
         {
-            if (coins >= ShopItemsSO[i].basecost)
-            {
-                BuyBtn[i].interactable = true;
-            }
-            else
-            {
-                BuyBtn[i].interactable = false;
-            }
+            BuyBtn[i].interactable = MoneyManager.CanPurchase(ShopItemsSO[i].basecost);
         }
     }
 
     public void BuyItem(int btnNo)
     {
-        if (coins >= ShopItemsSO[btnNo].basecost)
-        {
-            coins -= ShopItemsSO[btnNo].basecost;
-            coinsUI.text = "Coins: " + coins.ToString();
-            CheckBuy();
-            //unlock item
-        }
+        var cost = ShopItemsSO[btnNo].basecost;
+        
+        // Check if player can afford the item.
+        if (!MoneyManager.CanPurchase(cost)) return;
+        
+        // Make the purchase
+        MoneyManager.MakePurchase(cost); // Removes coins from MoneyManager.
+        UpdateBuyButtons();
+        
+        // TODO: Add Purchased Card to Deck
+        // TODO: GameManager.instance.cardSystem.deck.Add();
     }
 }
 
