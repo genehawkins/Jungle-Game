@@ -6,6 +6,9 @@ using UnityEngine;
 public class ShopItemSO : ScriptableObject
 {
     public string title;
-    public string description;
-    public int basecost;
+    public int apCost;
+    public string desc;
+    public int cost;
+    
+    public GameObject card;
 }

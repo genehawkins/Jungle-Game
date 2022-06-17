@@ -1,54 +1,73 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class ShopManager : MonoBehaviour
 {
-    public ShopItemSO[] ShopItemsSO;
-    public ShopTemplate[] ShopPanels;
-    public GameObject ShopMenu;
-    public GameObject[] ShopPanelsGO;
-    public Button[] BuyBtn;
+    [Header("Shop Items")]
+    public ShopItemSO[] shopItemsSO;
+    private bool[] shopItemsActive;
+    private int[] currentShop;
+    
+    [Header("Unity Setup")]
+    public ShopTemplate[] shopPanels;
+    public Button[] buyBtn;
+    [SerializeField] private Transform newCardOffscreenPos;
+    
+    private System.Random rng = new System.Random();
 
-    void Start()
+    private void Start()
     {
-        for (int i = 0; i < ShopItemsSO.Length; i++)
+        shopItemsActive = new bool[shopItemsSO.Length];
+        currentShop = new int[shopPanels.Length];
+
+        int i = 0;
+        foreach (var panel in shopPanels)
         {
-            ShopPanelsGO[i].SetActive(true);
+            LoadPanel(i, panel);
+            i++;
         }
-        LoadShop();
+        
         UpdateBuyButtons();
     }
 
-    public void Resume()
+    private void LoadPanel(int idx, ShopTemplate panel)
     {
-        ShopMenu.SetActive(false);
-        Time.timeScale = 1f;
-    }
-
-    public void LoadShop()
-    {
-        for (int i = 0; i < ShopItemsSO.Length; i++)
+        int num;
+        
+        while (true)
         {
-            ShopPanels[i].titleTxt.text = ShopItemsSO[i].title;
-            ShopPanels[i].description.text = ShopItemsSO[i].description;
-            ShopPanels[i].costTxt.text = ShopItemsSO[i].basecost.ToString();
+            num = rng.Next(0, shopItemsSO.Length);
+            if (!shopItemsActive[num]) break;
         }
+
+        panel.titleTxt.text = shopItemsSO[num].title;
+        panel.apCost.text = shopItemsSO[num].apCost.ToString();
+        panel.description.text = shopItemsSO[num].desc;
+        panel.costTxt.text = shopItemsSO[num].cost.ToString();
+        shopItemsActive[num] = true;
+        currentShop[idx] = num;
     }
 
-    private void UpdateBuyButtons()
+    public void UpdateBuyButtons()
     {
-        for (int i = 0; i < ShopItemsSO.Length; i++)
+        //Debug.Log("UpdateBuyButtons");
+        int btnNo = 0;
+        foreach (var btn in buyBtn)
         {
-            BuyBtn[i].interactable = MoneyManager.CanPurchase(ShopItemsSO[i].basecost);
+            var cost = shopItemsSO[currentShop[btnNo]].cost;
+            //Debug.Log($"Cost: {shopItemsSO[currentShop[btnNo]].cost}, Money: {MoneyManager.coins}");
+            btn.interactable = MoneyManager.CanPurchase(cost);
+            btnNo++;
         }
     }
 
     public void BuyItem(int btnNo)
     {
-        var cost = ShopItemsSO[btnNo].basecost;
+        var cardIdx = currentShop[btnNo];
+        var cost = shopItemsSO[cardIdx].cost;
         
         // Check if player can afford the item.
         if (!MoneyManager.CanPurchase(cost)) return;
@@ -58,7 +77,9 @@ public class ShopManager : MonoBehaviour
         UpdateBuyButtons();
         
         // TODO: Add Purchased Card to Deck
-        // TODO: GameManager.instance.cardSystem.deck.Add();
+        var newCardPrefab = shopItemsSO[cardIdx].card;
+        var go = Instantiate(newCardPrefab, newCardOffscreenPos.position, Quaternion.identity);
+        GameManager.instance.cardSystem.deck.Add(go.GetComponent<Card>());
     }
 }
 

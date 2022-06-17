@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public class MoneyManager : MonoBehaviour
     public static void AddCoins(int amount)
     {
         coins += amount;
+        GameManager.instance.shopManager.UpdateBuyButtons();
     }
 
     // Checks if you have enough coins to purchase an object of input: cost
@@ -24,5 +26,13 @@ public class MoneyManager : MonoBehaviour
     public static void MakePurchase(int cost)
     {
         coins -= cost;
+        GameManager.instance.shopManager.UpdateBuyButtons();
+    }
+    
+    // DO NOT USE
+    public static void Set(int amount)
+    {
+        coins = amount;
+        GameManager.instance.shopManager.UpdateBuyButtons();
     }
 }
