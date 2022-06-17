@@ -16,9 +16,9 @@ public class EnemyTracker : MonoBehaviour
         }
     }
 
-    public void EnemySpawned()
+    public void EnemiesSpawned(int num)
     {
-        enemiesAlive++;
+        enemiesAlive += num;
     }
 
     public int GetNumEnemies()

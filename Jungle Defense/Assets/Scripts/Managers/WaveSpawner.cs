@@ -20,8 +20,6 @@ public class WaveSpawner : MonoBehaviour
         GameManager.SetupPhase?.Invoke();
     }
 
-    private int numEnemiesToSpawn;
-
     private void SetupNextWave()
     {
         canStart = true;
@@ -42,20 +40,22 @@ public class WaveSpawner : MonoBehaviour
     {
         var waveHolder = new GameObject("Wave " + waveNum);
         var currentWave = waves[waveNum-1];
-        for (var i = 0; i < currentWave.list.Length; ++i)
+        
+        // Count Number of enemies for Wave and add to Enemy Tracker
+        foreach (var enemyType in currentWave.list)
         {
-            for (var j = 0; j < currentWave.list[i].numToSpawn; ++j)
+            GameManager.instance.enemyTracker.EnemiesSpawned(enemyType.numToSpawn);
+        }
+        
+        // Spawn All Enemies
+        foreach (var enemyType in currentWave.list)
+        {
+            for (var j = 0; j < enemyType.numToSpawn; ++j)
             {
-                GameManager.instance.enemyTracker.EnemySpawned();
-                Instantiate(currentWave.list[i].prefab, spawnPoint.transform.position, Quaternion.identity, waveHolder.transform);
+                Instantiate(enemyType.prefab, spawnPoint.transform.position, Quaternion.identity, waveHolder.transform);
                 yield return new WaitForSeconds(spawnCooldown);
             }
         }
-        /*for (int i = 0; i < numEnemiesToSpawn; ++i)
-        {
-            Instantiate(new GameObject(), spawnPoint.transform.position, Quaternion.identity, waveHolder.transform);
-            yield return new WaitForSeconds(spawnCooldown);
-        }*/
     }
 }
 
