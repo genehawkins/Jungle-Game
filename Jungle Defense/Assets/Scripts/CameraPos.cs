@@ -9,6 +9,18 @@ public class CameraPos : MonoBehaviour
 
     private void Update()
     {
+        if (!GameManager.inSetupPhase)
+        {
+            if (!_atTable)
+            {
+                var newPos = tableCameraPos.position;
+                newPos.z = -10;
+                transform.position = newPos;
+                _atTable = true;
+            }
+            return;
+        }
+        
         if (Input.GetKeyDown(key) && _atTable)
         {
             var newPos = shopCameraPos.position;
