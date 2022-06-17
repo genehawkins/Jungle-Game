@@ -13,6 +13,16 @@ public class Card : MonoBehaviour
 
     [NonSerialized] public bool hovering = false;
     public GameObject cardHighlight;
+    public Vector3 startDimensions;
+    [SerializeField] private Vector3 blowUpDimensions;
+    
+    
+
+    void Start()
+    {
+        startDimensions = transform.localScale;
+    }
+
     
     private void Update()
     {
@@ -27,19 +37,32 @@ public class Card : MonoBehaviour
     void OnMouseOver()
     {
         var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+
         if (this != cardManager.currentlySelected && !hovering) {
             hovering = true;
-            transform.position += Vector3.up * 1f;
+            transform.position += Vector3.up * 4f; 
+        } else if (this == cardManager.currentlySelected && !hovering) {
+            hovering = true;
+            transform.position += Vector3.up * 3f;
         }
+
+        transform.localScale = blowUpDimensions;
     }
 
     void OnMouseExit()
     {
         var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+        
         if (this != cardManager.currentlySelected && hovering) {
             hovering = false;
-            transform.position += Vector3.down * 1f;
+            transform.position += Vector3.down * 4f;
+        } else if (this == cardManager.currentlySelected && hovering) {
+            hovering = false;
+            transform.position += Vector3.down * 3f;
         }
+
+        transform.localScale = startDimensions;
+        
     }
 
     // Executes Card Function when Clicked On
@@ -50,6 +73,7 @@ public class Card : MonoBehaviour
         
         if (!hasBeenPlayed && GameManager.inSetupPhase)
         {
+            
             CardFunction();
             
         }

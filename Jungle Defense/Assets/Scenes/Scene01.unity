@@ -777,6 +777,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 33570991}
     m_Modifications:
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8129832940241046009, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1941,6 +1953,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike Trap Card (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
 --- !u!4 &578977901 stripped
@@ -2216,6 +2240,18 @@ PrefabInstance:
     - target: {fileID: 4476232615514336030, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
       propertyPath: m_Name
       value: Boulder Mountain Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145537925784690082, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145537925784690082, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145537925784690082, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
@@ -2547,6 +2583,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 33570991}
     m_Modifications:
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8129832940241046009, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2927,6 +2975,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5353585698531693540, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 14f5853f6971397429b45f1d161a4a89, type: 3}
     - target: {fileID: 7451495485020327176, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: spawnPoint
       value: 
@@ -6064,9 +6116,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2103862193}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: database.Array.data[0]
+      value: 
+      objectReference: {fileID: -9056368532023914114, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
+    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: database.Array.data[1]
+      value: 
+      objectReference: {fileID: 7145537925784690082, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
+    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: database.Array.data[2]
+      value: 
+      objectReference: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: database.Array.data[3]
+      value: 
+      objectReference: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: database.Array.data[4]
       value: 
-      objectReference: {fileID: 4476232615514336031, guid: 97a4e0469aed83a44a52e491257c7508, type: 3}
+      objectReference: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: cardSlots.Array.data[0]
       value: 
@@ -6275,6 +6343,18 @@ PrefabInstance:
     - target: {fileID: 2612882516405375467, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
@@ -6525,13 +6605,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 247343079146040647, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
       propertyPath: m_Name
       value: Spike Trap Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
@@ -6605,6 +6693,18 @@ PrefabInstance:
     - target: {fileID: 247343079146040650, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
       propertyPath: m_Name
       value: Spike Trap Card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
@@ -7549,6 +7649,18 @@ PrefabInstance:
     - target: {fileID: 2612882516405375467, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
@@ -8878,6 +8990,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 33570991}
     m_Modifications:
+    - target: {fileID: -9056368532023914114, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -9056368532023914114, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -9056368532023914114, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5338973495789534332, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
       propertyPath: m_Name
       value: Action point card
@@ -9145,6 +9269,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 33570991}
     m_Modifications:
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+      propertyPath: blowUpDimensions.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8129832940241046009, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
       propertyPath: m_RootOrder
       value: 6

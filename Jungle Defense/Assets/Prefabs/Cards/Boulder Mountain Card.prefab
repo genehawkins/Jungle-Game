@@ -127,6 +127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateCost: 5
   cardHighlight: {fileID: 1481965401474591774}
+  startDimensions: {x: 0, y: 0, z: 0}
+  blowUpDimensions: {x: 0.5, y: 0.5, z: 0.5}
   prefab: {fileID: 2828710008852795014, guid: da27f3c5f37fe3d45a04412834a3367c, type: 3}
   terrainType: 2
 --- !u!1001 &1899418532052581507

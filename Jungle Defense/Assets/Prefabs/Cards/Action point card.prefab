@@ -127,6 +127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateCost: 0
   cardHighlight: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
+  startDimensions: {x: 0, y: 0, z: 0}
+  blowUpDimensions: {x: 0.5, y: 0.5, z: 0.5}
 --- !u!1001 &8128638811863912578
 PrefabInstance:
   m_ObjectHideFlags: 0
