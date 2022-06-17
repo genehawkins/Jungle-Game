@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e42e47061a2136a4ebee82fdb3a29286, type: 3}
-  m_Name: newCard 1
+  m_Name: ActionPointCard
   m_EditorClassIdentifier: 
-  title: New Card
-  description: draw an extra card
-  basecost: 200
+  title: Action Point Card
+  desc: The Action Point Card provides 1 Additional Action Point to the player.
+  cost: 50
+  card: {fileID: 5338973495789534332, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}

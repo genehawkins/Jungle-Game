@@ -22,19 +22,13 @@ public class ShopManager : MonoBehaviour
         UpdateBuyButtons();
     }
 
-    public void Resume()
-    {
-        ShopMenu.SetActive(false);
-        Time.timeScale = 1f;
-    }
-
     public void LoadShop()
     {
         for (int i = 0; i < ShopItemsSO.Length; i++)
         {
             ShopPanels[i].titleTxt.text = ShopItemsSO[i].title;
-            ShopPanels[i].description.text = ShopItemsSO[i].description;
-            ShopPanels[i].costTxt.text = ShopItemsSO[i].basecost.ToString();
+            ShopPanels[i].description.text = ShopItemsSO[i].desc;
+            ShopPanels[i].costTxt.text = ShopItemsSO[i].cost.ToString();
         }
     }
 
@@ -42,13 +36,13 @@ public class ShopManager : MonoBehaviour
     {
         for (int i = 0; i < ShopItemsSO.Length; i++)
         {
-            BuyBtn[i].interactable = MoneyManager.CanPurchase(ShopItemsSO[i].basecost);
+            BuyBtn[i].interactable = MoneyManager.CanPurchase(ShopItemsSO[i].cost);
         }
     }
 
     public void BuyItem(int btnNo)
     {
-        var cost = ShopItemsSO[btnNo].basecost;
+        var cost = ShopItemsSO[btnNo].cost;
         
         // Check if player can afford the item.
         if (!MoneyManager.CanPurchase(cost)) return;
