@@ -240,6 +240,7 @@ GameObject:
   - component: {fileID: 7451495485020327176}
   - component: {fileID: 6536817544818967569}
   - component: {fileID: 7965391535881393988}
+  - component: {fileID: 1603106428}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -424,6 +425,19 @@ MonoBehaviour:
   actionPointText: {fileID: 6792817051193108639}
   drawCardSound: {fileID: 8300000, guid: d89656641f2c74846981ade8bcc38b14, type: 3}
   shuffleSound: {fileID: 8300000, guid: 90cbd39ddb80e0b48bb8b56c17b2df64, type: 3}
+--- !u!114 &1603106428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687114653324567123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116c09fffc0bc1441a652d7253182b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlimitedMoneyKey: 109
 --- !u!1 &4049498864880677926
 GameObject:
   m_ObjectHideFlags: 0
