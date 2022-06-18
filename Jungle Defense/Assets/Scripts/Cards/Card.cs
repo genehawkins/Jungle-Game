@@ -15,12 +15,12 @@ public class Card : MonoBehaviour
     public GameObject cardHighlight;
     public Vector3 startDimensions;
     [SerializeField] private Vector3 blowUpDimensions;
-    private SpriteRenderer spr;
+    [SerializeField] private SpriteRenderer spr;
+    [SerializeField] private SpriteRenderer gfxSpr;
     
     void Start()
     {
         startDimensions = transform.localScale;
-        spr = GetComponent<SpriteRenderer>();
     }
 
     
@@ -47,7 +47,8 @@ public class Card : MonoBehaviour
         }
 
         transform.localScale = blowUpDimensions;
-        spr.sortingOrder = 6;
+        spr.sortingOrder = 7;
+        gfxSpr.sortingOrder = 8;
     }
 
     void OnMouseExit()
@@ -64,6 +65,7 @@ public class Card : MonoBehaviour
 
         transform.localScale = startDimensions;
         spr.sortingOrder = 5;
+        gfxSpr.sortingOrder = 6;
     }
 
     // Executes Card Function when Clicked On
