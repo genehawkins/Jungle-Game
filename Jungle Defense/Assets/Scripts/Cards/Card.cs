@@ -74,7 +74,6 @@ public class Card : MonoBehaviour
         // Check if UI is over card.
         if (EventSystem.current.IsPointerOverGameObject()) return;
         
-        var cardManager = GameManager.instance.cardSystem;
         if (!hasBeenPlayed && GameManager.inSetupPhase)
         {
             
@@ -95,25 +94,17 @@ public class Card : MonoBehaviour
         hasBeenPlayed = true;
         
         cardManager.actionPoints -= activateCost;  //Subtracts activation cost from the total action points
-        
+        cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
         cardManager.currentlySelected = null;
 
         StartCoroutine(MoveToDiscardPile());
     }
     
     // Moves a card to discard pile
-    public IEnumerator MoveToDiscardPile()
+    private IEnumerator MoveToDiscardPile()
     {
         yield return new WaitForSeconds(0.5f);
         GameManager.instance.cardSystem.discardPile.Add(this);
-        GameManager.instance.cardSystem.hand.Remove(this);
-        GameManager.instance.cardSystem.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
         gameObject.SetActive(false);
-    }
-
-    //Checks if player can afford card
-    public bool CanPlay()
-    {
-        return activateCost <= GameManager.instance.cardSystem.actionPoints;
     }
 }

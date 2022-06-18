@@ -44,7 +44,7 @@ public class Node : MonoBehaviour
         if (thingToBuild == null) return;
 
         //Places currently selected prefab on node
-        if (thingToBuild != null && cardManager.currentlySelected.CanPlay() && CheckNode())
+        if (thingToBuild != null && cardManager.CanPlay() && CheckNode())
         {
             build = (GameObject)Instantiate(thingToBuild, transform.position, Quaternion.identity);
             cardManager.currentlySelected.PlayCard();

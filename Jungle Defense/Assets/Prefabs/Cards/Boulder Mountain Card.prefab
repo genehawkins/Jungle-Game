@@ -95,10 +95,10 @@ GameObject:
   - component: {fileID: 4476232615514336018}
   - component: {fileID: 4476232615514336029}
   - component: {fileID: 4476232615514336028}
-  - component: {fileID: 2723900534901313199}
+  - component: {fileID: 7145537925784690082}
   m_Layer: 0
   m_Name: Boulder Mountain Card
-  m_TagString: Instant
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -198,7 +198,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.42, y: 8.09}
   m_EdgeRadius: 0
---- !u!114 &2723900534901313199
+--- !u!114 &7145537925784690082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -213,13 +213,9 @@ MonoBehaviour:
   activateCost: 5
   cardHighlight: {fileID: 1481965401474591774}
   startDimensions: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
   blowUpDimensions: {x: 0.5, y: 0.5, z: 0.5}
   spr: {fileID: 4476232615514336029}
   gfxSpr: {fileID: 563342685989792998}
-=======
-  blowUpDimensions: {x: 1, y: 1, z: 2}
->>>>>>> Stashed changes
   prefab: {fileID: 2828710008852795014, guid: da27f3c5f37fe3d45a04412834a3367c, type: 3}
   terrainType: 2
 --- !u!1001 &1899418532052581507
