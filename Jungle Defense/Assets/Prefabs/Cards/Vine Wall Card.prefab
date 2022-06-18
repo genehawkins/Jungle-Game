@@ -111,7 +111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8129832940241046010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.87, y: -5.22, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -213,9 +213,13 @@ MonoBehaviour:
   activateCost: 1
   cardHighlight: {fileID: 8847000342845361043}
   startDimensions: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   blowUpDimensions: {x: 0.5, y: 0.5, z: 0.5}
   spr: {fileID: 8129832940241045991}
   gfxSpr: {fileID: 3875744530543995372}
+=======
+  blowUpDimensions: {x: 1, y: 1, z: 2}
+>>>>>>> Stashed changes
   prefab: {fileID: 4535652473891764862, guid: 90376b5f935f91844866e747a9641575, type: 3}
   terrainType: 1
 --- !u!1001 &8361552047153666830

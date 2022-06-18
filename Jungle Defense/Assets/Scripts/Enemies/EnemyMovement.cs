@@ -7,7 +7,7 @@ public class EnemyMovement : MonoBehaviour
     public float speed = 13f;
     
     // Tracks the index in the array of WayPoints that the enemy is moving towards.
-    private int pointIndex = 0;
+    public int pointIndex = 0;
     
     private SpriteRenderer spr;
     private Animator anim;
