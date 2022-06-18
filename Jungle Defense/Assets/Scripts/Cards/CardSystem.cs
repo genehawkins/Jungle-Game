@@ -153,12 +153,6 @@ public class CardSystem : MonoBehaviour
         actionPointText.text = actionPoints.ToString("00");
     }
 
-    //Checks if player can afford card
-    public bool CanPlay()
-    {
-        return actionPoints >= currentlySelected.activateCost;
-    }
-
     //Returns a random card from the database
     public Card GetRandomCard()
     {

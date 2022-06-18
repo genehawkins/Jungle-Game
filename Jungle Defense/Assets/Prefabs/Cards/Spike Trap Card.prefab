@@ -129,7 +129,7 @@ MonoBehaviour:
   activateCost: 2
   cardHighlight: {fileID: 5191725456800672226}
   startDimensions: {x: 0, y: 0, z: 0}
-  blowUpDimensions: {x: 0.5, y: 0.5, z: 0.5}
+  blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 247343079146040647}
   gfxSpr: {fileID: 5292932486755321971}
   prefab: {fileID: 2510518154662611361, guid: 0b7b0be64706d2f4baef95902d47d28d, type: 3}

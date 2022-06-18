@@ -107,4 +107,10 @@ public class Card : MonoBehaviour
         GameManager.instance.cardSystem.discardPile.Add(this);
         gameObject.SetActive(false);
     }
+
+    //Checks if player can afford card
+    public bool CanPlay()
+    {
+        return activateCost <= GameManager.instance.cardSystem.actionPoints;
+    }
 }

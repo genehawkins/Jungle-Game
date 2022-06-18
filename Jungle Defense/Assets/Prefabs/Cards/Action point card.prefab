@@ -211,9 +211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activateCost: 0
-  cardHighlight: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
+  cardHighlight: {fileID: 9079909235891650591}
   startDimensions: {x: 0, y: 0, z: 0}
-  blowUpDimensions: {x: 0.5, y: 0.5, z: 0.5}
+  blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 5338973495789534335}
   gfxSpr: {fileID: 4680597059630433515}
 --- !u!1001 &8128638811863912578
@@ -281,12 +281,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
 --- !u!4 &8885285937923689616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 828760829551516690, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
+  m_PrefabInstance: {fileID: 8128638811863912578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9079909235891650591 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1066483093827113117, guid: 60ecf677b6dbe4e40a8afd077224e1fb, type: 3}
   m_PrefabInstance: {fileID: 8128638811863912578}
   m_PrefabAsset: {fileID: 0}
