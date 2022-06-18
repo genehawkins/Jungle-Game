@@ -12,7 +12,6 @@ public class LostInFog : Card
             homeBase.immuneCount += 3;
             Debug.Log($"Immune count is {homeBase.immuneCount}");
             
-
             PlayCard();
         }
     }

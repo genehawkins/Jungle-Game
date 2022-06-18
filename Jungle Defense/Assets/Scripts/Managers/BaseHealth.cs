@@ -6,10 +6,12 @@ public class BaseHealth : MonoBehaviour
     private float maxHealth = 20f;
     public int immuneCount = 0;
     private bool isImmune = false;
+    [SerializeField] private EndNode endNode;
 
     void Update()
     {
         isImmune = immuneCount > 0;
+        endNode.ToggleFog(isImmune);
     }
 
     public void DamageBase(float amount = 1.0f)
