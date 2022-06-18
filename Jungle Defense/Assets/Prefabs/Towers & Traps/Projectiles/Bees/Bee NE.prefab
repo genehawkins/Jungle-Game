@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 403185977287855320, guid: 4babd3c5cd1ca004a9f4cc9c9d6c9fbf, type: 3}
       propertyPath: m_Name
-      value: Bee - UpRight Variant
+      value: Bee NE
       objectReference: {fileID: 0}
     - target: {fileID: 5409615401433916410, guid: 4babd3c5cd1ca004a9f4cc9c9d6c9fbf, type: 3}
       propertyPath: m_Size.x
@@ -33,11 +33,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5680799129643562363, guid: 4babd3c5cd1ca004a9f4cc9c9d6c9fbf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5680799129643562363, guid: 4babd3c5cd1ca004a9f4cc9c9d6c9fbf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5680799129643562363, guid: 4babd3c5cd1ca004a9f4cc9c9d6c9fbf, type: 3}
       propertyPath: m_LocalPosition.x
