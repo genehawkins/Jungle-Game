@@ -2947,10 +2947,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 171639579}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
-      propertyPath: deck.Array.size
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: discardCardSleeve
       value: 
       objectReference: {fileID: 719505259}

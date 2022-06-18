@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91348138c79614d41a14a5195f7f6d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 2
   coinsOnDeath: 2
 --- !u!114 &781345741174427945
 MonoBehaviour:
