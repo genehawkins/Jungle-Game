@@ -297,6 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb2403a71b64b5386965b5026a0e893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  immuneCount: 0
 --- !u!114 &7627477038838726847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,44 +326,52 @@ MonoBehaviour:
   spawnCooldown: 0.1
   waves:
   - list:
-    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
       numToSpawn: 3
   - list:
-    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
       numToSpawn: 7
   - list:
-    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
       numToSpawn: 5
-    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+    - prefab: {fileID: 3206305794646352630, guid: 1726332265d1d3a44afe4eb634cbc52c, type: 3}
       numToSpawn: 4
   - list:
-    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
       numToSpawn: 5
-    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+    - prefab: {fileID: 3206305794646352630, guid: 1726332265d1d3a44afe4eb634cbc52c, type: 3}
       numToSpawn: 5
   - list:
-    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
+      numToSpawn: 5
+    - prefab: {fileID: 3206305794646352630, guid: 1726332265d1d3a44afe4eb634cbc52c, type: 3}
+      numToSpawn: 2
+    - prefab: {fileID: 7645094218437722839, guid: 547f368cb4614584a84f86079314555f, type: 3}
       numToSpawn: 2
   - list:
-    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
       numToSpawn: 5
-    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+    - prefab: {fileID: 7645094218437722839, guid: 547f368cb4614584a84f86079314555f, type: 3}
       numToSpawn: 5
-    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+    - prefab: {fileID: 139068452484034794, guid: 60b3d1a5a155165479dad90f72e80d5a, type: 3}
       numToSpawn: 1
   - list:
-    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
       numToSpawn: 8
-    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+    - prefab: {fileID: 7645094218437722839, guid: 547f368cb4614584a84f86079314555f, type: 3}
       numToSpawn: 7
-    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+    - prefab: {fileID: 3206305794646352630, guid: 1726332265d1d3a44afe4eb634cbc52c, type: 3}
+      numToSpawn: 3
+    - prefab: {fileID: 139068452484034794, guid: 60b3d1a5a155165479dad90f72e80d5a, type: 3}
       numToSpawn: 1
   - list:
-    - prefab: {fileID: 7416684215026399451, guid: 5b22c5c468db35347933b3d37a04ec3e, type: 3}
+    - prefab: {fileID: 3004486466603848724, guid: 3dc6c3059d89df54088f94a019d0a628, type: 3}
       numToSpawn: 10
-    - prefab: {fileID: 788206303136675481, guid: 635bcd5dcac801a44b7eccf696c49f60, type: 3}
+    - prefab: {fileID: 7645094218437722839, guid: 547f368cb4614584a84f86079314555f, type: 3}
       numToSpawn: 10
-    - prefab: {fileID: 4322046082164386977, guid: 4945268de788f0e4694a41b33b3565b4, type: 3}
+    - prefab: {fileID: 3206305794646352630, guid: 1726332265d1d3a44afe4eb634cbc52c, type: 3}
+      numToSpawn: 3
+    - prefab: {fileID: 139068452484034794, guid: 60b3d1a5a155165479dad90f72e80d5a, type: 3}
       numToSpawn: 3
 --- !u!114 &6536817544818967569
 MonoBehaviour:
@@ -398,6 +407,10 @@ MonoBehaviour:
   - {fileID: 6365787292133793602, guid: 5ea60ef6e8c87334296e91962e686ac0, type: 3}
   - {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
   - {fileID: 677198168368463329, guid: 36665a603bb564a49a63eca1091b1cf9, type: 3}
+  - {fileID: 5673354418684848489, guid: 5e7fcec1fc878c1489255f9ab46e5b2b, type: 3}
+  - {fileID: 7145537925784690082, guid: fd8e9de6e40606548afe11dfa0166c96, type: 3}
+  - {fileID: 1601586294663534235, guid: 6d69f0644a3efbc4d8e3275d9128c95a, type: 3}
+  - {fileID: 4856160777024873886, guid: 02b650ddf39b98a489bed62f4b063392, type: 3}
   deck:
   - {fileID: 0}
   - {fileID: 0}

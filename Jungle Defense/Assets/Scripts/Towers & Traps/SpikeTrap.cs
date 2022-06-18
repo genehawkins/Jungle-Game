@@ -8,22 +8,33 @@ public class SpikeTrap : MonoBehaviour
     public GameObject spike2;
 
     //If collider detects an enemy, runs damage script
-    void OnTriggerEnter2D(Collider2D enemy)
+    private void OnTriggerEnter2D(Collider2D enemy)
     {
-        if (enemy.tag == "Enemy") {
-            numUses--;
+        if (!enemy.CompareTag("Enemy")) return;
+        
+        numUses--;
 
-            //Debug.Log("An enemy hit us");
-            enemy.GetComponent<HasHealth>().TakeDamage();
+        //Debug.Log("An enemy hit us");
+        enemy.GetComponent<HasHealth>().TakeDamage();
 
-            //Spike graphics are removed as the trap is used up
-            if (numUses == 2) {
-                Destroy(spike1);
-            } else if (numUses == 1) {
-                Destroy(spike2);
-            } else if (numUses <= 0) {
+        //Spike graphics are removed as the trap is used up
+        switch (numUses)
+        {
+            case 2:
+                spike1.SetActive(false);
+                break;
+            
+            case 1:
+                spike2.SetActive(false);
+                break;
+            
+            case 0:
                 Destroy(gameObject);
-            }
+                break;
+            
+            default:
+                Debug.Log("SpikeTrap.cs switch statement reached Default");
+                break;
         }
     }
 }

@@ -12,7 +12,7 @@ public class MoneyManager : MonoBehaviour
     public static void AddCoins(int amount)
     {
         coins += amount;
-        GameManager.instance.shopManager.UpdateBuyButtons();
+        if (GameManager.instance.shopManager.isActiveAndEnabled) GameManager.instance.shopManager.UpdateBuyButtons();
     }
 
     // Checks if you have enough coins to purchase an object of input: cost
@@ -26,13 +26,13 @@ public class MoneyManager : MonoBehaviour
     public static void MakePurchase(int cost)
     {
         coins -= cost;
-        GameManager.instance.shopManager.UpdateBuyButtons();
+        if (GameManager.instance.shopManager.isActiveAndEnabled) GameManager.instance.shopManager.UpdateBuyButtons();
     }
     
     // DO NOT USE
     public static void Set(int amount)
     {
         coins = amount;
-        GameManager.instance.shopManager.UpdateBuyButtons();
+        if (GameManager.instance.shopManager.isActiveAndEnabled) GameManager.instance.shopManager.UpdateBuyButtons();
     }
 }
