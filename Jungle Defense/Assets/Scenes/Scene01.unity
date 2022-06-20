@@ -250,6 +250,8 @@ Transform:
   - {fileID: 376504495}
   - {fileID: 1406244641}
   - {fileID: 94074830}
+  - {fileID: 3067154462625107209}
+  - {fileID: 1021355832}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1841,17 +1843,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5338973495789534333, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
   m_PrefabInstance: {fileID: 73783795}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &537076335 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -9056368532023914114, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
-  m_PrefabInstance: {fileID: 73783795}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9d6a4b56138dc74ab8ecd27241021c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &563229761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2953,11 +2944,11 @@ PrefabInstance:
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: deck.Array.data[0]
       value: 
-      objectReference: {fileID: 2051890219}
+      objectReference: {fileID: 3067154462625107224}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: deck.Array.data[1]
       value: 
-      objectReference: {fileID: 537076335}
+      objectReference: {fileID: 1021355835}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: deck.Array.data[2]
       value: 
@@ -2991,6 +2982,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 376504494}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: database.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: deck.Array.data[10]
       value: 
       objectReference: {fileID: 1406244642}
@@ -3002,6 +2997,10 @@ PrefabInstance:
       propertyPath: discardPileSizeText
       value: 
       objectReference: {fileID: 2103862193}
+    - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
+      propertyPath: database.Array.data[9]
+      value: 
+      objectReference: {fileID: 8512195349454043027, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
     - target: {fileID: 7965391535881393988, guid: 0993134657a18c34ca81a7802d24e823, type: 3}
       propertyPath: cardSlots.Array.data[0]
       value: 
@@ -3468,6 +3467,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 1009071041}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1021355832 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+  m_PrefabInstance: {fileID: 1928804785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021355835 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8512195349454043027, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+  m_PrefabInstance: {fileID: 1928804785}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba7f76590ed3974ebd9ba6e2e378776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1027857689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6969,6 +6984,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587815756007414406, guid: 38eb148ca2a2ab04d938ac79e05cbd12, type: 3}
   m_PrefabInstance: {fileID: 1922554461}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1928804785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 33570991}
+    m_Modifications:
+    - target: {fileID: 6942166083469661993, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_Name
+      value: Golden Temple Card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4816995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
 --- !u!1001 &1930365725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7320,17 +7392,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2612882516405375467, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
   m_PrefabInstance: {fileID: 1299770795}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2051890219 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2684814692328620408, guid: 921e9bd634889f643928fcbdbaed4483, type: 3}
-  m_PrefabInstance: {fileID: 1299770795}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b622603eb5e8b2488ef9b4957349d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2072296999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7866,3 +7927,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1264261749990452357, guid: 53d06a10bba661d45a7afc29090b66c8, type: 3}
   m_PrefabInstance: {fileID: 2147017279}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &3067154462625107209 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+  m_PrefabInstance: {fileID: 5388345840014154275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3067154462625107224 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8512195349454043027, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+  m_PrefabInstance: {fileID: 5388345840014154275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba7f76590ed3974ebd9ba6e2e378776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &5388345840014154275
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 33570991}
+    m_Modifications:
+    - target: {fileID: 6942166083469661993, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_Name
+      value: Golden Temple Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4816995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942166083469661994, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}
