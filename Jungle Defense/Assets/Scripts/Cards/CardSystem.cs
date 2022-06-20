@@ -107,7 +107,6 @@ public class CardSystem : MonoBehaviour
     //Allows player to discard and draw a new hand at the cost of base health
     public void Mulligan()
     {
-        gm.GetComponent<BaseHealth>().DamageBase(2f);
 
         foreach (Card card in hand) {
             discardPile.Add(card);
