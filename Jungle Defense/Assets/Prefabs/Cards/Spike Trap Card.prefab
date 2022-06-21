@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 247343079146040647}
   - component: {fileID: 247343079146040644}
   - component: {fileID: 6365787292133793602}
+  - component: {fileID: 7137194320044461169}
   m_Layer: 0
   m_Name: Spike Trap Card
   m_TagString: Trap
@@ -134,6 +135,19 @@ MonoBehaviour:
   gfxSpr: {fileID: 5292932486755321971}
   prefab: {fileID: 2510518154662611361, guid: 0b7b0be64706d2f4baef95902d47d28d, type: 3}
   terrainType: 1
+--- !u!114 &7137194320044461169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247343079146040650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893644f1138b6784b82e6b0d1daa009b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeAmount: 5
 --- !u!1 &8142821661032346290
 GameObject:
   m_ObjectHideFlags: 0

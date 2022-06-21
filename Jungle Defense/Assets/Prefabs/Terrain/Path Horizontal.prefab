@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1264261749990452357}
   - component: {fileID: 8136273817397191745}
   - component: {fileID: -4978130235165972347}
-  - component: {fileID: 4628927953324547676}
   - component: {fileID: 2966480671308127511}
   m_Layer: 31
   m_Name: Path Horizontal
@@ -113,18 +112,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4628927953324547676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437191690272480919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64c63f9e92da3a64d972fefa3221c523, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2966480671308127511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,6 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioManager: {fileID: 0}
   terrainType: 1
-  hoverColor: {r: 0.26415092, g: 0.21804911, b: 0.21804911, a: 0.61960787}
+  errorSound: {fileID: 8300000, guid: d6f97333d2c21df4c80e5fda52001fac, type: 3}

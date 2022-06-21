@@ -113,4 +113,10 @@ public class Card : MonoBehaviour
     {
         return activateCost <= GameManager.instance.cardSystem.actionPoints;
     }
+
+    public void CardShake()
+    {
+        if (!TryGetComponent(out ShakeMe shaker)) return;
+        shaker.Shake();
+    }
 }

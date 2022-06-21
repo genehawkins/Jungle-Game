@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6151202685487861222}
   - component: {fileID: 6151202685487861241}
   - component: {fileID: 1601586294663534235}
+  - component: {fileID: -8527835172294780111}
   m_Layer: 0
   m_Name: Lost In The Fog Card
   m_TagString: Trap
@@ -216,6 +217,19 @@ MonoBehaviour:
   blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 6151202685487861222}
   gfxSpr: {fileID: 1172880532917480941}
+--- !u!114 &-8527835172294780111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151202685487861243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893644f1138b6784b82e6b0d1daa009b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeAmount: 5
 --- !u!1001 &5874298057837797135
 PrefabInstance:
   m_ObjectHideFlags: 0

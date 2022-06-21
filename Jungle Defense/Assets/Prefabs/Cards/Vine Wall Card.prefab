@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 8129832940241045991}
   - component: {fileID: 8129832940241046008}
   - component: {fileID: 677198168368463329}
+  - component: {fileID: 3913169405724990526}
   m_Layer: 0
   m_Name: Vine Wall Card
   m_TagString: Trap
@@ -218,6 +219,19 @@ MonoBehaviour:
   gfxSpr: {fileID: 3875744530543995372}
   prefab: {fileID: 4535652473891764862, guid: 90376b5f935f91844866e747a9641575, type: 3}
   terrainType: 1
+--- !u!114 &3913169405724990526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8129832940241046010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893644f1138b6784b82e6b0d1daa009b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeAmount: 5
 --- !u!1001 &8361552047153666830
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4587815756007414406}
   - component: {fileID: 7277540953188688081}
-  - component: {fileID: 2574534308669801171}
   - component: {fileID: 7431558466483085707}
   - component: {fileID: 1249893286}
   m_Layer: 31
@@ -87,18 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2574534308669801171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770605878045604159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f3f814e847332d499acd8cffdecb422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &7431558466483085707
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -137,6 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e289fbdfe37d0d4493953281fb7ccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioManager: {fileID: 0}
   terrainType: 2
-  hoverColor: {r: 0.16037738, g: 0.14297795, b: 0.14297795, a: 0.6039216}
+  errorSound: {fileID: 8300000, guid: d6f97333d2c21df4c80e5fda52001fac, type: 3}

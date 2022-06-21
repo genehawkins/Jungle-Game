@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2497794572370490750}
   - component: {fileID: 2497794572370490721}
   - component: {fileID: 5433000999208868654}
+  - component: {fileID: 4011122267646633511}
   m_Layer: 0
   m_Name: Fresh Start Card
   m_TagString: Trap
@@ -133,6 +134,19 @@ MonoBehaviour:
   spr: {fileID: 2497794572370490750}
   gfxSpr: {fileID: 7472153547356771701}
   healthLoss: 2
+--- !u!114 &4011122267646633511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2497794572370490723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893644f1138b6784b82e6b0d1daa009b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeAmount: 5
 --- !u!1 &6248772483667332520
 GameObject:
   m_ObjectHideFlags: 0

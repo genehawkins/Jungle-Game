@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6942166083469662004}
   - component: {fileID: 6942166083469661995}
   - component: {fileID: 8512195349454043027}
+  - component: {fileID: 2867553694765030602}
   m_Layer: 0
   m_Name: Golden Temple Card
   m_TagString: Trap
@@ -217,6 +218,19 @@ MonoBehaviour:
   spr: {fileID: 6942166083469662004}
   gfxSpr: {fileID: 2687551271838414655}
   goldAmount: 20
+--- !u!114 &2867553694765030602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6942166083469661993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893644f1138b6784b82e6b0d1daa009b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeAmount: 5
 --- !u!1001 &7246085026807793117
 PrefabInstance:
   m_ObjectHideFlags: 0
