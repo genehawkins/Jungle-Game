@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
     public Image fill;
+    public float timeToShow = 1.0f;
 
     public void SetMaxHealth(float health)
     {
@@ -31,7 +32,7 @@ public class HealthBar : MonoBehaviour
     private IEnumerator ShowForATime()
     {
         canvas.SetActive(true);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(timeToShow);
         canvas.SetActive(false);
     }
 }

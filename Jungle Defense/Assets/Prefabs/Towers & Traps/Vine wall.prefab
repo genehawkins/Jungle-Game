@@ -348,9 +348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc235e272751f94191d8cada3575e81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowRate: 2
-  timeToRegen: 2
-  vines:
+  parts:
   - {fileID: 4535652472933931487}
   - {fileID: 4535652472995023890}
   - {fileID: 4535652473458008358}
+  cooldownTimer: 2
+  slowRate: 3

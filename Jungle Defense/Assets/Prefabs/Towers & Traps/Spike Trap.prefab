@@ -180,9 +180,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd09a1197e6637e409f64ac193c721d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numUses: 3
-  spike1: {fileID: 2362910656635337843}
-  spike2: {fileID: 6994561519255172830}
+  parts:
+  - {fileID: 2362910656635337843}
+  - {fileID: 4196548874181702342}
+  - {fileID: 6994561519255172830}
+  cooldownTimer: 3
 --- !u!1 &4196548874181702342
 GameObject:
   m_ObjectHideFlags: 0
