@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class HasHealth : MonoBehaviour
@@ -6,10 +7,17 @@ public class HasHealth : MonoBehaviour
     [SerializeField] private float health = 1f;
     //public GameObject Shop;
     [SerializeField] private int coinsOnDeath = 5;
+    [SerializeField] private HealthBar hpBar;
+    
+    private void Start()
+    {
+        hpBar.SetMaxHealth(health);
+    }
 
     public void TakeDamage(float amount = 1f)
     {
         health -= amount;
+        hpBar.UpdateHealth(health);
         if (health <= 0f) Death();
     }
 

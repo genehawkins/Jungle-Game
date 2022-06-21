@@ -58,7 +58,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 950262031
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &4656558470004845466
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &228737643642723617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2
   coinsOnDeath: 2
+  hpBar: {fileID: 6861398765670777867}
 --- !u!114 &6692510819857298589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,7 +300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef777d3722b6b134ca942aa98a7e8e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  canvas: {fileID: 1762473075370465856}
+  slider: {fileID: 5966305831414289171}
   gradient:
     serializedVersion: 2
     key0: {r: 0.9716981, g: 0.041251317, b: 0.041251317, a: 1}
@@ -329,6 +331,7 @@ MonoBehaviour:
     m_Mode: 1
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
+  fill: {fileID: 8959332339146133174}
 --- !u!1 &6143538998244471556
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,8 +367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.296, y: 0}
-  m_SizeDelta: {x: 0.6, y: 0.0000000037252903}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2329381515494224376
 CanvasRenderer:
@@ -567,7 +570,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
