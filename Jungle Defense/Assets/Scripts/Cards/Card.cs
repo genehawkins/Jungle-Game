@@ -112,6 +112,7 @@ public class Card : MonoBehaviour
 
         cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
         cardManager.currentlySelected = null;
+        cardManager.hand.Remove(this);
 
         StartCoroutine(MoveToDiscardPile());
     }

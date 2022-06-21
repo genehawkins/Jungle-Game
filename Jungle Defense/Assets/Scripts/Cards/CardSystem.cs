@@ -104,7 +104,7 @@ public class CardSystem : MonoBehaviour
         }
     }
 
-    //Allows player to discard and draw a new hand at the cost of base health
+    //Allows player to discard and draw a new hand **NOTE**Losing health function moved to FrestStart.cs
     public void Mulligan()
     {
 
