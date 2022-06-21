@@ -129,6 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateCost: 2
   cardHighlight: {fileID: 5191725456800672226}
+  freeColor: {r: 0.94509804, g: 0, b: 0.81960785, a: 0.84313726}
   startDimensions: {x: 0, y: 0, z: 0}
   blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 247343079146040647}

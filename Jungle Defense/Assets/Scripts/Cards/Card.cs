@@ -8,11 +8,15 @@ public class Card : MonoBehaviour
     [Header("Card status")]
     [NonSerialized] public bool hasBeenPlayed;
     [NonSerialized] public int handIndex;
+    [NonSerialized] public bool isFree = false;
     
     public int activateCost;
+    [NonSerialized] private int normalCost;
 
     [NonSerialized] public bool hovering = false;
     public GameObject cardHighlight;
+    [SerializeField] private Color freeColor;
+    private Color startColor;
     public Vector3 startDimensions;
     [SerializeField] private Vector3 blowUpDimensions;
     [SerializeField] private SpriteRenderer spr;
@@ -21,12 +25,22 @@ public class Card : MonoBehaviour
     void Start()
     {
         startDimensions = transform.localScale;
+        normalCost = activateCost;
+        startColor = cardHighlight.GetComponent<SpriteRenderer>().color;
     }
 
     
     private void Update()
     {
         HighlightCard();
+        
+        if (isFree) {
+            activateCost = 0;
+            cardHighlight.GetComponent<SpriteRenderer>().color = freeColor;
+        } else {
+            activateCost = normalCost;
+            cardHighlight.GetComponent<SpriteRenderer>().color = startColor;
+        }
     }
 
     private void HighlightCard()
@@ -94,6 +108,8 @@ public class Card : MonoBehaviour
         hasBeenPlayed = true;
         
         cardManager.actionPoints -= activateCost;  //Subtracts activation cost from the total action points
+        isFree = false;
+
         cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
         cardManager.currentlySelected = null;
 
