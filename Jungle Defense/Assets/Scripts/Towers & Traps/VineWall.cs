@@ -12,13 +12,14 @@ public class VineWall : Trap
 
     protected override void TrapEffect(Collider2D enemy)
     {
-        StartCoroutine(Co_SlowEnemyForTime(enemy));
+        var enemyMovement = enemy.GetComponent<EnemyMovement>();
+        StartCoroutine(Co_SlowEnemyForTime(enemyMovement));
     }
 
-    private IEnumerator Co_SlowEnemyForTime(Collider2D enemy)
+    private IEnumerator Co_SlowEnemyForTime(EnemyMovement enemyMovement)
     {
-        if (enemy) enemy.GetComponent<EnemyMovement>().speed /= slowRate;
+        if (enemyMovement) enemyMovement.speed /= slowRate;
         yield return new WaitForSeconds(effectTime);
-        if (enemy) enemy.GetComponent<EnemyMovement>().speed *= slowRate;
+        if (enemyMovement) enemyMovement.speed *= slowRate;
     }
 }
