@@ -59,7 +59,7 @@ public class ShopManager : MonoBehaviour
         {
             var cost = shopItemsSO[currentShop[btnNo]].cost;
             //Debug.Log($"Cost: {shopItemsSO[currentShop[btnNo]].cost}, Money: {MoneyManager.coins}");
-            btn.interactable = MoneyManager.CanPurchase(cost);
+            btn.interactable = GameManager.instance.moneyManager.CanPurchase(cost);
             btnNo++;
         }
     }
@@ -68,12 +68,13 @@ public class ShopManager : MonoBehaviour
     {
         var cardIdx = currentShop[btnNo];
         var cost = shopItemsSO[cardIdx].cost;
-        
+
+        var moneyManager = GameManager.instance.moneyManager;
         // Check if player can afford the item.
-        if (!MoneyManager.CanPurchase(cost)) return;
+        if (!moneyManager.CanPurchase(cost)) return;
         
         // Make the purchase
-        MoneyManager.MakePurchase(cost); // Removes coins from MoneyManager.
+        moneyManager.MakePurchase(cost); // Removes coins from MoneyManager.
         UpdateBuyButtons();
         
         // TODO: Add Purchased Card to Deck

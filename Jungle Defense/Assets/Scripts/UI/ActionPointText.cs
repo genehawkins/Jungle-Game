@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class CoinsText : MonoBehaviour
+public class ActionPointText : MonoBehaviour
 {
     private TextMeshProUGUI tmp;
 
@@ -12,7 +12,7 @@ public class CoinsText : MonoBehaviour
 
     private void Update()
     {
-        var value = GameManager.instance.moneyManager.coins.ToString("00");
+        var value = GameManager.instance.cardSystem.actionPoints.ToString();
         tmp.text = value;
     }
 }

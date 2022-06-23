@@ -14,7 +14,7 @@ public class WaveSpawner : MonoBehaviour
         return waveNum;
     }
 
-    private void Awake()
+    private void Start()
     {
         GameManager.SetupPhase.AddListener(SetupNextWave);
         GameManager.SetupPhase?.Invoke();

@@ -27,7 +27,7 @@ public class CardSystem : MonoBehaviour
     public List<Card> discardPile;
     public TextMeshProUGUI discardPileSizeText;
     public GameObject discardCardSleeve;
-    public TextMeshProUGUI actionPointText;
+    //public TextMeshProUGUI actionPointText; MOVED to ActionPointText.cs
 
     [SerializeField] private AudioClip drawCardSound;
     [SerializeField] private AudioClip shuffleSound;
@@ -149,7 +149,7 @@ public class CardSystem : MonoBehaviour
         {
             discardCardSleeve.SetActive(false);
         }
-        actionPointText.text = actionPoints.ToString("00");
+        //actionPointText.text = actionPoints.ToString("00"); MOVED to ActionPointText.cs
     }
 
     //Returns a random card from the database

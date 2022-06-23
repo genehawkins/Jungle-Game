@@ -11,10 +11,11 @@ public class GoldOffering : Card
     {
         var cardManager = GameManager.instance.cardSystem;
 
-        if (CanPlay() && MoneyManager.coins >= coinLoss && cardManager.hand.Count > 1) {
+        var moneyManager = GameManager.instance.moneyManager;
+        if (CanPlay() && moneyManager.coins >= coinLoss && cardManager.hand.Count > 1) {
             PlayCard();
 
-            MoneyManager.MakePurchase(coinLoss);
+            moneyManager.MakePurchase(coinLoss);
 
             Card randCard = cardManager.hand[Random.Range(0, cardManager.hand.Count)];
             while (randCard == this) {
@@ -22,7 +23,6 @@ public class GoldOffering : Card
             }
 
             randCard.isFree = true;
-            
         }
     }
 }

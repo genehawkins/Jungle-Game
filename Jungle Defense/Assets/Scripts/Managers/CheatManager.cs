@@ -64,10 +64,12 @@ public class CheatManager : MonoBehaviour
     private void UnlimitedMoney()
     {
         if (!unlimitedMoneyActive) return;
-        if (MoneyManager.coins != 999)
+
+        var moneyManager = GameManager.instance.moneyManager;
+        if (moneyManager.coins != 999)
         {
             // Set Amount of coins to 999
-            MoneyManager.Set(999);
+            moneyManager.Set(999);
             
             // Update Shop Buttons
             var shop = GameManager.instance.shopManager;

@@ -18,25 +18,15 @@ public class AudioManager : MonoBehaviour
     private AudioSource musicSrc;
     private AudioSource fxSource;
 
-    void Awake()
-    {   
-        // Create A Singleton Instance:
-        if (instance == null) 
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        } 
-        else
-        {
-            Destroy(gameObject);
-        }
-
+    private void Awake()
+    {
         musicSrc = gameObject.AddComponent<AudioSource>();
         fxSource = gameObject.AddComponent<AudioSource>();
     }
 
     private void Start()
     {
+        instance = this;
         StartMusic();
         fxSource.volume = fxVol;
     }

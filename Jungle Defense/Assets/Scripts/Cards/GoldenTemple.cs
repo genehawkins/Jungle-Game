@@ -23,7 +23,7 @@ public class GoldenTemple : Card
             cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
             randCard.gameObject.SetActive(false);
 
-            MoneyManager.AddCoins(goldAmount);
+            GameManager.instance.moneyManager.AddCoins(goldAmount);
         }
     }
 }

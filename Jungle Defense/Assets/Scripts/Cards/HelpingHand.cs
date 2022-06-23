@@ -10,7 +10,7 @@ public class HelpingHand : Card
         var cardManager = GameManager.instance.cardSystem;
 
         if (CanPlay()) {
-            MoneyManager.AddCoins(coinsGained);
+            GameManager.instance.moneyManager.AddCoins(coinsGained);
 
             PlayCard();
             cardManager.availableCardSlots[handIndex] = true;

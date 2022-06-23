@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public CardSystem cardSystem;
     public BuildManager buildManager;
     public ShopManager shopManager;
+    public MoneyManager moneyManager;
 
     // unity event that announces the start of setup phase
     public static readonly UnityEvent SetupPhase = new UnityEvent();

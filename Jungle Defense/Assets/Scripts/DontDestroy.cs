@@ -12,14 +12,16 @@ public class DontDestroy : MonoBehaviour
     private void Start()
     {
         DontDestroy[] dontDestroyList = FindObjectsOfType<DontDestroy>();
-        for (int i = 0; i < dontDestroyList.Length; ++i)
+        foreach (var dontDestroy in dontDestroyList)
         {
-            if (dontDestroyList[i] != this && dontDestroyList[i].id == id)
+            if (dontDestroy != this && dontDestroy.id == id)
             {
                 Destroy(gameObject);
                 return;
             }
         }
+
+        transform.parent = null;
         DontDestroyOnLoad(this);
     }
 }
