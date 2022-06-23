@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4462045771746491290}
   - component: {fileID: 6218789880928288522}
   - component: {fileID: 7368598663783007560}
+  - component: {fileID: 4310534393148405881}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -67,6 +68,19 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
+--- !u!114 &4310534393148405881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565540340516599204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a8e8544337bfd4aab0c5d2bcec5835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
 --- !u!1 &4080753384190180456
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,7 +270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7536527544903592666}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.040442, y: -5.4038076, z: -0.2402816}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
