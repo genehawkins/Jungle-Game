@@ -134,6 +134,7 @@ MonoBehaviour:
   blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 4476232615514336029}
   gfxSpr: {fileID: 7466247079412773652}
+  cardPlaySound: {fileID: 8300000, guid: 1b6104116c6438242b5d05018257a2e3, type: 3}
   prefab: {fileID: 4787649238262190248, guid: 356d886e95539964e993c32c605ed059, type: 3}
   terrainType: 2
 --- !u!114 &7907296798764266866

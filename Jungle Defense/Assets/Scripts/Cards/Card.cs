@@ -21,6 +21,7 @@ public class Card : MonoBehaviour
     [SerializeField] private Vector3 blowUpDimensions;
     [SerializeField] private SpriteRenderer spr;
     [SerializeField] private SpriteRenderer gfxSpr;
+    [SerializeField] private AudioClip cardPlaySound;
     
     void Start()
     {
@@ -104,6 +105,8 @@ public class Card : MonoBehaviour
     public void PlayCard()
     {
         var cardManager = GameManager.instance.cardSystem; // Get Current CardSystem
+
+        if (AudioManager.instance) AudioManager.instance.PlayFX(cardPlaySound);  //Plays audio clip attached to card's prefab
         
         hasBeenPlayed = true;
         

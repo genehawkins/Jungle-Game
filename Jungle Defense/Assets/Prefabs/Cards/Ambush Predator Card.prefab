@@ -147,6 +147,7 @@ MonoBehaviour:
   blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 3475888776101472670}
   gfxSpr: {fileID: 8441795796606716309}
+  cardPlaySound: {fileID: 8300000, guid: 0228de586d567394d90b5b18d6a35c14, type: 3}
 --- !u!1 &4912650888482066760
 GameObject:
   m_ObjectHideFlags: 0
