@@ -9,10 +9,9 @@ public class AudioManager : MonoBehaviour
     [Header("Sounds")]
     [SerializeField] private AudioClip gameMusic;
     //[SerializeField] private AudioClip setupPhaseSound;
-
-    [Header("Volume")] 
-    [SerializeField] private float musicVol = 0.5f; 
-    [SerializeField] private float fxVol = 0.5f;
+    
+    public float musicVol { get; private set; } = 0.2f;
+    public float fxVol { get; private set; } = 0.5f;
 
     [Header("Unity Setup")] 
     private AudioSource musicSrc;
