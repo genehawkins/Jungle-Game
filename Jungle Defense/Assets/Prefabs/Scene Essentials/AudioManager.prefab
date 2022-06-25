@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameMusic: {fileID: 8300000, guid: 70b2f4479921f61408f16c5e4ba957ad, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: a3ce556640b4a05498159bb3b1b6749e, type: 3}
 --- !u!114 &4883746042309162216
 MonoBehaviour:
   m_ObjectHideFlags: 0

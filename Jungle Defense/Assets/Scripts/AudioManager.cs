@@ -8,9 +8,10 @@ public class AudioManager : MonoBehaviour
     
     [Header("Sounds")]
     [SerializeField] private AudioClip gameMusic;
+    [SerializeField] private AudioClip buttonClickSound;
     //[SerializeField] private AudioClip setupPhaseSound;
     
-    public float musicVol { get; private set; } = 0.2f;
+    public float musicVol { get; private set; } = 0.1f;
     public float fxVol { get; private set; } = 0.5f;
 
     [Header("Unity Setup")] 
@@ -54,5 +55,10 @@ public class AudioManager : MonoBehaviour
     {
         fxVol = newVol;
         fxSource.volume = newVol;
+    }
+
+    public void PlayButtonClick()
+    {
+        PlayFX(buttonClickSound);
     }
 }
