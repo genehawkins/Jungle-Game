@@ -8,6 +8,7 @@ public class HasHealth : MonoBehaviour
     //public GameObject Shop;
     [SerializeField] private int coinsOnDeath = 5;
     [SerializeField] private HealthBar hpBar;
+    public GameObject fire;
     
     private void Start()
     {

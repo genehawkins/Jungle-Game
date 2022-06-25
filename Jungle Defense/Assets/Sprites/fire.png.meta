@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 838993be9bc168a4b9cd0d5e67f8fffa
+guid: 6ebf4b440e894b44a920fd0a32f4b13e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,148 +104,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jungle-Mud 1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12d1c9c1cb471984d8611bf1dcc63599
-      internalID: -647356707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungle-Mud 1_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84a13cf63d276784ba74d4a9c6ea11bf
-      internalID: -1710512280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungle-Mud 1_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0963f9581a0e8424fa69ab606f90d263
-      internalID: 2014714396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungle-Mud 1_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce4f62e691510424aaa6ec4061d1c974
-      internalID: -681874023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungle-Mud 1_4
+      name: fire_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 14
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe7397b7e9225d34292196dd2103bafd
-      internalID: 896149533
+      spriteID: bbca11997a21190418c02eed33553949
+      internalID: -1307211754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jungle-Mud 1_5
+      name: fire_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd5dfb5275ec8a4eb038049933fba33
+      internalID: -2003805864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 32
-        height: 32
+        width: 13
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cd27bcb938bb434aacdd9972e016c65
-      internalID: -762671701
+      spriteID: adf273564050f1549a5de8ad2019399b
+      internalID: 1104848841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jungle-Mud 1_6
+      name: fire_3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 0
-        width: 32
-        height: 32
+        width: 12
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3aaf9c7bf39d8a4383ea08b183efaeb
-      internalID: -1987778199
+      spriteID: ddd3a318c9725f842a9f2e7f5c6305a5
+      internalID: 1768214690
       vertices: []
       indices: 
       edges: []
@@ -261,13 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jungle-Mud 1_1: -1710512280
-      Jungle-Mud 1_5: -762671701
-      Jungle-Mud 1_2: 2014714396
-      Jungle-Mud 1_0: -647356707
-      Jungle-Mud 1_3: -681874023
-      Jungle-Mud 1_4: 896149533
-      Jungle-Mud 1_6: -1987778199
+      fire_2: 1104848841
+      fire_0: -1307211754
+      fire_1: -2003805864
+      fire_3: 1768214690
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
