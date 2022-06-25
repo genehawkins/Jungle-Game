@@ -22,6 +22,7 @@ public class ShopManager : MonoBehaviour
     {
         shopItemsActive = new bool[shopItemsSO.Length];
         currentShop = new int[shopPanels.Length];
+        CheckPurchable(); //Checks to see if purchable at the start of the game
 
         int i = 0;
         foreach (var panel in shopPanels)
@@ -76,6 +77,22 @@ public class ShopManager : MonoBehaviour
         // Make the purchase
         moneyManager.MakePurchase(cost); // Removes coins from MoneyManager.
         UpdateBuyButtons();
+
+        //Chech if purchase can be made
+        public void CheckPurchable()
+        {
+            for(coins >= shopItemsSO.Length; i++) //loops through the items in the shop
+            {
+                if (coins >= shopItemsSO[i].baseCost) //if the player has enough money
+                {
+                    buyBtn[i].interactable = true;
+                }
+                else
+                {
+                    buyBtn[i].interactable = false;
+                }
+            }
+        }
         
         // TODO: Add Purchased Card to Deck
         var newCardPrefab = shopItemsSO[cardIdx].card;
