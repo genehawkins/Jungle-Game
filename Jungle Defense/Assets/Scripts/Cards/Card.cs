@@ -21,7 +21,7 @@ public class Card : MonoBehaviour
     [SerializeField] private Vector3 blowUpDimensions;
     [SerializeField] private SpriteRenderer spr;
     [SerializeField] private SpriteRenderer gfxSpr;
-    [SerializeField] private AudioClip cardPlaySound;
+    public AudioClip cardPlaySound;
     
     void Start()
     {

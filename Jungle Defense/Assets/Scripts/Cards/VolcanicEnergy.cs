@@ -8,6 +8,8 @@ public class VolcanicEnergy : Card
     {
         var cardManager = GameManager.instance.cardSystem;
 
+        if (AudioManager.instance) AudioManager.instance.PlayFX(cardPlaySound);
+
         if (CanPlay()) {
             cardManager.actionPointsPerWave++;
 
