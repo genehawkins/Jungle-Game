@@ -231,6 +231,7 @@ MonoBehaviour:
   blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 8602826956722475540}
   gfxSpr: {fileID: 3636937523306148383}
+  cardPlaySound: {fileID: 8300000, guid: f5732ed264835594bb5738ff49c3301f, type: 3}
   coinsGained: 5
 --- !u!1001 &8339440815349137661
 PrefabInstance:
