@@ -46,7 +46,7 @@ public class Card : MonoBehaviour
 
     private void HighlightCard()
     {
-        cardHighlight.SetActive(activateCost <= GameManager.instance.cardSystem.actionPoints);
+        cardHighlight.SetActive(CanPlay());
     }
 
     void OnMouseOver()
@@ -129,7 +129,7 @@ public class Card : MonoBehaviour
     }
 
     //Checks if player can afford card
-    public bool CanPlay()
+    public virtual bool CanPlay()
     {
         return activateCost <= GameManager.instance.cardSystem.actionPoints;
     }

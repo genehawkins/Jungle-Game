@@ -11,12 +11,20 @@ public class FreshStart : Card
         var cardManager = GameManager.instance.cardSystem;
         var homeBase = GameManager.instance.baseHealth;
 
-        if (homeBase.GetBaseHealth() > 2 && CanPlay()) {
+        if (CanPlay()) {
             PlayCard();
 
             homeBase.DamageBase(healthLoss);
 
             cardManager.Mulligan();
         }
+    }
+
+    public override bool CanPlay()
+    {
+        var cardManager = GameManager.instance.cardSystem;
+        var homeBase = GameManager.instance.baseHealth;
+
+        return activateCost <= cardManager.actionPoints && homeBase.GetBaseHealth() > 2;
     }
 }

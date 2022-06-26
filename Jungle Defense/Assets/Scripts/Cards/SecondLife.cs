@@ -9,7 +9,7 @@ public class SecondLife : Card
     {
         var cardManager = GameManager.instance.cardSystem;
 
-        if (CanPlay() && cardManager.discardPile.Count > 0) {
+        if (CanPlay()) {
             cardManager.availableCardSlots[handIndex] = true;  //Immediately frees up the card slot since MoveToDiscard is delayed in PlayCard()
             PlayCard();
 
@@ -38,5 +38,12 @@ public class SecondLife : Card
                 }
             }
         }
+    }
+
+    public override bool CanPlay()
+    {
+        var cardManager = GameManager.instance.cardSystem;
+
+        return activateCost <= cardManager.actionPoints && cardManager.discardPile.Count > 0;
     }
 }

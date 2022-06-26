@@ -218,6 +218,7 @@ MonoBehaviour:
   blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 6942166083469662004}
   gfxSpr: {fileID: 2687551271838414655}
+  cardPlaySound: {fileID: 8300000, guid: 328df645bd1857a41abbdc4126999e41, type: 3}
   goldAmount: 20
 --- !u!114 &2867553694765030602
 MonoBehaviour:

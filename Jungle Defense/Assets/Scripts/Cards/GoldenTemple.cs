@@ -10,7 +10,7 @@ public class GoldenTemple : Card
     {
         var cardManager = GameManager.instance.cardSystem;
 
-        if (cardManager.hand.Count >= 2 && CanPlay()) {
+        if (CanPlay()) {
             PlayCard();
 
             var randCard = cardManager.hand[Random.Range(0, cardManager.hand.Count)];
@@ -25,5 +25,12 @@ public class GoldenTemple : Card
 
             GameManager.instance.moneyManager.AddCoins(goldAmount);
         }
+    }
+
+    public override bool CanPlay()
+    {
+        var cardManager = GameManager.instance.cardSystem;
+
+        return activateCost <= cardManager.actionPoints && cardManager.hand.Count >= 2;
     }
 }

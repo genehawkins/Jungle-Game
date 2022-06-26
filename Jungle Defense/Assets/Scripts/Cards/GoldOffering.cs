@@ -25,4 +25,13 @@ public class GoldOffering : Card
             randCard.isFree = true;
         }
     }
+
+    public override bool CanPlay()
+    {
+        var cardManager = GameManager.instance.cardSystem;
+
+        var moneyManager = GameManager.instance.moneyManager;
+
+        return activateCost <= cardManager.actionPoints && moneyManager.coins >= coinLoss && cardManager.hand.Count > 1;
+    }
 }

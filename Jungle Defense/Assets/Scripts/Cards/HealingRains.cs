@@ -10,7 +10,7 @@ public class HealingRains : Card
     {
         var cardManager = GameManager.instance.cardSystem;
 
-        if (cardManager.hand.Count >= 3 && CanPlay()) {
+        if (CanPlay()) {
             PlayCard();
 
             for (int i = 0; i < 2; i++) {
@@ -31,5 +31,12 @@ public class HealingRains : Card
             GameManager.instance.baseHealth.HealBase(healAmount);
 
         }
+    }
+
+    public override bool CanPlay()
+    {
+        var cardManager = GameManager.instance.cardSystem;
+
+        return activateCost <= cardManager.actionPoints && cardManager.hand.Count >= 3;
     }
 }
