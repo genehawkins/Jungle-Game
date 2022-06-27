@@ -111,7 +111,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4856160776755698351}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.9064007, y: -5.55, z: 8.329666}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
@@ -162,7 +162,7 @@ SpriteRenderer:
   m_SortingLayerID: -568569311
   m_SortingLayer: 4
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 27f95a6b56527764a9ef58d40e73ec4f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5742935a74e8680458f5022ff870c10f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad43e9b3c6fe9374aa706c710444849a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activateCost: 2
+  activateCost: 1
   cardHighlight: {fileID: 5291905978679007430}
   freeColor: {r: 0.94509804, g: 0, b: 0.81960785, a: 0.84313726}
   startDimensions: {x: 0, y: 0, z: 0}
@@ -219,7 +219,7 @@ MonoBehaviour:
   spr: {fileID: 4856160776755698354}
   gfxSpr: {fileID: 468113359303080633}
   cardPlaySound: {fileID: 8300000, guid: 53acdac1f184dc945b2194716e963d44, type: 3}
-  healAmount: 3
+  healAmount: 4
 --- !u!114 &-6986489816976599704
 MonoBehaviour:
   m_ObjectHideFlags: 0

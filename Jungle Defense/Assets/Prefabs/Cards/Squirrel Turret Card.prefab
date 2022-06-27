@@ -162,7 +162,7 @@ SpriteRenderer:
   m_SortingLayerID: -568569311
   m_SortingLayer: 4
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: f1f2e33fb87d5054aaf80b6b82cfd4f3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b58db57c114f925488ff9551111b61fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b622603eb5e8b2488ef9b4957349d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activateCost: 4
+  activateCost: 3
   cardHighlight: {fileID: 1066483094554138343}
   freeColor: {r: 0.94509804, g: 0, b: 0.81960785, a: 0.84313726}
   startDimensions: {x: 0, y: 0, z: 0}

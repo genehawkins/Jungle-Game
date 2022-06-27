@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 966348789
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 63a5bae6ec6b71548b07f30e6c2da685, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -100,8 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileLaunchPoint: {fileID: 2828710008926259379}
   projectilePrefab: {fileID: 2149039857575540304, guid: b4eacd91ffa0b7440947a8528592e3be, type: 3}
-  attackCooldown: 0.8
-  attackRange: 1.5
+  attackCooldown: 0.4
+  attackRange: 2
   enemyLayerMask:
     serializedVersion: 2
     m_Bits: 8

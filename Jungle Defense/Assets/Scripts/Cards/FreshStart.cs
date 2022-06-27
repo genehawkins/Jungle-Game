@@ -5,6 +5,7 @@ using UnityEngine;
 public class FreshStart : Card
 {
     [SerializeField] private float healthLoss = 2f;
+    [SerializeField] private int apGained = 3;
 
     public override void CardFunction()
     {
@@ -15,6 +16,7 @@ public class FreshStart : Card
             PlayCard();
 
             homeBase.DamageBase(healthLoss);
+            cardManager.actionPoints += apGained;
 
             cardManager.Mulligan();
         }
