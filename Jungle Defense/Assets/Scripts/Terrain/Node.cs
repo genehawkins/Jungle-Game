@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 public class Node : MonoBehaviour
 {
     public TerrainType terrainType;
-    private GameObject build;
+    [SerializeField] private GameObject build;
     private SpriteRenderer spr;
 
     private void Start()

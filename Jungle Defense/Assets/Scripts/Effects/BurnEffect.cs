@@ -7,7 +7,7 @@ public class BurnEffect : MonoBehaviour
 {
     private float tickLength = 1f;
     private float damagePerTick = 1f;
-    private uint numTicks = 5;
+    private uint numTicks = 3;
     private float showGFXTime = 0.2f;
     private HasHealth hh;
     
