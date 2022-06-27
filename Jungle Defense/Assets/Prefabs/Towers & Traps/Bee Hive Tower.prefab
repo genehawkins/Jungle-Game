@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileLaunchForce: 16
-  cooldownTime: 1.2
+  cooldownTime: 1
   beeNW: {fileID: 8407210584435579492, guid: 2dd0cfe86cc6c754a86e001fc2e9a4fe, type: 3}
   beeN: {fileID: 8819303485953181485, guid: 747caa4ff36d88f42a72b5a68a0f51a2, type: 3}
   beeNE: {fileID: 4094102423685170779, guid: 5357d75a3d665824abb525f8fda586c8, type: 3}

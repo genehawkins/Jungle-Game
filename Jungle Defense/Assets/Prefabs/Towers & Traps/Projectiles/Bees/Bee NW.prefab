@@ -57,7 +57,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8819303485953181485, guid: 747caa4ff36d88f42a72b5a68a0f51a2, type: 3}
       propertyPath: m_Name
-      value: Bee - 8 UpLeft Variant
+      value: Bee NW
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2655634419128609427, guid: 747caa4ff36d88f42a72b5a68a0f51a2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 747caa4ff36d88f42a72b5a68a0f51a2, type: 3}
