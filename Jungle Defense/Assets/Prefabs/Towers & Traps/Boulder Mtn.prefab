@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileLaunchPoint: {fileID: 2828710008926259379}
   projectilePrefab: {fileID: 2149039857575540304, guid: b4eacd91ffa0b7440947a8528592e3be, type: 3}
-  attackCooldown: 0.4
+  attackCooldown: 0.8
   attackRange: 2
   enemyLayerMask:
     serializedVersion: 2

@@ -20,9 +20,10 @@ public class HealingRains : Card
                     randCard = cardManager.hand[Random.Range(0, cardManager.hand.Count)];
                 }
 
+                cardManager.availableCardSlots[randCard.handIndex] = true;  //Frees up the spot in the hand
                 cardManager.discardPile.Add(randCard);
                 cardManager.hand.Remove(randCard);
-                cardManager.availableCardSlots[handIndex] = true;  //Frees up the spot in the hand
+                
                 randCard.gameObject.SetActive(false);
                 
 
