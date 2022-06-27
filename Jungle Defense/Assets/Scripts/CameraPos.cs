@@ -10,7 +10,7 @@ public class CameraPos : MonoBehaviour
 
     private void Update()
     {
-        if (!GameManager.inSetupPhase)
+        if (!GameManager.instance.inSetupPhase)
         {
             if (!_atTable)
             {

@@ -9,10 +9,9 @@ public class EnemyTracker : MonoBehaviour
     public void EnemyDestroyed()
     {
         enemiesAlive--;
-        if (enemiesAlive == 0)
+        if (enemiesAlive == 0 && !GameManager.instance.inSetupPhase)
         {
-            GameManager.SetupPhase?.Invoke();
-            GameManager.inSetupPhase = true;
+            GameManager.instance.SetupPhase?.Invoke();
         }
     }
 

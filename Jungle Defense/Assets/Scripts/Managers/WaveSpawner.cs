@@ -16,8 +16,9 @@ public class WaveSpawner : MonoBehaviour
 
     private void Start()
     {
-        GameManager.SetupPhase.AddListener(SetupNextWave);
-        GameManager.SetupPhase?.Invoke();
+        GameManager.instance.SetupPhase.AddListener(SetupNextWave);
+        if (!GameManager.instance.inSetupPhase)
+            GameManager.instance.SetupPhase?.Invoke();
     }
 
     private void SetupNextWave()
@@ -31,8 +32,7 @@ public class WaveSpawner : MonoBehaviour
     {
         if (!canStart) return;
         canStart = false;
-        GameManager.GamePhase?.Invoke();
-        GameManager.inSetupPhase = false;
+        GameManager.instance.GamePhase?.Invoke();
         StartCoroutine(SpawnWave());
     }
 

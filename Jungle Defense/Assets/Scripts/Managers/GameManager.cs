@@ -17,11 +17,11 @@ public class GameManager : MonoBehaviour
     public MoneyManager moneyManager;
 
     // unity event that announces the start of setup phase
-    public static readonly UnityEvent SetupPhase = new UnityEvent();
+    public readonly UnityEvent SetupPhase = new UnityEvent();
     // unity event that announces the start of game phase
-    public static readonly UnityEvent GamePhase = new UnityEvent();
+    public readonly UnityEvent GamePhase = new UnityEvent();
     // bool to check whether currently in setup phase
-    public static bool inSetupPhase = true;
+    public bool inSetupPhase { get; private set; } = false;
 
     [SerializeField] private AudioClip setupPhaseSound;
     [SerializeField] private AudioClip gamePhaseSound;
@@ -32,7 +32,6 @@ public class GameManager : MonoBehaviour
         instance = this;
         SetupPhase.AddListener(PlaySetupPhaseSound);
         GamePhase.AddListener(PlayGamePhaseSound);
-        inSetupPhase = true;
     }
 
     public void GameOver(bool playerWon)
@@ -55,11 +54,15 @@ public class GameManager : MonoBehaviour
 
     private void PlaySetupPhaseSound()
     {
+        Debug.Log("Start Setup Phase");
+        inSetupPhase = true;
         AudioManager.instance.PlayFX(setupPhaseSound);
     }
 
     private void PlayGamePhaseSound()
     {
+        Debug.Log("Start Game Phase");
+        inSetupPhase = false;
         if (AudioManager.instance) AudioManager.instance.PlayFX(gamePhaseSound);
     }
 

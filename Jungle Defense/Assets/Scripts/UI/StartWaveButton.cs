@@ -11,8 +11,8 @@ public class StartWaveButton : MonoBehaviour
     private void Start()
     {
         btn = GetComponent<Button>();
-        GameManager.SetupPhase.AddListener(EnableBtn);
-        GameManager.GamePhase.AddListener(DisableBtn);
+        GameManager.instance.SetupPhase.AddListener(EnableBtn);
+        GameManager.instance.GamePhase.AddListener(DisableBtn);
     }
 
     private void EnableBtn() => btn.interactable = true;

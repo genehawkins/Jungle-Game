@@ -11,7 +11,7 @@ public class Trap : MonoBehaviour
     private void Awake()
     {
         numUses = parts.Length;
-        GameManager.SetupPhase.AddListener(ResetParts);
+        GameManager.instance.SetupPhase.AddListener(ResetParts);
     }
     
     private IEnumerator Co_Cooldown()

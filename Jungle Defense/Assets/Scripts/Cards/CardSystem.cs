@@ -35,9 +35,9 @@ public class CardSystem : MonoBehaviour
     void Start()
     {
         // Listens for Unity Event that announces setup phase beginning to draw new card
-        GameManager.SetupPhase.AddListener(StartDrawNewHand);
-        GameManager.SetupPhase.AddListener(NewWaveActionPoints);
-        GameManager.SetupPhase.AddListener(ResetCards);
+        GameManager.instance.SetupPhase.AddListener(StartDrawNewHand);
+        GameManager.instance.SetupPhase.AddListener(NewWaveActionPoints);
+        GameManager.instance.SetupPhase.AddListener(ResetCards);
         Invoke(nameof(StartDrawNewHand), 1f);
     }
 

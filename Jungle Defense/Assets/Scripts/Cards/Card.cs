@@ -89,7 +89,7 @@ public class Card : MonoBehaviour
         // Check if UI is over card.
         if (EventSystem.current.IsPointerOverGameObject()) return;
         
-        if (!hasBeenPlayed && GameManager.inSetupPhase)
+        if (!hasBeenPlayed && GameManager.instance.inSetupPhase)
         {
             
             CardFunction();
