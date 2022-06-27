@@ -49,26 +49,26 @@ public class CardSystem : MonoBehaviour
             Shuffle();
         }
 
-        if (deck.Count >= 1) 
-        {
-            Card randomCard = deck[Random.Range(0, deck.Count)];
+        
+        
+        Card randomCard = deck[Random.Range(0, deck.Count)];
 
-            for (int i = 0; i < availableCardSlots.Length; i++) 
+        for (int i = 0; i < availableCardSlots.Length; i++) 
+        {
+            if (availableCardSlots[i] == true)
             {
-                if (availableCardSlots[i] == true)
-                {
-                    randomCard.gameObject.SetActive(true);
-                    randomCard.handIndex = i;
-                    randomCard.transform.position = cardSlots[i].position;
-                    randomCard.hasBeenPlayed = false;
-                    deck.Remove(randomCard);
-                    hand.Add(randomCard);
-                    availableCardSlots[i] = false;
-                    if (AudioManager.instance) AudioManager.instance.PlayFX(drawCardSound);
-                    return;
-                }
-            }
+                randomCard.gameObject.SetActive(true);
+                randomCard.handIndex = i;
+                randomCard.transform.position = cardSlots[i].position;
+                randomCard.hasBeenPlayed = false;
+                deck.Remove(randomCard);
+                hand.Add(randomCard);
+                availableCardSlots[i] = false;
+                if (AudioManager.instance) AudioManager.instance.PlayFX(drawCardSound);
+                return;
+            }            
         }
+        
     }
 
     public void StartDrawNewHand()
