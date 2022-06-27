@@ -2,17 +2,6 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-public class ScreenShotEditor : EditorWindow
-{
-    [MenuItem("File/Screenshot")]
-    public static void TakeScreenshot()
-    {
-        Debug.Log("Taking Screenshot!");
-        string datetime = DateTime.Now.ToString("dd-MM-yyyy-HHmmss");
-        ScreenCapture.CaptureScreenshot("Screenshot_" + datetime + ".png", 2);
-    }
-}
-
 public class ScreenShot : MonoBehaviour
 {
     [SerializeField] private KeyCode key = KeyCode.F12;

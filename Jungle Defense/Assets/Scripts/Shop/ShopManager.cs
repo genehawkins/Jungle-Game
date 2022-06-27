@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,8 +27,6 @@ public class ShopManager : MonoBehaviour
             LoadPanel(i, panel);
             i++;
         }
-        
-        UpdateBuyButtons();
     }
 
     private void LoadPanel(int idx, ShopTemplate panel)
@@ -48,9 +47,14 @@ public class ShopManager : MonoBehaviour
         currentShop[idx] = num;
     }
 
+    private void Update()
+    {
+        UpdateBuyButtons();
+    }
+
     public void UpdateBuyButtons()
     {
-        Debug.Log("UpdateBuyButtons");
+        //Debug.Log("UpdateBuyButtons");
         int btnNo = 0;
         foreach (var btn in buyBtn)
         {
@@ -73,7 +77,6 @@ public class ShopManager : MonoBehaviour
         // Make the purchase
         LoadPanel(btnNo, shopPanels[btnNo]);
         moneyManager.MakePurchase(cost); // Removes coins from MoneyManager.
-        UpdateBuyButtons();
         
         // Add Purchased Card to Deck
         var newCardPrefab = shopItemsSO[cardIdx].card;
