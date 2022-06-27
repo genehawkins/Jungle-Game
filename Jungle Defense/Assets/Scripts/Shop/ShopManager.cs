@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +13,7 @@ public class ShopManager : MonoBehaviour
     public Button[] buyBtn;
     [SerializeField] private Transform newCardOffscreenPos;
     
-    private System.Random rng = new System.Random();
+    private readonly System.Random rng = new System.Random();
 
     private void Start()
     {
@@ -53,7 +50,7 @@ public class ShopManager : MonoBehaviour
 
     public void UpdateBuyButtons()
     {
-        //Debug.Log("UpdateBuyButtons");
+        Debug.Log("UpdateBuyButtons");
         int btnNo = 0;
         foreach (var btn in buyBtn)
         {
@@ -74,10 +71,11 @@ public class ShopManager : MonoBehaviour
         if (!moneyManager.CanPurchase(cost)) return;
         
         // Make the purchase
+        LoadPanel(btnNo, shopPanels[btnNo]);
         moneyManager.MakePurchase(cost); // Removes coins from MoneyManager.
         UpdateBuyButtons();
         
-        // TODO: Add Purchased Card to Deck
+        // Add Purchased Card to Deck
         var newCardPrefab = shopItemsSO[cardIdx].card;
         var go = Instantiate(newCardPrefab, newCardOffscreenPos.position, Quaternion.identity);
         GameManager.instance.cardSystem.deck.Add(go.GetComponent<Card>());
