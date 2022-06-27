@@ -35,7 +35,7 @@ public class BaseHealth : MonoBehaviour
     private void DestroyBase()
     {
         Debug.Log("Base Destroyed!");
-        GameManager.GameOver(false);
+        GameManager.instance.GameOver(false);
     }
 
     public float GetBaseHealth()

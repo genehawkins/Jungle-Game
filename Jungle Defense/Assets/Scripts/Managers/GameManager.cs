@@ -35,12 +35,22 @@ public class GameManager : MonoBehaviour
         inSetupPhase = true;
     }
 
-    public static void GameOver(bool playerWon)
+    public void GameOver(bool playerWon)
     {
         var status = playerWon ? "won." : "lost.";
         // Debug.Log("Game Over, player " + status);
         YouWinOrLose.playerWon = playerWon;
         SceneManager.LoadScene("_EndScreen");
+    }
+
+    public void LevelComplete()
+    {
+        var activeScene = SceneManager.GetActiveScene();
+        if (activeScene.name == "Scene09")
+        {
+            GameOver(true);
+        }
+        SceneManager.LoadScene(activeScene.buildIndex + 1);
     }
 
     private void PlaySetupPhaseSound()
