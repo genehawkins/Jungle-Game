@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42e47061a2136a4ebee82fdb3a29286, type: 3}
+  m_Name: Natures Gift
+  m_EditorClassIdentifier: 
+  title: Nature's Gift
+  apCost: 1
+  desc: Gain 5 gold and draw a card from the deck.
+  cost: 25
+  card: {fileID: 8602826956722475529, guid: 2c3d701d965785a47b3090e8d9f67440, type: 3}

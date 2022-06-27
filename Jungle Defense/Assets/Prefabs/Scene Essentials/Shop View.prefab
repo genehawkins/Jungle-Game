@@ -268,16 +268,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopItemsSO:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a08bf79f7f83c6041a0eddb06837e77e, type: 2}
+  - {fileID: 11400000, guid: a011b257d44172742ab6ebfc13ebed54, type: 2}
+  - {fileID: 11400000, guid: af85467e92083a24dacfb4eab4c20216, type: 2}
+  - {fileID: 11400000, guid: b478ca900c9fe5f46a58f73758ccdf1b, type: 2}
   shopPanels:
   - {fileID: 4727808686003858322}
   - {fileID: 1656739230524995399}
   - {fileID: 1656739230819070763}
   - {fileID: 1656739230307530828}
-  currentShop: 
   buyBtn:
   - {fileID: 6751175758417161765}
   - {fileID: 779573446300381936}

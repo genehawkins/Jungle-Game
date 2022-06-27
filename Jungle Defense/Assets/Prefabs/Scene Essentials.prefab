@@ -285,6 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 293
+  superSize: 2
 --- !u!1 &8868598269867337356
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,34 +698,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 5062084631367232356}
-    - target: {fileID: 1704140909, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
-      propertyPath: shopItemsSO.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1704140909, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
-      propertyPath: shopItemsSO.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: a08bf79f7f83c6041a0eddb06837e77e, type: 2}
-    - target: {fileID: 1704140909, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
-      propertyPath: shopItemsSO.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: b478ca900c9fe5f46a58f73758ccdf1b, type: 2}
-    - target: {fileID: 1704140909, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
-      propertyPath: shopItemsSO.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: ac79fb0cb3d22e9438cd86802021b4aa, type: 2}
-    - target: {fileID: 1704140909, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
-      propertyPath: shopItemsSO.Array.data[3]
-      value: 
-      objectReference: {fileID: 11400000, guid: a08bf79f7f83c6041a0eddb06837e77e, type: 2}
-    - target: {fileID: 1704140909, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
-      propertyPath: shopItemsSO.Array.data[4]
-      value: 
-      objectReference: {fileID: 11400000, guid: b478ca900c9fe5f46a58f73758ccdf1b, type: 2}
-    - target: {fileID: 1704140909, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
-      propertyPath: shopItemsSO.Array.data[5]
-      value: 
-      objectReference: {fileID: 11400000, guid: ac79fb0cb3d22e9438cd86802021b4aa, type: 2}
     - target: {fileID: 2468345459460586836, guid: 11f993b2c379d4345a719f5f1261ff09, type: 3}
       propertyPath: m_RootOrder
       value: 3

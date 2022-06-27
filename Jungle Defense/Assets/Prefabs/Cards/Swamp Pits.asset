@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42e47061a2136a4ebee82fdb3a29286, type: 3}
+  m_Name: Swamp Pits
+  m_EditorClassIdentifier: 
+  title: Swamp Pits
+  desc: Transform the land into a swamp that causes enemies to get stuck for a few
+    seconds.
+  cost: 7
+  card: {fileID: 247343079146040650, guid: 02ef7998668af0b42b4d9d94edd214a6, type: 3}

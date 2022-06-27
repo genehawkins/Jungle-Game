@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6365787292133793602}
   - component: {fileID: 7137194320044461169}
   m_Layer: 0
-  m_Name: SwampPits
+  m_Name: Lava Pits Card
   m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -568569311
   m_SortingLayer: 4
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: bf5d51c4297ce614385d579724737012, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ba445f749e1edc4e90e29b5adb2b48f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,8 +134,8 @@ MonoBehaviour:
   blowUpDimensions: {x: 1, y: 1, z: 2}
   spr: {fileID: 247343079146040647}
   gfxSpr: {fileID: 5292932486755321971}
-  cardPlaySound: {fileID: 8300000, guid: 9cac11723c7d3b24f9adad1530bc174e, type: 3}
-  prefab: {fileID: 1703466738339834229, guid: fa8c7bd5efcb3084b8e03fde3ebe10c9, type: 3}
+  cardPlaySound: {fileID: 8300000, guid: 489d722e4beec0d4fa1974bb4c4d6346, type: 3}
+  prefab: {fileID: 1703466738339834229, guid: 8bdd3f0c812e1144095bea14a57ea767, type: 3}
   terrainType: 1
 --- !u!114 &7137194320044461169
 MonoBehaviour:
@@ -175,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8142821661032346290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -223,7 +223,7 @@ SpriteRenderer:
   m_SortingLayerID: -568569311
   m_SortingLayer: 4
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: c4fc4744890b47a479c20b6297f648a7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: debc14b87a17df44d9e3b612a25fedc2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -44,7 +44,7 @@ public class ShopManager : MonoBehaviour
         }
 
         panel.titleTxt.text = shopItemsSO[num].title;
-        panel.apCost.text = shopItemsSO[num].apCost.ToString();
+        panel.apCost.text = shopItemsSO[num].card.GetComponent<Card>().activateCost.ToString();
         panel.description.text = shopItemsSO[num].desc;
         panel.costTxt.text = shopItemsSO[num].cost.ToString();
         shopItemsActive[num] = true;

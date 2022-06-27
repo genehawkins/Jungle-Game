@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 779573445632554114}
   - component: {fileID: 1656739229887326076}
   m_Layer: 5
-  m_Name: Item Template 1
+  m_Name: Item Template
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -737,10 +737,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
-    m_HighlightedColor: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
-    m_PressedColor: {r: 0, g: 0, b: 0, a: 1}
-    m_SelectedColor: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
+    m_NormalColor: {r: 0.24180019, g: 1, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.24313726, g: 1, b: 0, a: 1}
+    m_PressedColor: {r: 0.13991854, g: 0.5754717, b: 0, a: 1}
+    m_SelectedColor: {r: 0.24313726, g: 1, b: 0, a: 1}
     m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1

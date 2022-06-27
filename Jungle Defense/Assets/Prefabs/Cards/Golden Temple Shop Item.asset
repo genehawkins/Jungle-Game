@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e42e47061a2136a4ebee82fdb3a29286, type: 3}
-  m_Name: ActionPointCard
+  m_Name: Golden Temple Shop Item
   m_EditorClassIdentifier: 
-  title: Action Point +
-  apCost: 0
-  desc: The Action Point Card provides 1 Additional Action Point to the player.
-  cost: 50
-  card: {fileID: 5338973495789534332, guid: cd3aa7676da71ef469ae5165cf3406ca, type: 3}
+  title: Golden Temple Card
+  apCost: 1
+  desc: Provides 20 gold and discards a random card from hand.
+  cost: 40
+  card: {fileID: 6942166083469661993, guid: f021d0afb9dcb13468f613aefc5cce81, type: 3}

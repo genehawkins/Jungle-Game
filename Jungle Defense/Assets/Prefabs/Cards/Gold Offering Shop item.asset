@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42e47061a2136a4ebee82fdb3a29286, type: 3}
+  m_Name: Gold Offering Shop item
+  m_EditorClassIdentifier: 
+  title: Gold Offering
+  apCost: 0
+  desc: Lose 20 gold. A random card in your hand costs 0 AP until played.
+  cost: 30
+  card: {fileID: 5658196249837444615, guid: 0cd68f232b265ea4cbce192a011224e5, type: 3}

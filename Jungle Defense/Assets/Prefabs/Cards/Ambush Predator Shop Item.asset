@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42e47061a2136a4ebee82fdb3a29286, type: 3}
+  m_Name: Ambush Predator Shop Item
+  m_EditorClassIdentifier: 
+  title: Ambush Predator Card
+  apCost: 2
+  desc: Return a random card from the discard pile to your hand. It costs 0 AP until
+    played.
+  cost: 30
+  card: {fileID: 3475888776101472643, guid: 7edfe95db43b2344a9fbb3747d9ef9db, type: 3}
