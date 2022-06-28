@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     public void LevelComplete()
     {
         var activeScene = SceneManager.GetActiveScene();
-        if (activeScene.name == "Scene09")
+        if (activeScene.name == "Scene11")
         {
             GameOver(true);
         }
